@@ -35,6 +35,10 @@ const PRODUCTS = [
       {
         "label": "momo 商品頁（同價，保固標示 2 年）",
         "url": "https://www.momoshop.com.tw/product/14804327"
+      },
+      {
+        "label": "Tom's Hardware 評測",
+        "url": "https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-swift-pg27aqwp-w-27-inch-540-hz-qhd-qd-oled-gaming-monitor-review"
       }
     ],
     "evidenceNote": "27 型級距；原廠實際可視對角線 26.5 吋。規格為原廠揭露，未自行購機或拆解。",
@@ -65,7 +69,7 @@ const PRODUCTS = [
     "category": "OLED 影音 / 遊戲 · 26.5″面板",
     "verdict": "較 ASUS 同級雙模式旗艦低 3,988 元；原廠與通路標示的保固年限不同",
     "pros": "想要Tandem OLED、540Hz與低反射表面的競技主螢幕。1500000:1（原廠）",
-    "cons": "QHD540Hz／HD720Hz雙模式，HD模式會降低解析度；USB-C有影像不代表具足夠筆電充電功率；高價OLED不適合以文書副螢幕CP值優先；台灣保固來源存在2年與3年的差異",
+    "cons": "QHD540Hz／HD720Hz雙模式，HD模式會降低解析度；USB-C有影像不代表具足夠筆電充電功率；高價OLED不適合以文書副螢幕CP值優先；台灣保固來源存在2年與3年的差異；RTINGS 指 VRR 閃爍明顯、HDR 過亮；Hardware-Journal 指暗灰條帶明顯、USB-C 僅 5W",
     "priceNote": "頁面可購買；PChome 同價。",
     "stockWarning": false,
     "recommended": false,
@@ -81,6 +85,14 @@ const PRODUCTS = [
       {
         "label": "台灣原廠保固政策：消費OLED2年",
         "url": "https://www.lg.com/tw/support/repair-warranty/service-policy/"
+      },
+      {
+        "label": "RTINGS 評測",
+        "url": "https://www.rtings.com/monitor/reviews/lg/27gx790b-b"
+      },
+      {
+        "label": "Hardware-Journal 評測",
+        "url": "https://www.hardware-journal.de/testberichte/monitore/7770-test-lg-ultragear-27gx790b-gaming-oled-monitor?start=9"
       }
     ],
     "evidenceNote": "27 型級距；原廠實際可視對角線 26.5 吋。規格為原廠揭露，未自行購機或拆解。",
@@ -107,31 +119,43 @@ const PRODUCTS = [
     "usbc": "USB-C DP Alt影像＋98W PD；具KVM",
     "ports": "DP2.1a UHBR20×1、HDMI2.1×2、USB-C98W×1、USB-A5Gbps×2、USB-B上行、耳機孔",
     "vesa": "100×100mm",
-    "warranty": "欣亞台灣商品頁標示3年防烙印保固",
+    "warranty": "MSI 台灣官網與欣亞商品頁均列 3 年防烙印保固",
     "category": "OLED 影音 / 遊戲 · 26.5″面板",
     "verdict": "高階OLED中接口最完整的代表；98W USB-C＋KVM使高價較有用途支撐",
     "pros": "高FPS競技加筆電單線連接、多電腦KVM。1500000:1（原廠）",
     "cons": "靜態副螢幕仍需衡量OLED烙印與文字邊緣表現；500Hz需高效能GPU與足夠遊戲FPS才充分受益；欣亞宣傳誤寫500Hz原生4K；原廠實際為QHD，已依原廠修正",
     "priceNote": "頁面可購買。",
     "stockWarning": false,
-    "recommended": false,
+    "recommended": true,
     "sources": [
       {
         "label": "原廠規格／亮度／接口",
         "url": "https://tw.msi.com/Monitor/MPG-271QR-QD-OLED-X50/Specification"
       },
       {
-        "label": "台灣價格／可下單／防烙印保固",
+        "label": "原廠產品頁（3 年防烙印保固）",
+        "url": "https://tw.msi.com/Monitor/MPG-271QR-QD-OLED-X50"
+      },
+      {
+        "label": "台灣價格／可購買／防烙印保固",
         "url": "https://www.sinya.com.tw/prod/220227"
       },
       {
-        "label": "原廠產品功能",
-        "url": "https://tw.msi.com/Monitor/MPG-271QR-QD-OLED-X50"
+        "label": "Tom's Hardware 評測",
+        "url": "https://www.tomshardware.com/monitors/gaming-monitors/msi-mpg271qr-x50-27-inch-500-hz-qhd-qd-oled-gaming-monitor-review"
+      },
+      {
+        "label": "PC Gamer 評測",
+        "url": "https://www.pcgamer.com/hardware/gaming-monitors/msi-mpg-271qr-x50-qd-oled-gaming-monitor-review"
+      },
+      {
+        "label": "Display Ninja 評測",
+        "url": "https://www.displayninja.com/msi-mpg-271qr-qd-oled-x50-review/"
       }
     ],
-    "evidenceNote": "27 型級距；原廠實際可視對角線 26.5 吋。規格為原廠揭露，未自行購機或拆解。",
+    "evidenceNote": "27 型級距；原廠實際可視對角線 26.5 吋。規格為原廠揭露，實測引用 Tom's Hardware、PC Gamer 與 Display Ninja；本指南未自行購機或拆解。",
     "standFull": "升降110mm／左右旋轉／直立旋轉／俯仰",
-    "shortlist": false,
+    "shortlist": true,
     "priceCheckedDate": "2026-10-30",
     "stockStatus": "available",
     "buyChannel": "欣亞",
@@ -2053,6 +2077,56 @@ const PRODUCTS = [
 ];
 const FORUMS = [
   {
+    "platform": "Tom's Hardware",
+    "date": "2025-11-06",
+    "title": "MSI MPG 271QR X50：Tom's Hardware 評測",
+    "summary": "DCI-P3 涵蓋 108%，SDR 峰值約 303 nits，只有恆定亮度模式。結論認為畫面與遊戲表現與同級 500Hz OLED 相當，AI 感應與環境光調整是差異點。",
+    "limit": "單一樣本評測，未涵蓋長期使用；文中美元售價與台灣售價無關。",
+    "url": "https://www.tomshardware.com/monitors/gaming-monitors/msi-mpg271qr-x50-27-inch-500-hz-qhd-qd-oled-gaming-monitor-review",
+    "kind": "獨立評測",
+    "batch": "2026-10-30-top"
+  },
+  {
+    "platform": "PC Gamer",
+    "date": "2025-11-11",
+    "title": "MSI MPG 271QR X50：PC Gamer 評測",
+    "summary": "列出 98W USB-C 與三年烙印保固；動態清晰度優秀，但文字略軟、不及 WOLED，AI 感應器實用性有限，環境光下 QD-OLED 黑位較弱。",
+    "limit": "單一樣本評測；保固敘述不等於台灣條款，台灣條款另查 MSI 台灣官網。",
+    "url": "https://www.pcgamer.com/hardware/gaming-monitors/msi-mpg-271qr-x50-qd-oled-gaming-monitor-review",
+    "kind": "獨立評測",
+    "batch": "2026-10-30-top"
+  },
+  {
+    "platform": "Display Ninja",
+    "date": "2026-01-13",
+    "title": "MSI MPG 271QR X50：Display Ninja 評測",
+    "summary": "三角形子像素的彩邊在一般距離不明顯；在 Windows 預設模式下 SDR 色彩過飽和，需切換 sRGB 模式。",
+    "limit": "單一樣本評測；色準數字依該樣本與模式而定。",
+    "url": "https://www.displayninja.com/msi-mpg-271qr-qd-oled-x50-review/",
+    "kind": "獨立評測",
+    "batch": "2026-10-30-top"
+  },
+  {
+    "platform": "TFTCentral",
+    "date": "2026-02-13",
+    "title": "Tandem WOLED 灰色條帶：TFTCentral 技術整理",
+    "summary": "部分 Tandem WOLED 車主回報暗灰畫面有條帶。文章引用 ASUS 與 LG Display 說明，指其為極低亮度驅動特性、非製造瑕疵，程度因面板而異；MO27Q28G 與 PG27AQWP-W 都屬這一代面板。",
+    "limit": "成因說明來自廠商；不代表每台都會發生，也不代表一般亮度下看得到。",
+    "url": "https://tftcentral.co.uk/articles/exploring-the-grey-banding-issue-affecting-some-tandem-woled-panels",
+    "kind": "技術說明",
+    "batch": "2026-10-30-top"
+  },
+  {
+    "platform": "Hardware-Journal",
+    "date": "2026-07-28",
+    "title": "LG 27GX790B：Hardware-Journal 評測",
+    "summary": "亮度與色彩表現獲好評，但列出暗灰條帶明顯、Windows 文字偶爾不夠銳利，USB-C 供電僅 5W。",
+    "limit": "單一樣本評測；條帶程度依面板不同，評測者也指出容忍度因人而異。",
+    "url": "https://www.hardware-journal.de/testberichte/monitore/7770-test-lg-ultragear-27gx790b-gaming-oled-monitor?start=9",
+    "kind": "獨立評測",
+    "batch": "2026-10-30-top"
+  },
+  {
     "platform": "巴哈姆特",
     "date": "2026-08-31",
     "title": "Xiaomi G Pro 27Qi 2026：買家因黑點退貨",
@@ -2820,6 +2894,11 @@ const PICKS = [
         "url": "https://www.club386.com/gigabyte-mo27q28g-review/"
       },
       {
+        "kind": "技術說明",
+        "text": "TFTCentral：Tandem WOLED 在低於 1 nit 的暗灰畫面可能出現條帶，屬驅動特性、程度因面板而異；文中以 MO27Q28G 為例。",
+        "url": "https://tftcentral.co.uk/articles/exploring-the-grey-banding-issue-affecting-some-tandem-woled-panels"
+      },
+      {
         "kind": "問題個案",
         "text": "巴哈 G 版條紋個案：2026-07、2026-10 兩位跑面板清理後幾乎看不到或消失。",
         "url": "https://forum.gamer.com.tw/Co.php?bsn=60030&sn=2557829"
@@ -2852,6 +2931,52 @@ const PICKS = [
     "watchShort": "長時間靜態畫面有烙印風險",
     "upgradeShort": "實質畫質升級",
     "warrantyShort": "3 年含烙印"
+  },
+  {
+    "id": "msi-mpg-271qr-qd-oled-x50",
+    "tier": "top",
+    "tierLabel": "預算攻頂",
+    "label": "旗艦規格與連接",
+    "flag": "超出原預算期望",
+    "reason": "已超出「不要太誇張貴」的原始期望。預算可以拉滿時，這款同時具備 500Hz QD-OLED、98W USB-C 與 KVM，原廠另列 3 年防烙印保固。",
+    "because": [
+      "QD-OLED 500Hz：黑位、色彩與動態的升級幅度最大",
+      "98W USB-C 與 KVM：高價之外，桌機與筆電切換也更省事",
+      "MSI 台灣官網與欣亞都列 3 年防烙印保固"
+    ],
+    "evidence": [
+      {
+        "kind": "獨立評測",
+        "text": "Tom's Hardware：DCI-P3 涵蓋 108%，SDR 峰值約 303 nits，且只有恆定亮度模式；無喇叭。評語為畫面出色、同級中值得考慮。",
+        "url": "https://www.tomshardware.com/monitors/gaming-monitors/msi-mpg271qr-x50-27-inch-500-hz-qhd-qd-oled-gaming-monitor-review"
+      },
+      {
+        "kind": "獨立評測",
+        "text": "PC Gamer：動態清晰度優秀；文字略軟，不及 WOLED；AI 感應器實用性有限。",
+        "url": "https://www.pcgamer.com/hardware/gaming-monitors/msi-mpg-271qr-x50-qd-oled-gaming-monitor-review"
+      },
+      {
+        "kind": "獨立評測",
+        "text": "Display Ninja：三角形子像素有彩邊，一般觀看距離不明顯；近看才看得出。",
+        "url": "https://www.displayninja.com/msi-mpg-271qr-qd-oled-x50-review/"
+      },
+      {
+        "kind": "買家回報",
+        "text": "本指南已讀的巴哈與 PTT 範圍未見此型號車主回報。查無問題回報不等於沒有問題。"
+      }
+    ],
+    "warranty": "MSI 台灣官網與欣亞商品頁均列 3 年防烙印保固；未查得台灣保固書全文，換貨條件以原廠為準。",
+    "watch": "售價約為高預算推薦的兩倍。SDR 亮度約 300 nits，亮室下 QD-OLED 黑色會偏灰；文字略軟。長時間靜態畫面有烙印風險，不適合只當文書副螢幕。實際可視區約 26.5 吋；要發揮 500Hz 需要對應的顯示卡與遊戲幀率。",
+    "upgrade": "畫質與連接都明顯升級；更新率 300Hz 到 500Hz 的差異，需要足夠幀率才感受得到。",
+    "alt": {
+      "id": "asus-rog-swift-oled-pg27aqwp-w",
+      "when": "不計成本，要最高亮度與更新率",
+      "note": "Tandem WOLED 540Hz，Tom's Hardware 測得亮度高於多數 OLED。貴 8,988 元、無 USB-C；ASUS 台灣頁列 3 年含烙印，momo 列 2 年。TFTCentral 指 Tandem WOLED 暗灰畫面可能有條帶，程度因面板而異。"
+    },
+    "headline": "畫質、速度與連接都拉到頂，適合作為新主螢幕。",
+    "watchShort": "超出原預算；長時間靜態畫面有烙印風險",
+    "upgradeShort": "畫質與連接皆明顯升級",
+    "warrantyShort": "3 年防烙印"
   }
 ];
 const RESEARCH = {
@@ -2867,8 +2992,8 @@ const RESEARCH = {
   "scope": "巴哈主串 snA=647804 由最新頁（第 185 頁）往回讀到第 74 頁，共 112 頁；2,043 篇未刪回文、6,167 則頁面可見留言，另展開 4,121 則隱藏留言。另補讀 23 個相關討論頁（可見 134、展開 411）。hiddenCommentsRemaining 只指已讀頁面；第 73 頁以前未讀，已刪文看不到。留言以關鍵字篩選後人工閱讀，不是逐則讀完。",
   "recommendationReview": {
     "date": "2026-10-30",
-    "scope": "全部 41 款的售價與購買狀態已於 2026-10-30 逐一查閱通路商品頁；低中高三個預算另補查獨立實測與買家回報，補讀巴哈、PTT、Mobile01 與原廠論壇。Reddit 本輪無法讀取。",
-    "addedNotes": 28
+    "scope": "全部 41 款的售價與購買狀態已於 2026-10-30 逐一查閱通路商品頁；低中高與預算攻頂四個級距另補查獨立實測與買家回報，補讀巴哈、PTT、Mobile01 與原廠論壇。Reddit 本輪無法讀取。",
+    "addedNotes": 33
   },
   "commentsFrom": "2025-07",
   "otherPages": 23,

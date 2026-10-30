@@ -10,7 +10,7 @@ const link = (u, t) => `<a href="${esc(safeUrl(u))}" target="_blank" rel="noopen
 const motion = () => matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
 
 const productById = new Map(PRODUCTS.map(p => [p.id, p]));
-const NEW_NOTE_BATCHES = new Set(['2026-10-30-backread', '2026-10-30-picks', '2026-10-30-forums', '2026-10-30-hidden']);
+const NEW_NOTE_BATCHES = new Set(['2026-10-30-backread', '2026-10-30-picks', '2026-10-30-forums', '2026-10-30-hidden', '2026-10-30-top']);
 const COMPARE_KEY = 'display-notes-compare';
 const VIEW_KEY = 'display-notes-density';
 const MAX_COMPARE = 3;
@@ -179,6 +179,7 @@ const PRODUCT_IMAGES = {
   'dell-s2725dc': { name: 'Dell S2725DC', page: 'https://www.dell.com/zh-tw/shop/monitors/apd/dell-27-plus-qhd-usb-c-顯示器-s2725dc/s2725dc/-', credit: 'Dell' },
   'dell-s2725dsm': { name: 'Dell S2725DSM', page: 'https://www.dell.com/zh-tw/shop/monitors/apd/dell-27-plus-qhd-monitor-s2725dsm/s2725dsm/-' },
   'gigabyte-mo27q28g': { name: 'GIGABYTE MO27Q28G', page: 'https://www.gigabyte.com/tw/Monitor/MO27Q28G', credit: 'GIGABYTE' },
+  'msi-mpg-271qr-qd-oled-x50': { name: 'MSI MPG 271QR QD-OLED X50', page: 'https://tw.msi.com/Monitor/MPG-271QR-QD-OLED-X50', credit: 'MSI' },
   'xiaomi-gpro27qi2026': { name: 'Xiaomi G Pro 27Qi 2026', page: 'https://www.mi.com/tw/product/xiaomi-mini-led-gaming-monitor-g-pro-27qi/', credit: '小米' },
   'benq-ew270q': { name: 'BenQ EW270Q', page: 'https://www.benq.com/zh-tw/monitor/home/ew270q.html', credit: 'BenQ' },
   'xg27aqmr': { name: 'ASUS ROG Strix XG27AQMR', page: 'https://rog.asus.com/monitors/27-to-31-5-inches/rog-strix-xg27aqmr/' },
@@ -204,7 +205,7 @@ function productCard(p, i) {
         <div class="price-date"><span>${esc(p.priceCheckedDate)}</span> 查核</div>
       </div>
     </div>
-    <div class="badges">${pickByProduct.has(p.id) ? `<span class="badge tier-badge">${esc(pickByProduct.get(p.id).tierLabel)}推薦</span>` : p.shortlist ? '<span class="badge pick-badge">本輪重點</span>' : ''}${stockBadge(p)}${p.caution ? `<span class="badge warning">${esc(p.caution)}</span>` : ''}</div>
+    <div class="badges">${pickByProduct.has(p.id) ? `<span class="badge tier-badge${pickByProduct.get(p.id).tier === 'top' ? ' tier-badge-top' : ''}">${esc(pickByProduct.get(p.id).tierLabel)}推薦</span>` : p.shortlist ? '<span class="badge pick-badge">本輪重點</span>' : ''}${stockBadge(p)}${p.caution ? `<span class="badge warning">${esc(p.caution)}</span>` : ''}</div>
     <div class="spec-chips">
       <div><span>面板 / 更新率</span><strong>${esc(compactPanel(p))} · ${p.hz ?? '—'}Hz</strong></div>
       <div><span>原廠支架</span><strong>${esc(compactStand(p))}</strong></div>
@@ -333,11 +334,21 @@ function evidenceLine(e) {
   const source = e.url ? ` <a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener">原文</a>` : '';
   return `<b>${esc(e.kind)}</b>　${esc(e.text)}${source}`;
 }
+/* 同一列的推薦卡列高相連，一起展開才能並排比對，也不會留下大片空白。 */
+function syncTierDetails(e) {
+  const tier = e.target.closest('.tier');
+  document.querySelectorAll('#tiers .tier').forEach(other => {
+    const more = other.querySelector('.tier-more');
+    if (other.offsetTop === tier.offsetTop && more.open !== e.target.open) more.open = e.target.open;
+  });
+}
 function renderPicks() {
+  $('tier-nav').innerHTML = PICKS.map(pick => `<a href="#tier-${pick.tier}" data-tier="${pick.tier}"><span>${esc(pick.tierLabel)}</span><strong>${money(productById.get(pick.id).price)}</strong></a>`).join('');
   $('tiers').innerHTML = PICKS.map(pick => {
     const p = productById.get(pick.id);
     const alt = productById.get(pick.alt.id);
-    return `<article class="tier" id="tier-${pick.tier}">
+    return `<article class="tier tier-${pick.tier}" id="tier-${pick.tier}">
+      ${pick.flag ? `<span class="tier-flag">${esc(pick.flag)}</span>` : ''}
       ${productShot(p.id, 'tier-shot', true)}
       <div class="tier-body">
         <div class="tier-kicker">${esc(pick.tierLabel)}・${esc(pick.label)}</div>
@@ -376,6 +387,11 @@ function renderPicks() {
 
 /* ---------- 選購建議：固定對照規則，不計分 ---------- */
 function adviceFor(budget, use, laptop) {
+  if (budget === 'top') {
+    if (use === 'media') return ['msi-mpg-271qr-qd-oled-x50', laptop === 'yes' ? '98W USB-C 單線連接，另有 KVM；已超出原預算期望。' : '500Hz QD-OLED 畫質與速度攻頂；已超出原預算期望。'];
+    if (laptop === 'yes') return ['dell-u2724de', 'Thunderbolt 4 單線 90W、KVM 與網路埠；只有需要這些擴充才值得多付。'];
+    return ['dell-s2725dc', '文書用途把預算攻頂效益有限，此款保固與連接已足夠。'];
+  }
   if (budget === 'low') {
     if (laptop === 'yes') return ['benq-ew270q', 'NT$6,000 以內少數具 USB-C 65W 的機種；支架不可升降、不可直立。'];
     if (use === 'media') return ['asus-xg27acs', 'NT$6,000 以內未收錄 Mini LED 或 OLED 機種；重視畫質需提高預算。'];
@@ -440,7 +456,7 @@ function renderVersus() {
   $('versus-table').style.setProperty('--cols', picks.length + 1);
   $('versus-table').innerHTML = `<thead><tr><th scope="col">項目</th>
       <th scope="col" class="is-current">${productShot('xg27aqmr', 'th-shot')}<small>現有機種</small><span class="th-model">${esc(CURRENT_MONITOR.name)}</span></th>
-      ${picks.map(([p, pick]) => `<th scope="col">${productShot(p.id, 'th-shot')}<small>${esc(pick.tierLabel)}</small><span class="th-model">${esc(p.model)}</span></th>`).join('')}
+      ${picks.map(([p, pick]) => `<th scope="col" data-tier="${pick.tier}">${productShot(p.id, 'th-shot')}<small>${esc(pick.tierLabel)}</small><span class="th-model">${esc(p.model)}</span></th>`).join('')}
     </tr></thead>
     <tbody>
       ${versusRows.map(([label, current, other]) => `<tr><th scope="row">${label}</th><td class="is-current">${esc(current(CURRENT_MONITOR))}</td>${picks.map(([p, pick]) => `<td>${esc(other(p, pick))}</td>`).join('')}</tr>`).join('')}
@@ -598,6 +614,20 @@ if ('IntersectionObserver' in window) {
   new IntersectionObserver(([entry]) => { $('back-to-filters').hidden = entry.isIntersecting; }, { rootMargin: '-80px 0px 0px 0px' }).observe($('filter-box'));
 }
 
+/* 導覽標示目前閱讀的區塊；回到頁首時清除。 */
+const navLinks = [...document.querySelectorAll('.top nav a')];
+if ('IntersectionObserver' in window) {
+  const spy = new IntersectionObserver(entries => {
+    entries.filter(entry => entry.isIntersecting).forEach(entry => {
+      navLinks.forEach(a => {
+        if (a.hash === `#${entry.target.id}`) a.setAttribute('aria-current', 'location');
+        else a.removeAttribute('aria-current');
+      });
+    });
+  }, { rootMargin: '-30% 0px -60% 0px' });
+  [$('top'), ...navLinks.map(a => $(a.hash.slice(1)))].forEach(node => spy.observe(node));
+}
+
 $('active-filters').addEventListener('click', e => {
   const button = e.target.closest('[data-clear]');
   if (!button) return;
@@ -660,6 +690,7 @@ $('compare-dialog').addEventListener('click', e => {
 });
 window.addEventListener('resize', updateScrollCue);
 $('versus-scroll').addEventListener('scroll', syncVersusCue, { passive: true });
+$('tiers').addEventListener('toggle', syncTierDetails, true);
 $('decide-form').addEventListener('change', () => { renderDecide(); });
 $('decide-form').addEventListener('submit', e => e.preventDefault());
 

@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#ffffff">
-<meta name="color-scheme" content="light">
-<meta name="description" content="27 吋 QHD 平面顯示器選購指南：依低、中、高預算提供建議型號，並收錄 41 款之售價、規格、保固、獨立實測與使用者回報。">
+<meta name="theme-color" content="#0e1115">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="27 吋 QHD 平面顯示器選購指南：依低、中、高預算與預算攻頂提供建議型號，並收錄 41 款之售價、規格、保固、獨立實測與使用者回報。">
 <title>第二個視野｜27 吋 QHD 平面顯示器選購指南</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap">
-<link rel="stylesheet" href="styles.css?v=7g">
+<link rel="stylesheet" href="styles.css?v=8a">
 </head>
 <body>
 <a class="skip" href="#picks">跳至推薦型號</a>
@@ -33,11 +33,11 @@
     <div>
       <p class="hero-eyebrow">選購指南</p>
       <h1>27 吋 QHD 平面顯示器</h1>
-      <p class="hero-lead">依預算提供三項建議，並列出全部收錄型號的售價、規格與實測資料。</p>
+      <p class="hero-lead">依預算提供四項建議，並列出全部收錄型號的售價、規格與實測資料。</p>
     </div>
     <dl class="hero-stats">
-      <div><dt>收錄型號</dt><dd><span data-bind="products">40</span> 款</dd></div>
-      <div><dt>研究紀錄</dt><dd><span data-bind="notes">68</span> 則</dd></div>
+      <div><dt>收錄型號</dt><dd><span data-bind="products">41</span> 款</dd></div>
+      <div><dt>研究紀錄</dt><dd><span data-bind="notes">73</span> 則</dd></div>
       <div><dt>售價查核</dt><dd data-bind="reviewDate">2026-10-30</dd></div>
     </dl>
   </div>
@@ -45,6 +45,7 @@
 
 <section id="picks" class="section picks wrap">
   <h2>推薦型號</h2>
+  <nav class="tier-nav" id="tier-nav" aria-label="推薦級距"></nav>
   <div class="tiers" id="tiers"></div>
 </section>
 
@@ -58,6 +59,7 @@
           <label><input type="radio" name="budget" value="low" checked><span>NT$6,000 以內</span></label>
           <label><input type="radio" name="budget" value="mid"><span>NT$9,000 以內</span></label>
           <label><input type="radio" name="budget" value="high"><span>NT$12,000 以內</span></label>
+          <label><input type="radio" name="budget" value="top"><span>NT$24,000 以內</span></label>
         </div>
       </fieldset>
       <fieldset>
@@ -123,12 +125,12 @@
 
 <section id="catalog" class="section wrap">
   <div class="section-head">
-    <h2>全部型號（<span data-bind="products">40</span> 款）</h2>
+    <h2>全部型號（<span data-bind="products">41</span> 款）</h2>
   </div>
 
   <div class="scenario-row" role="group" aria-label="用途快捷篩選">
     <button type="button" class="scenario" data-scenario="all" aria-pressed="true">全部型號</button>
-    <button type="button" class="scenario" data-scenario="shortlist" aria-pressed="false">本輪重點 <span data-bind="shortlist">11</span> 款</button>
+    <button type="button" class="scenario" data-scenario="shortlist" aria-pressed="false">本輪重點 <span data-bind="shortlist">13</span> 款</button>
     <button type="button" class="scenario" data-scenario="value" aria-pressed="false">NT$6,000 以內・完整支架</button>
     <button type="button" class="scenario" data-scenario="fps" aria-pressed="false">高更新率・240Hz 以上</button>
     <button type="button" class="scenario" data-scenario="hdr" aria-pressed="false">HDR・Mini LED / OLED</button>
@@ -173,7 +175,7 @@
       <div class="checks">
         <label><input id="stand" type="checkbox">可升降＋直立</label>
         <label><input id="usbc" type="checkbox">USB-C 影像</label>
-        <label><input id="only-picked" type="checkbox"><span>本輪重點 <span data-bind="shortlist">11</span> 款</span></label>
+        <label><input id="only-picked" type="checkbox"><span>本輪重點 <span data-bind="shortlist">13</span> 款</span></label>
       </div>
     </div>
   </div>
@@ -203,8 +205,8 @@
   </div>
   <div class="evidence-tools">
     <div class="note-tabs" role="group" aria-label="紀錄範圍">
-      <button type="button" data-notes="new" class="active" aria-pressed="true">本輪新增 <span data-bind="newNotes">13</span></button>
-      <button type="button" data-notes="all" aria-pressed="false">全部紀錄 <span data-bind="notes">68</span></button>
+      <button type="button" data-notes="new" class="active" aria-pressed="true">本輪新增 <span data-bind="newNotes">49</span></button>
+      <button type="button" data-notes="all" aria-pressed="false">全部紀錄 <span data-bind="notes">73</span></button>
     </div>
     <div>
       <label class="sr-only" for="note-platform">紀錄來源</label>
@@ -227,7 +229,7 @@
   <details>
     <summary>研究方法與資料範圍 <span aria-hidden="true">＋</span></summary>
     <div>
-      <p>本指南收錄 <span data-bind="products">40</span> 款型號、<span data-bind="notes">68</span> 則研究紀錄、<span data-bind="shortlist">11</span> 款本輪重點。<span data-bind="reviewScope"></span>討論日期依來源，以台灣時間記錄；部分較早來源來自搜尋快取或僅展開部分留言。</p>
+      <p>本指南收錄 <span data-bind="products">41</span> 款型號、<span data-bind="notes">73</span> 則研究紀錄、<span data-bind="shortlist">13</span> 款本輪重點。<span data-bind="reviewScope"></span>討論日期依來源，以台灣時間記錄；部分較早來源來自搜尋快取或僅展開部分留言。</p>
       <p>巴哈姆特主串回讀第 <span data-bind="pageNewest">185</span>–<span data-bind="pageOldest">74</span> 頁（<span data-bind="commentsFrom">2025-07</span> 起）：<span data-bind="posts">2043</span> 篇未刪回文、<span data-bind="visibleComments">6167</span> 則頁面可見留言，另展開 <span data-bind="expandedComments">4121</span> 則隱藏留言；另補讀 <span data-bind="otherPages">23</span> 個相關討論頁。留言以關鍵字篩選後人工閱讀，並非逐則讀完；第 73 頁以前未讀，已刪文無法讀取。重複推薦不視為不同買家的共識。</p>
       <p>資料範圍為支架、接口、電源形式、保固條款、第三方購機實測與論壇具體個案。收錄條件為 27 型級距、2560×1440、平面、台灣通路新品；不同尾碼、年份與面板版本分開記錄，不含曲面、4K 與二手品。本指南未進行購機實測或拆解，不含返利連結，也不提供綜合評分。</p>
       <p>購買狀態以查核日商品頁的購買按鈕判定。個案不代表整體故障率；轉述、同一使用者跨串回覆與活動討論不視為獨立長期心得。</p>
@@ -268,7 +270,7 @@
   <p class="dialog-foot">查核來源列於表格末端。</p>
 </dialog>
 
-<script src="data.js?v=7g"></script>
-<script src="app.js?v=7g"></script>
+<script src="data.js?v=8a"></script>
+<script src="app.js?v=8a"></script>
 </body>
 </html>

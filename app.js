@@ -2,11 +2,11 @@
 
 /* ---------- 基礎工具 ---------- */
 const $ = id => document.getElementById(id);
-const esc = s => String(s ?? '待確認').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const money = p => typeof p === 'number' ? `NT$${p.toLocaleString('zh-TW')}` : '價格待確認';
-const priceHTML = p => typeof p === 'number' ? `<small>NT$</small>${p.toLocaleString('zh-TW')}` : '待確認';
+const esc = s => String(s ?? '—').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const money = p => typeof p === 'number' ? `NT$${p.toLocaleString('zh-TW')}` : '—';
+const priceHTML = p => typeof p === 'number' ? `<small>NT$</small>${p.toLocaleString('zh-TW')}` : '—';
 const safeUrl = u => /^https:\/\//.test(u || '') ? u : '#';
-const link = (u, t) => `<a href="${esc(safeUrl(u))}" target="_blank" rel="noopener">${esc(t)} ↗</a>`;
+const link = (u, t) => `<a href="${esc(safeUrl(u))}" target="_blank" rel="noopener">${esc(t)}</a>`;
 const motion = () => matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
 
 const productById = new Map(PRODUCTS.map(p => [p.id, p]));
@@ -16,7 +16,7 @@ const VIEW_KEY = 'display-notes-density';
 const MAX_COMPARE = 3;
 const NOTE_STEP = 6;
 
-const stockLabels = { available: '查核時可下單', out: '缺貨／候補', verify: '庫存／價格待確認', promotion: '活動庫存待確認', snapshot: '庫存以通路為準' };
+const stockLabels = { available: '可購買', out: '缺貨' };
 const shortlistCount = PRODUCTS.filter(p => p.shortlist).length;
 const pickByProduct = new Map(PICKS.map(pick => [pick.id, pick]));
 
@@ -64,10 +64,9 @@ function bindPageData() {
 }
 
 /* ---------- 顯示格式 ---------- */
-function stockText(p) { return stockLabels[p.stockStatus] || stockLabels.snapshot; }
+function stockText(p) { return stockLabels[p.stockStatus] || '—'; }
 function stockBadge(p) {
-  const tone = p.stockStatus === 'out' ? 'stock-out' : ['verify', 'promotion'].includes(p.stockStatus) ? 'warning' : '';
-  return `<span class="badge ${tone}">${stockText(p)}</span>`;
+  return `<span class="badge ${p.stockStatus === 'out' ? 'stock-out' : 'stock-ok'}">${stockText(p)}</span>`;
 }
 function sourceLinks(p) { return (p.sources || []).map(s => link(s.url, s.label)).join(''); }
 function compactPanel(p) {
@@ -163,8 +162,8 @@ function activeConditions(f) {
   if (f.panel !== 'all') out.push({ key: 'panel', label: $('panel').selectedOptions[0].textContent });
   if (f.stand) out.push({ key: 'stand', label: '可升降＋直立' });
   if (f.usbc) out.push({ key: 'usbc', label: 'USB-C 影像' });
-  if (f.picked) out.push({ key: 'picked', label: `本輪 ${shortlistCount} 款` });
-  if (f.fps) out.push({ key: 'fps', label: '240Hz 起' });
+  if (f.picked) out.push({ key: 'picked', label: `本輪重點 ${shortlistCount} 款` });
+  if (f.fps) out.push({ key: 'fps', label: '240Hz 以上' });
   if (f.hdr) out.push({ key: 'hdr', label: 'Mini LED / OLED' });
   return out;
 }
@@ -197,12 +196,12 @@ function productCard(p, i) {
   return `<article class="product ${isSelected ? 'selected' : ''}" id="product-${p.id}">
     <div class="product-header">
       <div class="product-title">
-        <div class="model-brand"><span class="row-num">${String(i + 1).padStart(2, '0')}</span>${esc(p.brand)}${p.newInBatch ? '<span class="new-tag">NEW</span>' : ''}</div>
+        <div class="model-brand"><span class="row-num">${String(i + 1).padStart(2, '0')}</span>${esc(p.brand)}${p.newInBatch ? '<span class="new-tag">新增</span>' : ''}</div>
         <h3>${esc(p.model)}</h3>
       </div>
       <div class="price-col">
         <div class="price">${priceHTML(p.price)}</div>
-        <div class="price-date">查核 <span>${esc(p.priceCheckedDate)}</span></div>
+        <div class="price-date"><span>${esc(p.priceCheckedDate)}</span> 查核</div>
       </div>
     </div>
     <div class="badges">${pickByProduct.has(p.id) ? `<span class="badge tier-badge">${esc(pickByProduct.get(p.id).tierLabel)}推薦</span>` : p.shortlist ? '<span class="badge pick-badge">本輪重點</span>' : ''}${stockBadge(p)}${p.caution ? `<span class="badge warning">${esc(p.caution)}</span>` : ''}</div>
@@ -214,16 +213,16 @@ function productCard(p, i) {
     <p class="verdict">${esc(p.verdict)}</p>
     <div class="product-actions">
       <label class="compare-label"><input type="checkbox" data-compare="${p.id}" ${isSelected ? 'checked' : ''}><span class="sr-only">加入</span>比較<span class="sr-only">：${esc(p.model)}</span></label>
-      <button type="button" class="detail-toggle" data-detail="${p.id}" aria-expanded="${open}" aria-controls="detail-${p.id}" aria-label="${esc(p.model)} 的詳情">${open ? '收起 −' : '詳情 ＋'}</button>
+      <button type="button" class="detail-toggle" data-detail="${p.id}" aria-expanded="${open}" aria-controls="detail-${p.id}" aria-label="${esc(p.model)} 的詳情">${open ? '收起' : '詳情'}</button>
     </div>
     <div class="product-detail" id="detail-${p.id}" ${open ? '' : 'hidden'}>
       <div class="detail-main">
         <h4 class="detail-verdict">選購判斷</h4><p class="detail-verdict">${esc(p.verdict)}</p>
-        <h4>值得考慮的原因</h4><p>${esc(p.pros)}</p>
-        <h4>購買前的取捨</h4><p>${esc(p.cons)}</p>
+        <h4>主要優點</h4><p>${esc(p.pros)}</p>
+        <h4>取捨與限制</h4><p>${esc(p.cons)}</p>
         ${p.gaming ? `<h4>遊戲連接與同步</h4><p>${esc(p.gaming)}</p>` : ''}
-        <h4>價格與庫存</h4><p>${esc(p.priceType)}。${esc(p.priceNote)}</p>
-        <h4>證據限制</h4><p>${esc(p.evidenceNote || '規格依原廠／通路揭露；未自行購機或拆解，無法推定內部用料與故障率。')}</p>
+        <h4>售價與通路</h4><p>${esc(p.priceType)}。${esc(p.priceNote)} ${link(p.buyUrl, `前往${p.buyChannel}商品頁`)}</p>
+        <h4>資料範圍</h4><p>${esc(p.evidenceNote || '規格依原廠與通路公開資料；未進行購機實測或拆解，不推定內部用料與故障率。')}</p>
       </div>
       <div class="detail-side">
         ${productShot(p.id, 'detail-shot')}
@@ -246,8 +245,8 @@ function emptyState(f, conditions) {
     .filter(c => c.count > 0)
     .sort((a, b) => b.count - a.count)
     .slice(0, 3);
-  const buttons = relaxations.map(c => `<button type="button" class="relax" data-clear="${c.key}">拿掉「${esc(c.label)}」，看 ${c.count} 款</button>`).join('');
-  return `<div class="empty"><b>這組條件，暫時沒有符合的型號。</b><p>可以放寬下列條件，或全部重設再看看。</p><div class="empty-actions">${buttons}<button type="button" class="primary-small" data-reset>重設全部條件</button></div></div>`;
+  const buttons = relaxations.map(c => `<button type="button" class="relax" data-clear="${c.key}">移除「${esc(c.label)}」，顯示 ${c.count} 款</button>`).join('');
+  return `<div class="empty"><b>目前條件下沒有符合的型號。</b><p>可放寬下列條件，或重設全部條件。</p><div class="empty-actions">${buttons}<button type="button" class="primary-small" data-reset>重設全部條件</button></div></div>`;
 }
 function render() {
   const f = readFilters();
@@ -293,7 +292,7 @@ function setDetail(id, open) {
   if (open) expanded.add(id); else expanded.delete(id);
   if (!button) return;
   button.setAttribute('aria-expanded', String(open));
-  button.textContent = open ? '收起 −' : '詳情 ＋';
+  button.textContent = open ? '收起' : '詳情';
   $(`detail-${id}`).hidden = !open;
 }
 function setView(view) {
@@ -307,7 +306,7 @@ function jumpToProduct(id, { updateHash = true } = {}) {
   if (!node) {
     writeFilters(NO_FILTERS);
     render();
-    tell('已清除篩選條件，以顯示這款。');
+    tell('已清除篩選條件以顯示此型號。');
     node = $(`product-${id}`);
   }
   if (!node) return;
@@ -331,7 +330,7 @@ function compareButton(id) {
   return `<button type="button" class="ghost" data-pick-compare="${id}" aria-pressed="${on}">${on ? '已加入比較' : '加入比較'}<span class="sr-only">：${esc(productById.get(id).model)}</span></button>`;
 }
 function evidenceLine(e) {
-  const source = e.url ? ` <a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener">原文 ↗</a>` : '';
+  const source = e.url ? ` <a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener">原文</a>` : '';
   return `<b>${esc(e.kind)}</b>　${esc(e.text)}${source}`;
 }
 function renderPicks() {
@@ -344,7 +343,7 @@ function renderPicks() {
         <div class="tier-kicker">${esc(pick.tierLabel)}・${esc(pick.label)}</div>
         <h3>${esc(fullName(p))}</h3>
         <div class="tier-price"><span class="num">${money(p.price)}</span>${stockBadge(p)}</div>
-        <p class="tier-date">${esc(p.priceType)}｜<span>查核 ${esc(p.priceCheckedDate)}</span></p>
+        <p class="tier-date">${link(p.buyUrl, p.priceType)}｜<span>${esc(p.priceCheckedDate)} 查核</span></p>
         <p class="tier-reason">${esc(pick.headline)}</p>
         <ul class="tier-facts">
           <li>${esc(compactPanel(p))} ${p.hz}Hz</li>
@@ -352,21 +351,21 @@ function renderPicks() {
           <li>USB-C ${esc(compactUsb(p))}</li>
           <li>保固 ${esc(pick.warrantyShort)}</li>
         </ul>
-        <p class="tier-watch">注意：${esc(pick.watchShort)}</p>
+        <p class="tier-watch">留意事項：${esc(pick.watchShort)}</p>
         <div class="tier-actions">
-          <a class="primary" href="#product-${p.id}" data-jump="${p.id}">全部規格 <span aria-hidden="true">↓</span></a>
+          <a class="primary" href="#product-${p.id}" data-jump="${p.id}">完整規格</a>
           ${compareButton(p.id)}
         </div>
         <details class="tier-more">
-          <summary>實測、回報與備選 <span aria-hidden="true">＋</span></summary>
+          <summary>實測、回報與替代型號 <span aria-hidden="true">＋</span></summary>
           <div class="tier-block">
             ${pick.evidence.map(e => `<p class="ev">${evidenceLine(e)}</p>`).join('')}
             <p class="ev"><b>保固</b>　${esc(pick.warranty)}</p>
-            <p class="ev"><b>要注意</b>　${esc(pick.watch)}</p>
-            <p class="ev"><b>和 XG27AQMR 比</b>　${esc(pick.upgrade)}</p>
+            <p class="ev"><b>留意事項</b>　${esc(pick.watch)}</p>
+            <p class="ev"><b>相較 XG27AQMR</b>　${esc(pick.upgrade)}</p>
           </div>
           <div class="tier-alt">
-            <b>${esc(pick.alt.when)}</b> → <a href="#product-${alt.id}" data-jump="${alt.id}">${esc(fullName(alt))}</a>，${money(alt.price)}（${esc(stockText(alt))}｜查核 ${esc(alt.priceCheckedDate)}）
+            <b>${esc(pick.alt.when)}：</b><a href="#product-${alt.id}" data-jump="${alt.id}">${esc(fullName(alt))}</a>，${money(alt.price)}（${esc(stockText(alt))}｜${esc(alt.priceCheckedDate)} 查核）
             <p>${esc(pick.alt.note)}</p>
           </div>
         </details>
@@ -375,19 +374,20 @@ function renderPicks() {
   }).join('');
 }
 
-/* ---------- 三題選擇：寫死的對照規則，不計分 ---------- */
+/* ---------- 選購建議：固定對照規則，不計分 ---------- */
 function adviceFor(budget, use, laptop) {
   if (budget === 'low') {
-    if (laptop === 'yes') return ['benq-ew270q', '6 千內少數有 USB-C 65W。支架不能升降、不能直立。'];
-    if (use === 'media') return ['asus-xg27acs', '6 千內沒有真正的 HDR；想要畫質要加預算。'];
-    return ['asus-xg27acs', '支架完整、資料最齊。DP 白線回報多，到貨先測。'];
+    if (laptop === 'yes') return ['benq-ew270q', 'NT$6,000 以內少數具 USB-C 65W 的機種；支架不可升降、不可直立。'];
+    if (use === 'media') return ['asus-xg27acs', 'NT$6,000 以內未收錄 Mini LED 或 OLED 機種；重視畫質需提高預算。'];
+    return ['asus-xg27acs', '支架完整、實測資料齊備；DP 白線回報較多，到貨後應先測試。'];
   }
   if (use === 'media' && budget === 'high') {
-    return ['gigabyte-mo27q28g', `OLED 差異最大，建議當主螢幕。${laptop === 'yes' ? 'USB-C 預設 18W，筆電供電要開 Smart PD 再確認。' : ''}`];
+    return ['gigabyte-mo27q28g', `OLED 畫質差異最大，建議作為主螢幕。${laptop === 'yes' ? 'USB-C 預設 18W，筆電供電需開啟 Smart PD。' : ''}`];
   }
-  if (use === 'media' && laptop === 'no') return ['xiaomi-gpro27qi2026', 'Mini LED＋完整支架。台灣保固未核實，下單前先問。'];
-  if (laptop === 'yes') return ['dell-s2725dc', use === 'media' ? '強項是一條線和保固，不是畫質。' : '一條線接畫面和供電，保固省事。'];
-  return ['dell-s2725dsm', '少了 USB-C 省 1,000 元；本身沒找到獨立實測。'];
+  if (use === 'media' && laptop === 'no') return ['xiaomi-gpro27qi2026', 'Mini LED 與完整支架；小米台灣售後政策頁未列此 2026 型號。'];
+  if (laptop === 'yes') return ['dell-s2725dc', use === 'media' ? '強項為單線連接與保固，非畫質。' : 'USB-C 單線傳輸畫面與供電，保固處理便利。'];
+  const saved = productById.get('dell-s2725dc').price - productById.get('dell-s2725dsm').price;
+  return ['dell-s2725dsm', `無 USB-C，較 S2725DC 低 ${saved.toLocaleString('zh-TW')} 元；此款未見獨立實測。`];
 }
 function renderDecide() {
   const form = $('decide-form').elements;
@@ -395,13 +395,13 @@ function renderDecide() {
   const p = productById.get(id);
   $('decide-result').innerHTML = `${productShot(p.id, 'decide-shot')}
     <div class="decide-body">
-      <div class="decide-kicker">建議看這台</div>
+      <div class="decide-kicker">建議型號</div>
       <h3>${esc(fullName(p))}</h3>
       <div class="num">${money(p.price)}</div>
-      <div class="decide-price-note">${esc(stockText(p))}｜查核 ${esc(p.priceCheckedDate)}</div>
+      <div class="decide-price-note">${link(p.buyUrl, p.priceType)}｜${esc(stockText(p))}｜<span>${esc(p.priceCheckedDate)} 查核</span></div>
       <p class="decide-why">${esc(why)}</p>
       <div class="decide-actions">
-        <a class="ghost" href="#product-${p.id}" data-jump="${p.id}">全部規格</a>
+        <a class="ghost" href="#product-${p.id}" data-jump="${p.id}">完整規格</a>
         ${compareButton(p.id)}
       </div>
     </div>`;
@@ -409,10 +409,10 @@ function renderDecide() {
 
 function renderImageCredit() {
   const credits = Object.values(PRODUCT_IMAGES).filter(image => image.credit);
-  $('image-credit').innerHTML = `產品圖來自品牌官網，版權屬各品牌：${credits.map(image => link(image.page, image.credit)).join('、')}`;
+  $('image-credit').innerHTML = `產品圖片取自品牌官網，版權屬各品牌：${credits.map(image => link(image.page, image.credit)).join('、')}`;
 }
 
-/* ---------- 和現有螢幕並排 ---------- */
+/* ---------- 與現有機種比較 ---------- */
 /* XG27AQMR 不是候選，所以不放進研究資料；規格依 ASUS 規格頁，沒核對的項目寫「—」。 */
 const CURRENT_MONITOR = {
   name: 'ROG Strix XG27AQMR',
@@ -427,19 +427,19 @@ const CURRENT_MONITOR = {
 };
 const speakersOf = p => p.ports.match(/\d+W×\d喇叭/)?.[0].replace('喇叭', '') || '無';
 const versusRows = [
-  ['價格', () => '已持有', p => money(p.price)],
+  ['售價', () => '現有機種', p => money(p.price)],
   ['面板', c => `${c.panel} ${c.hz}`, p => `${compactPanel(p)} ${p.hz}Hz`],
   ['支架', c => c.stand, standOf],
   ['USB-C', () => '規格頁未列', compactUsb],
   ['喇叭', c => c.speakers, speakersOf],
   ['保固', c => c.warranty, (p, pick) => pick.warrantyShort],
-  ['升級感', () => '—', (p, pick) => pick.upgradeShort],
+  ['升級效益', () => '—', (p, pick) => pick.upgradeShort],
 ];
 function renderVersus() {
   const picks = PICKS.map(pick => [productById.get(pick.id), pick]);
   $('versus-table').style.setProperty('--cols', picks.length + 1);
   $('versus-table').innerHTML = `<thead><tr><th scope="col">項目</th>
-      <th scope="col" class="is-current">${productShot('xg27aqmr', 'th-shot')}<small>現有</small><span class="th-model">${esc(CURRENT_MONITOR.name)}</span></th>
+      <th scope="col" class="is-current">${productShot('xg27aqmr', 'th-shot')}<small>現有機種</small><span class="th-model">${esc(CURRENT_MONITOR.name)}</span></th>
       ${picks.map(([p, pick]) => `<th scope="col">${productShot(p.id, 'th-shot')}<small>${esc(pick.tierLabel)}</small><span class="th-model">${esc(p.model)}</span></th>`).join('')}
     </tr></thead>
     <tbody>
@@ -480,7 +480,7 @@ function updateCompare() {
 }
 function setCompared(id, on) {
   if (on && !selected.has(id) && selected.size >= MAX_COMPARE) {
-    tell(`最多比較 ${MAX_COMPARE} 款，請先從下方移除一款。`);
+    tell(`最多比較 ${MAX_COMPARE} 款，請先移除一款。`);
     return false;
   }
   if (on) selected.add(id); else selected.delete(id);
@@ -488,14 +488,15 @@ function setCompared(id, on) {
   return true;
 }
 const compareFields = [
-  ['公開標價', p => money(p.price)],
-  ['價格查核日', p => p.priceCheckedDate],
-  ['查核時庫存', stockText],
-  ['價格說明', p => p.priceNote],
+  ['售價', p => money(p.price)],
+  ['查核日期', p => p.priceCheckedDate],
+  ['購買狀態', stockText],
+  ['售價通路', p => p.priceType],
+  ['通路說明', p => p.priceNote],
   ['面板', p => p.panel],
   ['解析度', () => '2560 × 1440 · 平面'],
   ['更新率', p => `${p.hz ?? '—'}Hz`],
-  ['遊戲連接與同步', p => p.gaming || '各輸入埠上限與VRR相容性請核對原廠手冊；未補查完整動態實測。'],
+  ['遊戲連接與同步', p => p.gaming || '未取得完整動態實測；各輸入埠上限與 VRR 相容性見原廠手冊。'],
   ['亮度', p => p.brightness],
   ['支架', p => p.stand],
   ['USB-C', p => p.usbc],
@@ -513,10 +514,10 @@ function renderComparison() {
 
   $('differences').disabled = !comparable;
   $('compare-status').textContent = !comparable
-    ? '再選一款才能看差異；價格、庫存不是即時資料。'
+    ? '請再選擇一款以檢視差異。'
     : onlyDiff
-      ? `已隱藏 ${compareFields.length - rows.length} 個相同項目；價格、庫存不是即時資料。`
-      : '依公開規格比較；價格、庫存不是即時資料。';
+      ? `已隱藏 ${compareFields.length - rows.length} 個相同項目。`
+      : '依原廠與通路公開資料比較。';
 
   $('compare-content').innerHTML = `<div class="table-frame"><div class="table-scroll" tabindex="0" role="region" aria-label="可水平捲動的螢幕規格比較表"><table style="--cols:${items.length}">
     <thead><tr><th scope="col">比較項目</th>${items.map(p => `<th scope="col"><small>${esc(p.brand)}</small><span class="th-model">${esc(p.model)}</span><button type="button" class="th-remove" data-table-remove="${p.id}" aria-label="從比較移除 ${esc(p.model)}">移除</button></th>`).join('')}</tr></thead>
@@ -541,7 +542,7 @@ function updateScrollCue() {
 }
 function syncVersusCue() {
   const overflow = syncScrollEdges($('versus-scroll'));
-  $('versus-hint').textContent = `「—」＝未核對。${overflow ? '可左右滑動。' : ''}`;
+  $('versus-hint').textContent = `「—」表示未核對項目。${overflow ? '可左右捲動。' : ''}`;
 }
 function openComparison() {
   if (!selected.size) return;
@@ -549,14 +550,14 @@ function openComparison() {
   renderComparison();
 }
 
-/* ---------- 研究筆記 ---------- */
+/* ---------- 研究紀錄 ---------- */
 function renderForums() {
   const platform = $('note-platform').value;
   const list = FORUMS
     .filter(f => noteMode === 'all' || NEW_NOTE_BATCHES.has(f.batch))
     .filter(f => platform === 'all' || (platform === 'other' ? !/巴哈|PTT|Reddit|Mobile01/i.test(f.platform) : f.platform.includes(platform)));
   const shown = list.slice(0, notesLimit);
-  $('note-results').textContent = `顯示 ${shown.length} / ${list.length} 則${noteMode === 'new' ? '本輪新增' : '研究'}筆記`;
+  $('note-results').textContent = `顯示 ${shown.length} / ${list.length} 則${noteMode === 'new' ? '本輪新增' : '研究'}紀錄`;
   $('forum-list').innerHTML = shown.length
     ? shown.map(f => `<article class="forum" tabindex="-1">
         <div class="forum-meta"><span>${esc(f.platform)}</span><time>${esc(f.date)}</time></div>
@@ -569,9 +570,9 @@ function renderForums() {
         </details>
         ${link(f.url, '閱讀原文')}
       </article>`).join('')
-    : `<div class="empty"><b>這個範圍沒有筆記。</b><p>本輪新增以巴哈回讀為主；PTT 等來源可切換「全部筆記」。</p><div class="empty-actions"><button type="button" class="primary-small" data-all-notes>${noteMode === 'new' ? '查看全部筆記' : '顯示所有來源'}</button></div></div>`;
+    : `<div class="empty"><b>此範圍沒有紀錄。</b><p>本輪新增以巴哈姆特回讀為主；PTT 等來源請切換至「全部紀錄」。</p><div class="empty-actions"><button type="button" class="primary-small" data-all-notes>${noteMode === 'new' ? '查看全部紀錄' : '顯示所有來源'}</button></div></div>`;
   $('more-notes').hidden = shown.length >= list.length;
-  $('more-notes').textContent = `再看 ${Math.min(NOTE_STEP, list.length - shown.length)} 則筆記 ↓`;
+  $('more-notes').textContent = `再顯示 ${Math.min(NOTE_STEP, list.length - shown.length)} 則`;
   document.querySelectorAll('[data-notes]').forEach(btn => {
     const active = btn.dataset.notes === noteMode;
     btn.classList.toggle('active', active);

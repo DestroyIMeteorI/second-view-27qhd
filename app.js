@@ -337,7 +337,7 @@ function activeConditions(f) {
   if (f.speaker) out.push({ key: 'speaker', label: '有喇叭' });
   if (f.hdmi21) out.push({ key: 'hdmi21', label: 'HDMI 2.1' });
   if (f.internalPower) out.push({ key: 'internalPower', label: '內建電源' });
-  if (f.picked) out.push({ key: 'picked', label: `本輪重點 ${shortlistCount} 款` });
+  if (f.picked) out.push({ key: 'picked', label: `重點候選 ${shortlistCount} 款` });
   if (f.fps) out.push({ key: 'fps', label: '240Hz 以上' });
   if (f.hdr) out.push({ key: 'hdr', label: 'Mini LED / OLED' });
   return out;
@@ -348,7 +348,7 @@ function presetIsActive(name, f, conditions) {
   return Object.entries(PRESETS[name]).every(([key, value]) => f[key] === value);
 }
 
-/* ---------- 官方產品圖：圖片版權屬各品牌，來源頁列在頁尾。沒有官方圖的型號就不放圖。 ---------- */
+/* ---------- 官方產品圖：圖片版權屬各品牌，來源頁列在頁尾。全部收錄型號皆有官方圖；缺圖的型號不放圖。 ---------- */
 const PRODUCT_IMAGES = {
   'asus-xg27acs': { name: 'ASUS ROG Strix XG27ACS-W（白色款）', page: 'https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-xg27acs-w/', credit: 'ASUS' },
   'dell-s2725dc': { name: 'Dell S2725DC', page: 'https://www.dell.com/zh-tw/shop/monitors/apd/dell-27-plus-qhd-usb-c-顯示器-s2725dc/s2725dc/-', credit: 'Dell' },
@@ -357,6 +357,40 @@ const PRODUCT_IMAGES = {
   'msi-mpg-271qr-qd-oled-x50': { name: 'MSI MPG 271QR QD-OLED X50', page: 'https://tw.msi.com/Monitor/MPG-271QR-QD-OLED-X50', credit: 'MSI' },
   'xiaomi-gpro27qi2026': { name: 'Xiaomi G Pro 27Qi 2026', page: 'https://www.mi.com/tw/product/xiaomi-mini-led-gaming-monitor-g-pro-27qi/', credit: '小米' },
   'benq-ew270q': { name: 'BenQ EW270Q', page: 'https://www.benq.com/zh-tw/monitor/home/ew270q.html', credit: 'BenQ' },
+  'asus-rog-swift-oled-pg27aqwp-w': { name: 'ASUS ROG Swift OLED PG27AQWP-W', page: 'https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-swift-oled-pg27aqwp-w/' },
+  'asus-rog-xg27aqdmgr': { name: 'ASUS ROG XG27AQDMGR', page: 'https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-oled-xg27aqdmg-gen2-xg27aqdmgr/' },
+  'asus-xg27acmes': { name: 'ASUS ROG Strix XG27ACMES', page: 'https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-xg27acmes/' },
+  'asus-proart-pa278qgv': { name: 'ASUS ProArt PA278QGV', page: 'https://www.asus.com/tw/displays-desktops/monitors/proart/proart-display-pa278qv-gen2-pa278qgv/' },
+  'asus-vg27aql5a': { name: 'ASUS TUF Gaming VG27AQL5A', page: 'https://www.asus.com/tw/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27aql5a/' },
+  'asus-vg27aq5a': { name: 'ASUS TUF Gaming VG27AQ5A', page: 'https://www.asus.com/tw/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27aq5a/' },
+  'lg-ultragear-27gx790b-b': { name: 'LG UltraGear 27GX790B-B', page: 'https://www.lg.com/tw/monitors/ultragear-gaming/27gx790b-b/', credit: 'LG' },
+  'samsung-odyssey-oled-g6-g60sf-s27fg602sc': { name: 'Samsung Odyssey OLED G6 G60SF', page: 'https://www.samsung.com/tw/monitors/gaming/odyssey-oled-g6-g60sf-27-inch-500hz-oled-qhd-ls27fg602scxzw/', credit: 'Samsung' },
+  'dell-u2724de': { name: 'Dell U2724DE', page: 'https://www.dell.com/zh-tw/shop/monitors/apd/dell-ultrasharp-27-thunderbolt-hub-顯示器-u2724de/u2724de_withstnd_mon/-' },
+  'dell-u2724d': { name: 'Dell U2724D', page: 'https://www.dell.com/zh-tw/shop/monitors/apd/dell-ultrasharp-27-顯示器-u2724d/u2724d_monitor/-' },
+  'dell-aw2726dm': { name: 'Alienware AW2726DM', page: 'https://www.dell.com/zh-tw/shop/monitors/apd/alienware-27-240hz-qdoled-gaming-monitor-aw2726dm/aw2726dm/-' },
+  'benq-pd2706qn': { name: 'BenQ PD2706QN', page: 'https://www.benq.com/zh-tw/monitor/creative-pro/pd2706qn.html' },
+  'benq-ex271qm': { name: 'BenQ MOBIUZ EX271QM', page: 'https://www.benq.com/zh-tw/monitor/gaming/ex271qm.html' },
+  'benq-ex271qp': { name: 'BenQ MOBIUZ EX271QP', page: 'https://www.benq.com/zh-tw/monitor/gaming/ex271qp.html' },
+  'benq-gw2790q': { name: 'BenQ GW2790Q', page: 'https://www.benq.com/zh-tw/monitor/home/gw2790q.html' },
+  'aoc-q27g40zdf': { name: 'AOC Q27G40ZDF', page: 'https://www.aoc.com/tw/gaming/monitors/q27g40zdf', credit: 'AOC' },
+  'aoc-q27g40xmn': { name: 'AOC Q27G40XMN', page: 'https://www.aoc.com/tw/gaming/monitors/q27g40xmn_96' },
+  'aoc-q27g42ze': { name: 'AOC Q27G42ZE/96', page: 'https://www.aoc.com/tw/gaming/monitors/q27g42ze_96' },
+  'aoc-q27b30e': { name: 'AOC Q27B30E/96', page: 'https://www.aoc.com/tw/monitors/q27b30e' },
+  'viewsonic-vp2766-2k': { name: 'ViewSonic ColorPro VP2766-2K', page: 'https://www.viewsonic.com/tw/products/lcd/VP2766-2K', credit: 'ViewSonic' },
+  'viewsonic-xg2735-2k': { name: 'ViewSonic XG2735-2K', page: 'https://www.viewsonic.com/tw/products/lcd/XG2735-2K' },
+  'msi-mag-274qrf-qd-e2': { name: 'MSI MAG 274QRF QD E2', page: 'https://tw.msi.com/Monitor/MAG-274QRF-QD-E2' },
+  'msi-mag274qrfwe20': { name: 'MSI MAG 274QRFW E20', page: 'https://tw.msi.com/Monitor/MAG-274QRFW-E20' },
+  'msi-mag274qpfe20': { name: 'MSI MAG 274QPF E20', page: 'https://tw.msi.com/Monitor/MAG-274QPF-E20' },
+  'msi-mag275qfe21': { name: 'MSI MAG 275QF E21', page: 'https://tw.msi.com/Monitor/MAG-275QF-E21' },
+  'msi-promp275qe14': { name: 'MSI PRO MP275Q E14', page: 'https://tw.msi.com/Business-Productivity-Monitor/PRO-MP275Q-E14' },
+  'gigabyte-g27q20': { name: 'GIGABYTE G27Q20', page: 'https://www.gigabyte.com/tw/Monitor/G27Q20' },
+  'gigabyte-g27q20t': { name: 'GIGABYTE G27Q20T', page: 'https://www.gigabyte.com/tw/Monitor/G27Q20T' },
+  'xiaomi-a27qi2026': { name: 'Xiaomi A27Qi 2026', page: 'https://www.mi.com/tw/product/xiaomi-2k-monitor-a27qi-2026/' },
+  'lenovo-legion27q10': { name: 'Lenovo Legion 27Q-10', page: 'https://www.lenovo.com/tw/zh/p/accessories-and-software/monitors/gaming/68c6gac4tw', credit: 'Lenovo' },
+  'philips-27m2n2500nf': { name: 'Philips Evnia 27M2N2500NF/96', page: 'https://www.evnia.philips/tw/monitors/27m2n2500nf_96', credit: 'Philips' },
+  'acer-xv272ux2': { name: 'Acer Nitro XV272U X2', page: 'https://store.acer.com/zh-tw/xv272u-x2', credit: 'Acer' },
+  'acer-xv272ux1': { name: 'Acer Nitro XV272U X1', page: 'https://store.acer.com/en-in/acer-nitro-xv272u-x1-27-inch-wqhd-2560-1440-ips-gaming-monitor-200hz-refresh-rate-0-5ms-gtg-amd-freesync-premium-hdr400-2-hdmi-dp-ergostand-2w-2-stereo-speakers-dci-p3-90-black' },
+  'acer-sa272up1': { name: 'Acer SA272U P1', page: 'https://store.acer.com/zh-tw/sa272u-p1' },
   'xg27aqmr': { name: 'ASUS ROG Strix XG27AQMR', page: 'https://rog.asus.com/monitors/27-to-31-5-inches/rog-strix-xg27aqmr/' },
 };
 function productShot(id, className = '', eager = false) {
@@ -372,15 +406,18 @@ function productCard(p, i) {
   return `<article class="product ${isSelected ? 'selected' : ''}" id="product-${p.id}">
     <div class="product-header">
       <div class="product-title">
-        <div class="model-brand"><span class="row-num">${String(i + 1).padStart(2, '0')}</span>${esc(p.brand)}${p.newInBatch ? '<span class="new-tag">新增</span>' : ''}</div>
-        <h3>${esc(p.model)}</h3>
+        ${productShot(p.id, 'thumb')}
+        <div class="title-text">
+          <div class="model-brand"><span class="row-num">${String(i + 1).padStart(2, '0')}</span>${esc(p.brand)}${p.newInBatch ? '<span class="new-tag">新增</span>' : ''}</div>
+          <h3>${esc(p.model)}</h3>
+        </div>
       </div>
       <div class="price-col">
         <div class="price">${priceHTML(p.price)}</div>
         <div class="price-date"><span>${esc(p.priceCheckedDate)}</span> 查核</div>
       </div>
     </div>
-    <div class="badges">${pickByProduct.has(p.id) ? `<span class="badge tier-badge${pickByProduct.get(p.id).tier === 'top' ? ' tier-badge-top' : ''}">${esc(pickByProduct.get(p.id).tierLabel)}推薦</span>` : p.shortlist ? '<span class="badge pick-badge">本輪重點</span>' : ''}${stockBadge(p)}${p.caution ? `<span class="badge warning">${esc(p.caution)}</span>` : ''}</div>
+    <div class="badges">${pickByProduct.has(p.id) ? `<span class="badge tier-badge${pickByProduct.get(p.id).tier === 'top' ? ' tier-badge-top' : ''}">${esc(pickByProduct.get(p.id).tierLabel)}推薦</span>` : p.shortlist ? '<span class="badge pick-badge">重點候選</span>' : ''}${stockBadge(p)}${p.caution ? `<span class="badge warning">${esc(p.caution)}</span>` : ''}</div>
     <div class="spec-chips">
       <div><span>面板 / 更新率</span><strong>${esc(compactPanel(p))} · ${p.hz ?? '—'}Hz</strong></div>
       <div><span>原廠支架</span><strong>${esc(compactStand(p))}</strong></div>
@@ -408,7 +445,7 @@ function productCard(p, i) {
       <div class="detail-side">
         ${productShot(p.id, 'detail-shot')}
         ${SPEC_GROUPS.filter(group => group.detail).map(group => `<h4 class="spec-group-title">${esc(group.title)}</h4>
-        <dl class="detail-spec">${group.rows.filter(([, fn]) => fn(p) !== '—').map(([label, fn]) => `<dt>${label}</dt><dd>${esc(fn(p))}</dd>`).join('')}</dl>`).join('')}
+        <dl class="detail-spec">${group.rows.filter(([, fn]) => !['—', '未查得'].includes(fn(p))).map(([label, fn]) => `<dt>${label}</dt><dd>${esc(fn(p))}</dd>`).join('')}</dl>`).join('')}
         <div class="source-links">${sourceLinks(p)}${specOf(p).specSource ? link(specOf(p).specSource, '規格來源') : ''}</div>
       </div>
     </div>
@@ -712,7 +749,7 @@ const versusRows = [
   ['面板', c => `${c.panel} ${c.hz}`, p => `${compactPanel(p)} ${p.hz}Hz`],
   ['支架', c => c.stand, standOf],
   ['USB-C', () => '規格頁未列', compactUsb],
-  ['用途判斷', () => '—', p => goodUses(p).map(use => USES[use].label).join('・') || '—'],
+  ['適合用途', () => '—', p => goodUses(p).map(use => USES[use].label).join('・') || '—'],
   ['喇叭', c => c.speakers, speakersOf],
   ['保固', c => c.warranty, (p, pick) => pick.warrantyShort],
   ['升級效益', () => '—', (p, pick) => pick.upgradeShort],
@@ -865,7 +902,7 @@ function renderComparison() {
       : '依原廠與通路公開資料比較；標示「最高／最低」僅限可量化項目。';
 
   $('compare-content').innerHTML = `<div class="table-frame"><div class="table-scroll" tabindex="0" role="region" aria-label="可水平捲動的螢幕規格比較表"><table style="--cols:${items.length}">
-    <thead><tr><th scope="col">比較項目</th>${items.map(p => `<th scope="col"><small>${esc(p.brand)}</small><span class="th-model">${esc(p.model)}</span><button type="button" class="th-remove" data-table-remove="${p.id}" aria-label="從比較移除 ${esc(p.model)}">移除</button></th>`).join('')}</tr></thead>
+    <thead><tr><th scope="col">比較項目</th>${items.map(p => `<th scope="col">${productShot(p.id, 'th-shot')}<small>${esc(p.brand)}</small><span class="th-model">${esc(p.model)}</span><button type="button" class="th-remove" data-table-remove="${p.id}" aria-label="從比較移除 ${esc(p.model)}">移除</button></th>`).join('')}</tr></thead>
     <tbody>
       ${body}
       <tr><th scope="row">查核來源</th>${items.map(p => `<td>${sourceLinks(p)}${specOf(p).specSource ? link(specOf(p).specSource, '規格來源') : ''}</td>`).join('')}</tr>
@@ -902,7 +939,7 @@ function renderForums() {
     .filter(f => noteMode === 'all' || NEW_NOTE_BATCHES.has(f.batch))
     .filter(f => platform === 'all' || (platform === 'other' ? !/巴哈|PTT|Reddit|Mobile01/i.test(f.platform) : f.platform.includes(platform)));
   const shown = list.slice(0, notesLimit);
-  $('note-results').textContent = `顯示 ${shown.length} / ${list.length} 則${noteMode === 'new' ? '本輪新增' : '研究'}紀錄`;
+  $('note-results').textContent = `顯示 ${shown.length} / ${list.length} 則${noteMode === 'new' ? '最新' : '研究'}紀錄`;
   $('forum-list').innerHTML = shown.length
     ? shown.map(f => `<article class="forum" tabindex="-1">
         <div class="forum-meta"><span>${esc(f.platform)}</span><time>${esc(f.date)}</time></div>
@@ -915,7 +952,7 @@ function renderForums() {
         </details>
         ${link(f.url, '閱讀原文')}
       </article>`).join('')
-    : `<div class="empty"><b>此範圍沒有紀錄。</b><p>本輪新增以巴哈姆特回讀為主；PTT 等來源請切換至「全部紀錄」。</p><div class="empty-actions"><button type="button" class="primary-small" data-all-notes>${noteMode === 'new' ? '查看全部紀錄' : '顯示所有來源'}</button></div></div>`;
+    : `<div class="empty"><b>此範圍沒有紀錄。</b><p>最新紀錄以巴哈姆特回讀為主；PTT 等來源請切換至「全部紀錄」。</p><div class="empty-actions"><button type="button" class="primary-small" data-all-notes>${noteMode === 'new' ? '查看全部紀錄' : '顯示所有來源'}</button></div></div>`;
   $('more-notes').hidden = shown.length >= list.length;
   $('more-notes').textContent = `再顯示 ${Math.min(NOTE_STEP, list.length - shown.length)} 則`;
   document.querySelectorAll('[data-notes]').forEach(btn => {

@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#0e1115">
 <meta name="color-scheme" content="dark">
-<meta name="description" content="27 吋 QHD 平面顯示器選購指南：依低、中、高預算與預算攻頂提供建議型號，並收錄 41 款之售價、規格、保固、獨立實測與使用者回報。">
+<meta name="description" content="27 吋 QHD 平面顯示器選購指南：依低、中、高預算與預算攻頂提供建議型號，依文書、影音、遊戲、主機與筆電用途判斷適合機種，並收錄 41 款之售價、規格、優缺點、保固、獨立實測與使用者回報。">
 <title>第二個視野｜27 吋 QHD 平面顯示器選購指南</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap">
-<link rel="stylesheet" href="styles.css?v=8a">
+<link rel="stylesheet" href="styles.css?v=9a">
 </head>
 <body>
 <a class="skip" href="#picks">跳至推薦型號</a>
@@ -19,10 +19,11 @@
   <a class="brand" href="#top">第二個視野</a>
   <nav aria-label="主要導覽">
     <a href="#picks">推薦型號</a>
-    <a href="#decide">選購建議</a>
-    <a href="#versus">機種比較</a>
-    <a href="#check">購買須知</a>
+    <a href="#decide">依用途選購</a>
+    <a href="#panels">面板優缺點</a>
+    <a href="#guide">規格怎麼看</a>
     <a href="#catalog">全部型號</a>
+    <a href="#check">購買須知</a>
     <a href="#evidence">研究紀錄</a>
   </nav>
 </header>
@@ -33,7 +34,7 @@
     <div>
       <p class="hero-eyebrow">選購指南</p>
       <h1>27 吋 QHD 平面顯示器</h1>
-      <p class="hero-lead">依預算提供四項建議，並列出全部收錄型號的售價、規格與實測資料。</p>
+      <p class="hero-lead">先依預算或用途看建議，再用規格表比較全部收錄型號。</p>
     </div>
     <dl class="hero-stats">
       <div><dt>收錄型號</dt><dd><span data-bind="products">41</span> 款</dd></div>
@@ -50,9 +51,20 @@
 </section>
 
 <section id="decide" class="section wrap">
-  <h2>選購建議</h2>
+  <h2>依用途選購</h2>
   <div class="decide">
     <form class="decide-questions" id="decide-form">
+      <fieldset>
+        <legend>主要用途</legend>
+        <div class="choices">
+          <label><input type="radio" name="use" value="office" checked><span>文書與網頁</span></label>
+          <label><input type="radio" name="use" value="media"><span>影音與 HDR</span></label>
+          <label><input type="radio" name="use" value="fps"><span>競技遊戲</span></label>
+          <label><input type="radio" name="use" value="single"><span>單機大作</span></label>
+          <label><input type="radio" name="use" value="console"><span>PS5／Switch 2</span></label>
+          <label><input type="radio" name="use" value="laptop"><span>筆電單線</span></label>
+        </div>
+      </fieldset>
       <fieldset>
         <legend>預算上限</legend>
         <div class="choices">
@@ -62,23 +74,26 @@
           <label><input type="radio" name="budget" value="top"><span>NT$24,000 以內</span></label>
         </div>
       </fieldset>
-      <fieldset>
-        <legend>主要用途</legend>
-        <div class="choices">
-          <label><input type="radio" name="use" value="static" checked><span>文書與網頁</span></label>
-          <label><input type="radio" name="use" value="media"><span>影音與遊戲</span></label>
-        </div>
-      </fieldset>
-      <fieldset>
-        <legend>筆電單線連接</legend>
-        <div class="choices">
-          <label><input type="radio" name="laptop" value="no" checked><span>不需要</span></label>
-          <label><input type="radio" name="laptop" value="yes"><span>需要</span></label>
-        </div>
-      </fieldset>
     </form>
     <aside class="decide-result" id="decide-result" aria-live="polite" aria-label="建議結果"></aside>
   </div>
+  <div class="use-brief" id="use-brief"></div>
+</section>
+
+<section id="panels" class="section wrap">
+  <div class="section-head">
+    <h2>面板優缺點</h2>
+    <p>◎ 優勢　○ 可用　－ 非強項。此為面板通則，個別機種見規格與實測。<a href="https://www.rtings.com/monitor/learn/ips-vs-oled" target="_blank" rel="noopener">RTINGS：IPS 與 OLED</a> <a href="https://www.rtings.com/monitor/learn/mini-led-vs-oled" target="_blank" rel="noopener">Mini LED 與 OLED</a></p>
+  </div>
+  <div class="stack-table"><table id="panel-table" class="panel-table"></table></div>
+</section>
+
+<section id="guide" class="section wrap">
+  <div class="section-head">
+    <h2>規格怎麼看</h2>
+    <p>依買家最常比較的順序排列；可量化的項目可直接帶入全部型號篩選。</p>
+  </div>
+  <div class="stack-table"><table id="guide-table" class="guide-table"></table></div>
 </section>
 
 <section id="versus" class="section wrap">
@@ -104,6 +119,17 @@
         <li>出現異常時先更換線材；OLED 條紋先執行面板清理</li>
         <li>保留序號、購買證明與外箱，以利換貨與保固</li>
       </ol>
+    </article>
+    <article>
+      <h3>容易漏掉的項目</h3>
+      <ul>
+        <li>顯示卡：幀率跟不上時，高更新率效益有限</li>
+        <li>總成本：僅俯仰機種要另算螢幕臂</li>
+        <li>主機：HDMI 上限常低於 DP；<a href="https://www.nintendo.com/us/gaming-systems/switch-2/tech-specs/" target="_blank" rel="noopener">Switch 2</a> TV 模式 1440p 最高 120 fps；<a href="https://blog.playstation.com/2022/04/25/variable-refresh-rate-support-for-ps5-is-rolling-out-this-week/" target="_blank" rel="noopener">PS5 VRR</a> 需 HDMI 2.1 顯示器</li>
+        <li>尺寸：部分 27 型 OLED 實際可視約 26.5 吋</li>
+        <li>桌面：確認底座深度與 VESA 孔距</li>
+        <li>網購：<a href="https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0170001" target="_blank" rel="noopener">消保法第 19 條</a>到貨 7 日內可解約，瑕疵優先在期間內測試</li>
+      </ul>
     </article>
     <article>
       <h3>本指南未涵蓋</h3>
@@ -133,7 +159,10 @@
     <button type="button" class="scenario" data-scenario="shortlist" aria-pressed="false">本輪重點 <span data-bind="shortlist">13</span> 款</button>
     <button type="button" class="scenario" data-scenario="value" aria-pressed="false">NT$6,000 以內・完整支架</button>
     <button type="button" class="scenario" data-scenario="fps" aria-pressed="false">高更新率・240Hz 以上</button>
-    <button type="button" class="scenario" data-scenario="hdr" aria-pressed="false">HDR・Mini LED / OLED</button>
+    <button type="button" class="scenario" data-scenario="hdr" aria-pressed="false">影音・Mini LED / OLED</button>
+    <button type="button" class="scenario" data-scenario="office" aria-pressed="false">適合文書</button>
+    <button type="button" class="scenario" data-scenario="console" aria-pressed="false">適合主機</button>
+    <button type="button" class="scenario" data-scenario="laptop" aria-pressed="false">筆電單線</button>
   </div>
 
   <div class="filter-box" id="filter-box">
@@ -159,8 +188,10 @@
           <option value="all">所有價位</option>
           <option value="4000">NT$4,000 以下</option>
           <option value="6000">NT$6,000 以下</option>
-          <option value="10000">NT$10,000 以下</option>
-          <option value="premium">NT$10,000 以上</option>
+          <option value="9000">NT$9,000 以下</option>
+          <option value="12000">NT$12,000 以下</option>
+          <option value="24000">NT$24,000 以下</option>
+          <option value="premium">NT$12,000 以上</option>
         </select>
       </div>
       <div class="field">
@@ -172,9 +203,25 @@
           <option value="OLED">OLED</option>
         </select>
       </div>
+      <div class="field">
+        <label for="use-filter">用途</label>
+        <select id="use-filter">
+          <option value="all">所有用途</option>
+          <option value="office">適合文書</option>
+          <option value="media">適合影音</option>
+          <option value="fps">適合競技</option>
+          <option value="single">適合單機大作</option>
+          <option value="console">適合主機</option>
+          <option value="laptop">適合筆電單線</option>
+        </select>
+      </div>
       <div class="checks">
         <label><input id="stand" type="checkbox">可升降＋直立</label>
         <label><input id="usbc" type="checkbox">USB-C 影像</label>
+        <label><input id="usbc65" type="checkbox">USB-C 65W 以上</label>
+        <label><input id="hdmi21" type="checkbox">HDMI 2.1</label>
+        <label><input id="speaker" type="checkbox">有喇叭</label>
+        <label><input id="internal-power" type="checkbox">內建電源</label>
         <label><input id="only-picked" type="checkbox"><span>本輪重點 <span data-bind="shortlist">13</span> 款</span></label>
       </div>
     </div>
@@ -192,7 +239,7 @@
     </div>
   </div>
   <div id="active-filters" class="active-filters"></div>
-  <div class="list-head" id="list-head" aria-hidden="true"><span>型號</span><span>面板・更新率</span><span>支架</span><span>USB-C</span><span>購買狀態</span><span>價格</span><span></span></div>
+  <div class="list-head" id="list-head" aria-hidden="true"><span>型號</span><span>面板・更新率</span><span>支架</span><span>USB-C</span><span>適合用途</span><span>購買狀態</span><span>價格</span><span></span></div>
   <div class="product-list compact" id="product-list"></div>
   <noscript><p class="empty">此頁的篩選與型號清單需要 JavaScript；完整資料可下載 <a href="research-data.json">research-data.json</a>。</p></noscript>
   <p class="scope-note">售價為 <span data-bind="reviewDate">2026-10-30</span> 查閱之通路商品頁標價，不含點數、信用卡回饋與折價券。部分 27 型 OLED 實際可視區約 26.5 吋。</p>
@@ -231,7 +278,7 @@
     <div>
       <p>本指南收錄 <span data-bind="products">41</span> 款型號、<span data-bind="notes">73</span> 則研究紀錄、<span data-bind="shortlist">13</span> 款本輪重點。<span data-bind="reviewScope"></span>討論日期依來源，以台灣時間記錄；部分較早來源來自搜尋快取或僅展開部分留言。</p>
       <p>巴哈姆特主串回讀第 <span data-bind="pageNewest">185</span>–<span data-bind="pageOldest">74</span> 頁（<span data-bind="commentsFrom">2025-07</span> 起）：<span data-bind="posts">2043</span> 篇未刪回文、<span data-bind="visibleComments">6167</span> 則頁面可見留言，另展開 <span data-bind="expandedComments">4121</span> 則隱藏留言；另補讀 <span data-bind="otherPages">23</span> 個相關討論頁。留言以關鍵字篩選後人工閱讀，並非逐則讀完；第 73 頁以前未讀，已刪文無法讀取。重複推薦不視為不同買家的共識。</p>
-      <p>資料範圍為支架、接口、電源形式、保固條款、第三方購機實測與論壇具體個案。收錄條件為 27 型級距、2560×1440、平面、台灣通路新品；不同尾碼、年份與面板版本分開記錄，不含曲面、4K 與二手品。本指南未進行購機實測或拆解，不含返利連結，也不提供綜合評分。</p>
+      <p>資料範圍為支架、接口、電源形式、保固條款、第三方購機實測與論壇具體個案。用途判斷與優缺點由規格依公開規則推導，並非實測評分；查無資料的規格標示「未查得」。收錄條件為 27 型級距、2560×1440、平面、台灣通路新品；不同尾碼、年份與面板版本分開記錄，不含曲面、4K 與二手品。本指南未進行購機實測或拆解，不含返利連結，也不提供綜合評分。</p>
       <p>購買狀態以查核日商品頁的購買按鈕判定。個案不代表整體故障率；轉述、同一使用者跨串回覆與活動討論不視為獨立長期心得。</p>
       <a href="research-data.json" download>下載完整研究資料（JSON）</a>
     </div>
@@ -270,7 +317,7 @@
   <p class="dialog-foot">查核來源列於表格末端。</p>
 </dialog>
 
-<script src="data.js?v=8a"></script>
-<script src="app.js?v=8a"></script>
+<script src="data.js?v=9a"></script>
+<script src="app.js?v=9a"></script>
 </body>
 </html>

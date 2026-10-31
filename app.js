@@ -44,10 +44,10 @@ const FIT = {
 const USES = {
   office: {
     label: '文書', name: '文書與網頁',
-    look: ['文字：IPS 類最穩，OLED 文字邊緣有色邊', '亮度：SDR 300 nits 起，亮室 350 nits 以上', '支架：可升降；看長文件再加直立', '顯示：長時間靜態畫面，OLED 有烙印風險'],
+    look: ['文字：此 QHD 型錄的 OLED 需留意文字邊緣', '亮度：SDR 300 nits 起，亮室 350 nits 以上', '支架：可升降；看長文件再加直立', '顯示：長時間靜態畫面，OLED 有烙印風險'],
     rule: '非 OLED、非 VA、SDR 300 nits 以上且可升降為「適合」；其餘非 OLED 為「可用」；OLED 為「不優先」。',
     fit(p) {
-      if (isOled(p)) return ['no', 'OLED 靜態畫面有烙印風險，文字邊緣較不銳利'];
+      if (isOled(p)) return ['no', 'OLED 靜態畫面有烙印風險；此 QHD 型錄亦需留意文字邊緣'];
       const nits = specOf(p).sdrNits;
       if (isVa(p)) return ['ok', 'VA 可視角較窄，側看顏色會偏移'];
       if (!p.height) return ['ok', '面板合適，但支架無法升降'];
@@ -58,7 +58,7 @@ const USES = {
   },
   media: {
     label: '影音', name: '影音與 HDR',
-    look: ['黑位：OLED 優於 Mini LED，再優於一般 IPS', 'HDR：要有控光；DisplayHDR 400 差異不大', '環境：亮室 OLED 黑色會浮起，Mini LED 較亮', '音訊：內建喇叭多為 2–5W，僅供應急'],
+    look: ['黑位：OLED 優於 Mini LED，再優於一般 IPS', 'HDR：一般 LCD 的 DisplayHDR 400 不保證局部控光', '環境：亮室需實看反光與黑位；Mini LED 常有亮度優勢', '音訊：內建喇叭多為 2–5W，僅供應急'],
     rule: 'OLED 或 Mini LED 為「適合」；IPS Black 或色域達 90% DCI-P3 為「可用」；其餘一般 IPS 為「不優先」。',
     fit(p) {
       if (isOled(p)) return ['good', '自發光，黑位最深、無光暈'];
@@ -704,7 +704,7 @@ const GUIDE_ROWS = [
   { name: '更新率', why: '越高越流暢，但顯示卡幀率跟不上就看不到差異。', how: '文書 100Hz 起；一般遊戲 165–210Hz；競技 240Hz 以上。', count: p => p.hz >= 240, unit: '款 240Hz 以上', apply: { fps: true } },
   { name: '接口上限', why: '標示的最高更新率，常只有 DP 能達到。', how: '電腦走 DP；主機只能走 HDMI，要看 HDMI 上限。', count: p => specOf(p).hdmiMaxHz && specOf(p).dpMaxHz && specOf(p).hdmiMaxHz < specOf(p).dpMaxHz, unit: '款 HDMI 上限低於 DP' },
   { name: '亮度', why: '明亮房間要靠 SDR 亮度壓過反光；HDR 峰值只反映小面積。', how: '看 SDR 典型值：300 nits 起，亮室 350 nits 以上。', count: p => specOf(p).sdrNits >= 350, unit: '款 SDR 350 nits 以上' },
-  { name: 'HDR', why: 'DisplayHDR 400 沒有局部控光，觀感差異不大。', how: '要明顯 HDR 就選 OLED 或 Mini LED；Mini LED 再看分區數。', count: p => isOled(p) || isMini(p), unit: '款 OLED／Mini LED', apply: { hdr: true } },
+  { name: 'HDR', why: '一般 LCD 的 DisplayHDR 400 不保證局部控光，也不等同 OLED 的 DisplayHDR True Black 400。', how: '要明顯 HDR 可先比較 OLED 與 Mini LED；Mini LED 再看分區數及控光表現。', count: p => isOled(p) || isMini(p), unit: '款 OLED／Mini LED', apply: { hdr: true } },
   { name: '支架與 VESA', why: '僅俯仰的機種要另購螢幕臂才能調高度，總價要一起算。', how: '直放或常調高度選完整支架；已有螢幕臂選省錢款，注意 VESA 75 或 100。', count: p => p.height && p.pivot, unit: '款可升降＋直立', apply: { stand: true } },
   { name: 'USB-C', why: '有影像不代表能幫筆電充電。', how: '筆電單線看 65W 以上；7.5–18W 只算補電。', count: p => usbcWatts(p) >= 65, unit: '款影像＋65W 以上', apply: { usbc65: true } },
   { name: '文字清晰', why: '27 吋 QHD 約 109 PPI，細緻度都相同，差別在面板。', how: 'IPS 類文字最穩；OLED 子像素排列造成文字邊緣較不銳利。', count: p => useFit(p, 'office')[0] === 'good', unit: '款適合文書', apply: { use: 'office' } },
@@ -1121,3 +1121,4 @@ updateCompare();
 syncVersusCue();
 try { setView(localStorage.getItem(VIEW_KEY) === 'full' ? 'full' : 'compact'); } catch { setView('compact'); }
 jumpFromHash({ updateHash: false });
+

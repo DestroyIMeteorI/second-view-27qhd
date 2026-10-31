@@ -1,0 +1,173 @@
+{
+  "updatedAt": "2026-10-31",
+  "timezone": "Asia/Taipei",
+  "scope": "台灣平面 4K OLED 主螢幕升級；原 XG27AQMR 改作副螢幕。非全市場型號排名。",
+  "assumptions": [
+    "朋友的顯示卡、CPU、預算、遊戲與桌深尚未確認",
+    "XG27AQMR 正常使用，故障的是另一台副螢幕"
+  ],
+  "models": [
+    {
+      "id": "pg32ucwm",
+      "name": "ASUS ROG Swift PG32UCWM",
+      "size": 31.5,
+      "panel": "Tandem RGB OLED",
+      "resolution": "3840×2160",
+      "hz": 240,
+      "dual": "FHD 480Hz",
+      "price": 37888,
+      "priceType": "原價屋估價單標價",
+      "priceStatus": "估價單列售；現貨需詢問",
+      "msrp": 40900,
+      "priceUrl": "https://coolpc.com.tw/evaluate.php",
+      "specUrl": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucwm/spec/",
+      "featureUrl": "https://press.asus.com/tw/news/press-releases/rog-swift-oled-pg27ucwm-pg32ucwm-tandem-rgb/",
+      "dp": "2.1a UHBR20（80Gbps）",
+      "usb": "USB-C 90W＋KVM",
+      "warranty": "3 年，含面板烙印",
+      "bestFor": "大桌面、單機與影音沉浸感",
+      "tradeoff": "更占空間；FHD 模式在 31.5 吋較粗，4K 像素密度低於 26.5 吋。",
+      "ppi": 140,
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "pg27ucwm",
+      "name": "ASUS ROG Swift PG27UCWM",
+      "size": 26.5,
+      "panel": "Tandem RGB OLED",
+      "resolution": "3840×2160",
+      "hz": 240,
+      "dual": "FHD 480Hz",
+      "price": 34888,
+      "priceType": "原價屋估價單標價",
+      "priceStatus": "估價單列售；現貨需詢問",
+      "msrp": 37900,
+      "priceUrl": "https://coolpc.com.tw/evaluate.php",
+      "specUrl": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-swift-oled-pg27ucwm/spec/",
+      "featureUrl": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-swift-oled-pg27ucwm/",
+      "dp": "2.1a UHBR20（80Gbps）",
+      "usb": "USB-C 90W＋KVM",
+      "warranty": "3 年，含面板烙印",
+      "bestFor": "想攻頂，兼顧 4K 與競技雙模式",
+      "tradeoff": "比約 2 萬元的 4K 240Hz 貴約 1.5 萬；480Hz 必須降至 FHD，鏡面仍須避開直射光。",
+      "ppi": 166,
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "mpg272urx",
+      "name": "MSI MPG 272URX QD-OLED",
+      "size": 26.5,
+      "panel": "第 4 代 QD-OLED",
+      "resolution": "3840×2160",
+      "hz": 240,
+      "dual": "無",
+      "price": 24888,
+      "priceType": "欣亞商品頁標價",
+      "priceStatus": "可加入購物車",
+      "priceUrl": "https://www.sinya.com.tw/prod/211258",
+      "specUrl": "https://tw.msi.com/Monitor/MPG-272URX-QD-OLED/Specification",
+      "featureUrl": "https://www.msi.com/Monitor/MPG-272URX-QD-OLED/",
+      "dp": "2.1a UHBR20（80Gbps）",
+      "usb": "USB-C 98W＋KVM",
+      "warranty": "3 年，含面板烙印",
+      "bestFor": "桌機與筆電共用，需要完整接口",
+      "tradeoff": "比 MAG X24 多 NT$4,988 主要換接口；沒有 FHD 480Hz，不能視為畫質大躍進。",
+      "ppi": 166,
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "mag272x24",
+      "name": "MSI MAG 272UP QD-OLED X24",
+      "size": 26.5,
+      "panel": "第 4 代 QD-OLED",
+      "resolution": "3840×2160",
+      "hz": 240,
+      "dual": "無",
+      "price": 19900,
+      "priceType": "原價屋估價單標價",
+      "priceStatus": "估價單列售；現貨需詢問",
+      "priceUrl": "https://coolpc.com.tw/evaluate.php",
+      "specUrl": "https://tw.msi.com/Monitor/MAG-272UP-QD-OLED-X24/Specification",
+      "featureUrl": "https://www.msi.com/Monitor/MAG-272UP-QD-OLED-X24",
+      "warrantyUrl": "https://tw-store.msi.com/products/mag-272up-qd-oled-x24",
+      "dp": "1.4a（高頻寬模式需 DSC）",
+      "usb": "USB-C 15W；無 KVM",
+      "warranty": "3 年，含面板烙印",
+      "bestFor": "預算約 2 萬，想保留 USB-C 影像",
+      "tradeoff": "15W 不能當作一般筆電充電方案；官方明列不支援 KVM，勿採信通路誤植。",
+      "ppi": 166,
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "xg27uqdms",
+      "name": "ASUS ROG Strix XG27UQDMS",
+      "size": 26.5,
+      "panel": "第 4 代 QD-OLED",
+      "resolution": "3840×2160",
+      "hz": 240,
+      "dual": "無",
+      "price": 19888,
+      "priceType": "欣亞商品頁標價",
+      "priceStatus": "可加入購物車",
+      "priceUrl": "https://www.sinya.com.tw/prod/225882",
+      "specUrl": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-oled-xg27uqdms/spec/",
+      "featureUrl": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-oled-xg27uqdms/",
+      "dp": "1.4（高頻寬模式需 DSC）",
+      "usb": "USB-A Hub；無 USB-C 影像",
+      "warranty": "3 年，含面板烙印",
+      "bestFor": "只接桌機、重視離席感測器",
+      "tradeoff": "沒有 USB-C 影像與旗艦雙模式；近接感測器只能降低風險，不能保證不烙印。",
+      "ppi": 166,
+      "checkedAt": "2026-10-31"
+    }
+  ],
+  "sources": [
+    {
+      "title": "現有 XG27AQMR：27 吋、QHD、Fast IPS、300Hz、DisplayHDR 600",
+      "url": "https://rog.asus.com/monitors/27-to-31-5-inches/rog-strix-xg27aqmr/",
+      "kind": "原廠"
+    },
+    {
+      "title": "PG27UCWM／PG32UCWM 台灣上市與建議售價（2026-08-10）",
+      "url": "https://press.asus.com/tw/news/press-releases/rog-swift-oled-pg27ucwm-pg32ucwm-tandem-rgb/",
+      "kind": "原廠新聞稿"
+    },
+    {
+      "title": "MSI 面板世代清單：272URX 與 272UP X24 均為第 4 代",
+      "url": "https://tw.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "kind": "原廠"
+    },
+    {
+      "title": "PG27AQWP-W：QHD 540Hz／HD 720Hz，競技取向替代路線",
+      "url": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-swift-oled-pg27aqwp-w/",
+      "kind": "原廠"
+    },
+    {
+      "title": "PG27UCWM 第一手評測：肯定遊戲表現；列出預設 gamma、sRGB 模式限制",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-swift-pg27ucwm-27-inch-4k-oled-gaming-monitor-review",
+      "kind": "獨立評測"
+    },
+    {
+      "title": "PG32UCWM：RTINGS 確認 RGB 子像素；量測細節需會員，本指南未引用受限數值",
+      "url": "https://www.rtings.com/monitor/reviews/asus/rog-swift-oled-pg32ucwm",
+      "kind": "獨立評測"
+    },
+    {
+      "title": "RTX 4080 官方輸出規格：可透過 DSC 輸出 4K 240Hz；不等於遊戲跑到 240 fps",
+      "url": "https://www.nvidia.com/zh-tw/geforce/graphics-cards/40-series/rtx-4080-family/",
+      "kind": "原廠／連接範例"
+    },
+    {
+      "title": "NVIDIA RTX 20／30／40 系列 DSC 與多螢幕頻寬限制",
+      "url": "https://nvidia.custhelp.com/app/answers/detail/a_id/5788/~/nvidia-geforce-rtx-40-series%2Frtx-30-series%2Frtx-20-series-bandwidth-limit",
+      "kind": "原廠支援"
+    }
+  ],
+  "limitations": [
+    "價格不含折價券、信用卡回饋、點數；有購買按鈕不保證實際庫存。",
+    "未替朋友電腦做實際效能測試；推薦規則是選購判斷，不是硬體實測。",
+    "未取得同條件全機型實測，無法斷言旗艦全面勝出或故障率較低。",
+    "原 41 款 QHD 型錄保留 2026-10-30 查核日期，本次沒有重新查核全部舊型號。",
+    "完整雙通路清單與 PTT／巴哈更新於 oled-market.html；原價屋列售不保證現貨。"
+  ]
+}

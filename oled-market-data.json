@@ -1,0 +1,4290 @@
+{
+  "date": "2026-10-31",
+  "models": [
+    {
+      "model": "MAG 272QP QD-OLED X24",
+      "name": "MSI MAG 272QP QD-OLED X24",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 240,
+      "coolpc": {
+        "name": "MSI MAG 272QP QD-OLED X24",
+        "detail": "〈2H1P1C/OLED/240Hz/HDMI 2.1〉▼下殺到 11/15 23:59, $10888↘$9999 ◆",
+        "price": 9999,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】MSI MAG 272QP QD-OLED X24 電競螢幕",
+          "price": 11990,
+          "url": "https://www.sinya.com.tw/prod/229124",
+          "bundle": false,
+          "status": "可加入購物車"
+        },
+        {
+          "name": "【螢幕支架組】【27型】MSI MAG 272QP QD-OLED X24 電競螢幕",
+          "price": 12999,
+          "url": "https://www.sinya.com.tw/prod/222616",
+          "bundle": true,
+          "status": "可加入購物車"
+        },
+        {
+          "name": "【27型】MSI MAG 272QP QD-OLED X24 電競螢幕",
+          "price": 10888,
+          "url": "https://www.sinya.com.tw/prod/221968",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】MSI MAG 272QP QD-OLED X24 電競螢幕",
+        "price": 10888,
+        "url": "https://www.sinya.com.tw/prod/221968",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 9999,
+      "official": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "brand": "MSI",
+      "key": "m1"
+    },
+    {
+      "model": "MAG 274QP QD-OLED X24",
+      "name": "MSI MAG 274QP QD-OLED X24",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 240,
+      "coolpc": {
+        "name": "MSI MAG 274QP QD-OLED X24",
+        "detail": "〈2H1P/OLED/240Hz/HDMI 2.1〉可升降旋轉, $12980 ◆",
+        "price": 12980,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "3 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 12980,
+      "official": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "brand": "MSI",
+      "key": "m2"
+    },
+    {
+      "model": "MAG 272QP QD-OLED X50",
+      "name": "MSI MAG 272QP QD-OLED X50",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 500,
+      "coolpc": {
+        "name": "MSI MAG 272QP QD-OLED X50",
+        "detail": "〈2H1P1C/OLED/500Hz/HDR500/HDMI 2.1〉, $16900 ◆",
+        "price": 16900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【雙強精選組】【27型】MSI MAG 272QP QD-OLED X50 電競螢幕 (DP/HDMI/Type-C/QD-OLED/2K/0.03ms/500Hz/Adaptive Sync/HDR BLACK 500/ClearMR 21000/AI VISION/可升降/可旋轉/無喇叭/三年保固)+MSI微星 FORGE GK320 COMBO RED TC (機械紅軸)",
+          "price": 16900,
+          "url": "https://www.sinya.com.tw/prod/229123",
+          "bundle": true,
+          "status": "可加入購物車"
+        },
+        {
+          "name": "【螢幕支架組】【27型】MSI MAG 272QP QD-OLED X50 電競螢幕",
+          "price": 17799,
+          "url": "https://www.sinya.com.tw/prod/222615",
+          "bundle": true,
+          "status": "可加入購物車"
+        },
+        {
+          "name": "【27型】MSI MAG 272QP QD-OLED X50 電競螢幕 (DP/HDMI/Type-C/QD-OLED/2K/0.03ms/500Hz/Adaptive Sync/HDR BLACK 500/ClearMR 21000/AI VISION/可升降/可旋轉/無喇叭/三年保固)",
+          "price": 16900,
+          "url": "https://www.sinya.com.tw/prod/214182",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [
+        "R21",
+        "R22"
+      ],
+      "notes": [
+        "依 MSI 最新官方世代表列為 3 代，不因 500Hz 或上市年份直接列為 4 代。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【雙強精選組】【27型】MSI MAG 272QP QD-OLED X50 電競螢幕 (DP/HDMI/Type-C/QD-OLED/2K/0.03ms/500Hz/Adaptive Sync/HDR BLACK 500/ClearMR 21000/AI VISION/可升降/可旋轉/無喇叭/三年保固)+MSI微星 FORGE GK320 COMBO RED TC (機械紅軸)",
+        "price": 16900,
+        "url": "https://www.sinya.com.tw/prod/229123",
+        "bundle": true,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 16900,
+      "official": "https://tw.msi.com/Monitor/MAG-272QP-QD-OLED-X50",
+      "brand": "MSI",
+      "key": "m3"
+    },
+    {
+      "model": "MPG 271QRX QD-OLED",
+      "name": "MSI MPG 271QRX QD-OLED",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 360,
+      "coolpc": {
+        "name": "MSI MPG 271QRX QD-OLED",
+        "detail": "〈2H1P1C/OLED/360Hz/HDR400/HDMI 2.1〉, $16900",
+        "price": 16900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【螢幕支架組】【27型】MSI MPG 271QRX QD-OLED 電競螢幕",
+          "price": 19499,
+          "url": "https://www.sinya.com.tw/prod/222611",
+          "bundle": true,
+          "status": "補貨中"
+        },
+        {
+          "name": "【27型】MSI MPG 271QRX QD-OLED 電競螢幕 (DP/HDMI/Type-C(90w)/QD-OLED/2K/0.03ms/360Hz/Adaptive Sync/HDR BLACK 400/可升降/可旋轉/無喇叭/三年保固)",
+          "price": 18900,
+          "url": "https://www.sinya.com.tw/prod/196930",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [
+        "R31"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】MSI MPG 271QRX QD-OLED 電競螢幕 (DP/HDMI/Type-C(90w)/QD-OLED/2K/0.03ms/360Hz/Adaptive Sync/HDR BLACK 400/可升降/可旋轉/無喇叭/三年保固)",
+        "price": 18900,
+        "url": "https://www.sinya.com.tw/prod/196930",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 16900,
+      "official": "https://tw.msi.com/Monitor/MPG-271QRX-QD-OLED/Overview",
+      "brand": "MSI",
+      "key": "m4"
+    },
+    {
+      "model": "MPG 271QR QD-OLED X50",
+      "name": "MSI MPG 271QR QD-OLED X50",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 500,
+      "coolpc": {
+        "name": "MSI MPG 271QR QD-OLED X50",
+        "detail": "〈2H1P1C/OLED/500Hz/HDR500/HDMI&DP 2.1〉, $23900 ◆",
+        "price": 23900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【雙強精選組】【27型】MPG 271QR QD-OLED X50 電競螢幕 (DP/HDMI/Type-C(98w)/QD-OLED/2K/0.03ms/500Hz/Adaptive Sync/DisplayHDR True Black 500/可升降/可旋轉/無喇叭/三年保固)+MSI微星 FORGE GK320 COMBO RED TC (機械紅軸)",
+          "price": 23900,
+          "url": "https://www.sinya.com.tw/prod/229122",
+          "bundle": true,
+          "status": "可加入購物車"
+        },
+        {
+          "name": "【螢幕支架組】【27型】MPG 271QR QD-OLED X50 電競螢幕",
+          "price": 24499,
+          "url": "https://www.sinya.com.tw/prod/222612",
+          "bundle": true,
+          "status": "可加入購物車"
+        },
+        {
+          "name": "【27型】MPG 271QR QD-OLED X50 電競螢幕 (DP/HDMI/Type-C(98w)/QD-OLED/2K/0.03ms/500Hz/Adaptive Sync/DisplayHDR True Black 500/可升降/可旋轉/無喇叭/三年保固)",
+          "price": 23900,
+          "url": "https://www.sinya.com.tw/prod/220227",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [],
+      "notes": [
+        "依 MSI 最新官方世代表列為 3 代，不因 500Hz 或上市年份直接列為 4 代。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【雙強精選組】【27型】MPG 271QR QD-OLED X50 電競螢幕 (DP/HDMI/Type-C(98w)/QD-OLED/2K/0.03ms/500Hz/Adaptive Sync/DisplayHDR True Black 500/可升降/可旋轉/無喇叭/三年保固)+MSI微星 FORGE GK320 COMBO RED TC (機械紅軸)",
+        "price": 23900,
+        "url": "https://www.sinya.com.tw/prod/229122",
+        "bundle": true,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 23900,
+      "official": "https://tw.msi.com/Monitor/MPG-271QR-QD-OLED-X50/Overview",
+      "brand": "MSI",
+      "key": "m5"
+    },
+    {
+      "model": "XG2738-2K-OLED",
+      "name": "ViewSonic XG2738-2K-OLED",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 240,
+      "coolpc": {
+        "name": "ViewSonic XG2738-2K-OLED",
+        "detail": "〈2H2P/OLED/240Hz/HDR10/含喇叭〉可升降旋轉, $11111 ◆",
+        "price": 11111,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [
+        "R32"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 11111,
+      "official": null,
+      "brand": "ViewSonic",
+      "key": "m6"
+    },
+    {
+      "model": "X27U X2",
+      "name": "Acer Predator X27U X2",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 240,
+      "coolpc": {
+        "name": "Acer Predator X27U X2",
+        "detail": "〈2H1P/OLED/240Hz/含喇叭/HDMI 2.1/無亮點〉, $10999 ◆",
+        "price": 10999,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】Acer X27U X2 電競螢幕 電競螢幕 (DP/HDMI/2K/OLED/0.03ms/240Hz/FreeSyn/不閃屏/低藍光/三年保固)",
+          "price": 10999,
+          "url": "https://www.sinya.com.tw/prod/216681",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [
+        "R30"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】Acer X27U X2 電競螢幕 電競螢幕 (DP/HDMI/2K/OLED/0.03ms/240Hz/FreeSyn/不閃屏/低藍光/三年保固)",
+        "price": 10999,
+        "url": "https://www.sinya.com.tw/prod/216681",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 10999,
+      "official": null,
+      "brand": "Acer",
+      "key": "m7"
+    },
+    {
+      "model": "X27U P2",
+      "name": "Acer Predator X27U P2",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 144,
+      "coolpc": {
+        "name": "Acer Predator X27U P2",
+        "detail": "〈2H1P/OLED/144Hz/含喇叭/HDMI 2.1〉可升降旋轉▼下殺到 11/15 23:59, $10490↘$9111 ◆",
+        "price": 9111,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "OLED（類型待核）",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 9111,
+      "official": null,
+      "brand": "Acer",
+      "key": "m8"
+    },
+    {
+      "model": "X27U W2",
+      "name": "Acer Predator X27U W2",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 240,
+      "coolpc": {
+        "name": "Acer Predator X27U W2",
+        "detail": "〈2H1P/OLED/240Hz/含喇叭/HDMI 2.1〉可升降旋轉▼下殺到 11/15 23:59, $10999↘$9911 ◆",
+        "price": 9911,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 9911,
+      "official": null,
+      "brand": "Acer",
+      "key": "m9"
+    },
+    {
+      "model": "X27U Z2",
+      "name": "Acer Predator X27U Z2",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 280,
+      "coolpc": {
+        "name": "Acer Predator X27U Z2",
+        "detail": "〈2H1P/OLED/280Hz/含喇叭/HDR400/HDMI 2.1〉, $11999 ◆",
+        "price": 11999,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 11999,
+      "official": null,
+      "brand": "Acer",
+      "key": "m10"
+    },
+    {
+      "model": "X27U F3",
+      "name": "Acer Predator X27U F3",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 480,
+      "coolpc": {
+        "name": "Acer Predator X27U F3",
+        "detail": "〈2H1P1C/OLED/480Hz/含喇叭/HDR10/HDMI 2.1/無亮點〉, $17999 ◆",
+        "price": 17999,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】Acer Predator X27U F3 電競螢幕",
+          "price": 24999,
+          "url": "https://www.sinya.com.tw/prod/207072",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "WOLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】Acer Predator X27U F3 電競螢幕",
+        "price": 24999,
+        "url": "https://www.sinya.com.tw/prod/207072",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 17999,
+      "official": null,
+      "brand": "Acer",
+      "key": "m11"
+    },
+    {
+      "model": "EX271QMZ",
+      "name": "BenQ MOBIUZ EX271QMZ",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 240,
+      "coolpc": {
+        "name": "BenQ MOBIUZ EX271QMZ",
+        "detail": "〈2H1P/OLED/240Hz/HDR10〉, $14888 ◆",
+        "price": 14888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "3 代",
+      "generation_source": "https://www.benq.com/en-us/monitor/gaming/ex271qmz/buy.html",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 14888,
+      "official": "https://www.benq.com/en-us/monitor/gaming/ex271qmz/buy.html",
+      "brand": "BenQ",
+      "key": "m12"
+    },
+    {
+      "model": "EX271QZ",
+      "name": "BenQ MOBIUZ EX271QZ",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 500,
+      "coolpc": {
+        "name": "BenQ MOBIUZ EX271QZ",
+        "detail": "〈2H1P/OLED/500Hz/HDR500〉, $18888 ◆",
+        "price": 18888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】BenQMOBIUZ EX271QZ 2K OLED電競螢幕",
+          "price": 29888,
+          "url": "https://www.sinya.com.tw/prod/224480",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://www.benq.com/en-ap/monitor/gaming/ex271qz/buy.html",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】BenQMOBIUZ EX271QZ 2K OLED電競螢幕",
+        "price": 29888,
+        "url": "https://www.sinya.com.tw/prod/224480",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 18888,
+      "official": "https://www.benq.com/zh-tw/monitor/gaming/ex271qz.html",
+      "brand": "BenQ",
+      "key": "m13"
+    },
+    {
+      "model": "Q27G40ZDF",
+      "name": "AOC Q27G40ZDF",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 240,
+      "coolpc": {
+        "name": "AOC Q27G40ZDF",
+        "detail": "〈1H1P/OLED/240Hz/HDR10〉, $9111 ◆",
+        "price": 9111,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【破盤價】【27型】AOC Q27G40ZDF 液晶螢幕",
+          "price": 11111,
+          "url": "https://www.sinya.com.tw/prod/229323",
+          "bundle": false,
+          "status": "可加入購物車"
+        },
+        {
+          "name": "【27型】AOC Q27G40ZDF 液晶螢幕",
+          "price": 9511,
+          "url": "https://www.sinya.com.tw/prod/224591",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [
+        "R15",
+        "R16"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】AOC Q27G40ZDF 液晶螢幕",
+        "price": 9511,
+        "url": "https://www.sinya.com.tw/prod/224591",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 9111,
+      "official": null,
+      "brand": "AOC",
+      "key": "m14"
+    },
+    {
+      "model": "AW2726DM",
+      "name": "DELL Alienware AW2726DM",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 240,
+      "coolpc": {
+        "name": "DELL Alienware AW2726DM",
+        "detail": "〈2H1P/OLED/240Hz/HDR400/HDMI 2.1〉可升降旋轉, $11888 ◆",
+        "price": 11888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 11888,
+      "official": null,
+      "brand": "DELL",
+      "key": "m15"
+    },
+    {
+      "model": "27GX790A-B",
+      "name": "LG UltraGear 27GX790A-B",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 480,
+      "coolpc": {
+        "name": "LG UltraGear 27GX790A-B",
+        "detail": "〈2H1P/OLED/480Hz/HDR400/DP 2.1/二年保〉, $19600 ◆",
+        "price": 19600,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】LG UltraGear 27GX790A-B 電競螢幕 (DP/HDMI/OLED/2k/0.03ms/480Hz/FreeSync Premium/G-SYNC/HDR400/可升降/可旋轉/2年保固)",
+          "price": 22900,
+          "url": "https://www.sinya.com.tw/prod/213533",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "WOLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】LG UltraGear 27GX790A-B 電競螢幕 (DP/HDMI/OLED/2k/0.03ms/480Hz/FreeSync Premium/G-SYNC/HDR400/可升降/可旋轉/2年保固)",
+        "price": 22900,
+        "url": "https://www.sinya.com.tw/prod/213533",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 19600,
+      "official": "https://www.lg.com/tw/monitors/ultragear-gaming/27gx790a-b/",
+      "brand": "LG",
+      "key": "m16"
+    },
+    {
+      "model": "27GX790B-B",
+      "name": "LG UltraGear 27GX790B-B",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 540,
+      "coolpc": {
+        "name": "LG UltraGear 27GX790B-B",
+        "detail": "〈2H1P/OLED/HDR500/二年保〉2K-540Hz/HD-720Hz 雙模, $28900 ◆",
+        "price": 28900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】LG UltraGear 27GX790B-B OLED 電競螢幕",
+          "price": 28900,
+          "url": "https://www.sinya.com.tw/prod/226995",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "4 代",
+      "generation_source": "https://www.lg.com/cn/monitors/lg-27gx790b-b",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "Tandem WOLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】LG UltraGear 27GX790B-B OLED 電競螢幕",
+        "price": 28900,
+        "url": "https://www.sinya.com.tw/prod/226995",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 28900,
+      "official": "https://www.lg.com/tw/monitors/ultragear-gaming/27gx790a-b/",
+      "dual": "HD 720Hz",
+      "brand": "LG",
+      "key": "m17"
+    },
+    {
+      "model": "S27FG502SC",
+      "name": "三星 Odyssey G5 S27FG502SC",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 180,
+      "coolpc": {
+        "name": "三星 Odyssey G5 S27FG502SC",
+        "detail": "〈1H1P/OLED/180Hz/HDR10〉, $9900 ◆",
+        "price": 9900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 9900,
+      "official": null,
+      "brand": "Samsung",
+      "key": "m18"
+    },
+    {
+      "model": "S27DG602SC",
+      "name": "三星 Odyssey G6 S27DG602SC",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 360,
+      "coolpc": {
+        "name": "三星 Odyssey G6 S27DG602SC",
+        "detail": "〈2H1P/OLED/360Hz/HDR10/HDMI 2.1〉可升降旋轉, $15900 ◆",
+        "price": 15900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】三星 Odyssey G6 S27DG602SC QD-OLED 電競螢幕 (DP/HDMI/USB/QD-OLED/2K/0.03ms/360Hz/HDR10/FreeSync Premium Pro/抗眩光/可升降/可旋轉/無喇叭/三年保固)",
+          "price": 16900,
+          "url": "https://www.sinya.com.tw/prod/207745",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】三星 Odyssey G6 S27DG602SC QD-OLED 電競螢幕 (DP/HDMI/USB/QD-OLED/2K/0.03ms/360Hz/HDR10/FreeSync Premium Pro/抗眩光/可升降/可旋轉/無喇叭/三年保固)",
+        "price": 16900,
+        "url": "https://www.sinya.com.tw/prod/207745",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 15900,
+      "official": null,
+      "brand": "Samsung",
+      "key": "m19"
+    },
+    {
+      "model": "S27FG602SC",
+      "name": "三星 Odyssey G6 S27FG602SC",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 500,
+      "coolpc": {
+        "name": "三星 Odyssey G6 S27FG602SC",
+        "detail": "〈2H1P/OLED/500Hz/HDR500/HDMI 2.1〉, $19900 ◆",
+        "price": 19900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 19900,
+      "official": null,
+      "brand": "Samsung",
+      "key": "m20"
+    },
+    {
+      "model": "GO27Q24",
+      "name": "技嘉 GO27Q24",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 240,
+      "coolpc": {
+        "name": "技嘉 GO27Q24",
+        "detail": "〈2H1P1C/OLED/240Hz/HDR10〉可升降旋轉, $10490 ◆",
+        "price": 10490,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 10490,
+      "official": null,
+      "brand": "GIGABYTE",
+      "key": "m21"
+    },
+    {
+      "model": "GO27Q24A",
+      "name": "技嘉 GO27Q24A",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 240,
+      "coolpc": {
+        "name": "技嘉 GO27Q24A",
+        "detail": "〈2H1P/QD-OLED/240Hz/HDR10〉可升降旋轉▼下殺到 11/1 23:59, $10490↘$9999 ◆",
+        "price": 9999,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】技嘉 GO27Q24A電競螢幕",
+          "price": 10490,
+          "url": "https://www.sinya.com.tw/prod/225242",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】技嘉 GO27Q24A電競螢幕",
+        "price": 10490,
+        "url": "https://www.sinya.com.tw/prod/225242",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 9999,
+      "official": null,
+      "brand": "GIGABYTE",
+      "key": "m22"
+    },
+    {
+      "model": "GO27Q24G",
+      "name": "技嘉 GO27Q24G",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 240,
+      "coolpc": {
+        "name": "技嘉 GO27Q24G",
+        "detail": "〈2H1P1C/WOLED/240Hz/HDR400〉可升降旋轉, $11990 ◆",
+        "price": 11990,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【周年慶支架組】【27型】技嘉 GO27Q24G 電競螢幕",
+          "price": 11990,
+          "url": "https://www.sinya.com.tw/prod/228781",
+          "bundle": true,
+          "status": "可加入購物車"
+        },
+        {
+          "name": "【27型】技嘉 GO27Q24G 電競螢幕",
+          "price": 11990,
+          "url": "https://www.sinya.com.tw/prod/226888",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "未核實（MLA+）",
+      "generation_source": "https://tw.aorus.com/news-detail.php?i=3966",
+      "reviews": [
+        "R19"
+      ],
+      "notes": [
+        "官方已確認 LG WOLED＋MLA+，但未找到該型號數字世代的直接官方說明。"
+      ],
+      "curved": false,
+      "panel": "WOLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【周年慶支架組】【27型】技嘉 GO27Q24G 電競螢幕",
+        "price": 11990,
+        "url": "https://www.sinya.com.tw/prod/228781",
+        "bundle": true,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 11990,
+      "official": "https://tw.aorus.com/news-detail.php?i=3966",
+      "brand": "GIGABYTE",
+      "key": "m23"
+    },
+    {
+      "model": "MO27Q28G",
+      "name": "技嘉 MO27Q28G",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 280,
+      "coolpc": {
+        "name": "技嘉 MO27Q28G",
+        "detail": "〈2H1P1C/WOLED/280Hz/含喇叭/HDR500/HDMI 2.1/霧面面板〉可升降旋轉▼下殺到 11/29 23:59, $14990↘$11990 ◆",
+        "price": 11990,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【破盤價】【27型】GIGABYTE MO27Q28G 電競螢幕 (DP/HDMI/Type-C/2K/WOLED/0.03ms/280Hz/HDR/99% DCI-P3/G-Sync/KVM/可升降/可旋轉/內建喇叭/三年保固)+狼蛛 AULA F99pro 暗夜國度 （淺灰+白+深灰）",
+          "price": 17400,
+          "url": "https://www.sinya.com.tw/prod/220706",
+          "bundle": true,
+          "status": "可加入購物車"
+        },
+        {
+          "name": "【27型】GIGABYTE MO27Q28G 電競螢幕 (DP/HDMI/Type-C/2K/WOLED/0.03ms/280Hz/HDR/99% DCI-P3/G-Sync/KVM/可升降/可旋轉/內建喇叭/三年保固)",
+          "price": 11990,
+          "url": "https://www.sinya.com.tw/prod/220682",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "4 代",
+      "generation_source": "https://www.gigabyte.com/tw/Monitor/MO27Q28G",
+      "reviews": [
+        "R18"
+      ],
+      "notes": [
+        "霧面；MO27Q28GR 為鏡面版本。"
+      ],
+      "curved": false,
+      "panel": "Tandem WOLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】GIGABYTE MO27Q28G 電競螢幕 (DP/HDMI/Type-C/2K/WOLED/0.03ms/280Hz/HDR/99% DCI-P3/G-Sync/KVM/可升降/可旋轉/內建喇叭/三年保固)",
+        "price": 11990,
+        "url": "https://www.sinya.com.tw/prod/220682",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 11990,
+      "official": "https://www.gigabyte.com/tw/Monitor/MO27Q28G",
+      "brand": "GIGABYTE",
+      "key": "m24"
+    },
+    {
+      "model": "MO27Q2A",
+      "name": "技嘉 MO27Q2A",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 280,
+      "coolpc": {
+        "name": "技嘉 MO27Q2A",
+        "detail": "〈2H1P1C/OLED/280Hz/含喇叭/HDR400/HDMI 2.1〉可升降旋轉, $14190 ◆",
+        "price": 14190,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】GIGABYTE MO27Q2A 電競螢幕 (DP/HDMI/Type-C/2K/QD-OLED/0.03ms/280Hz/HDR400/99% DCI-P3/G-Sync/KVM/可升降/可旋轉/內建喇叭/三年保固)",
+          "price": 14990,
+          "url": "https://www.sinya.com.tw/prod/217162",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】GIGABYTE MO27Q2A 電競螢幕 (DP/HDMI/Type-C/2K/QD-OLED/0.03ms/280Hz/HDR400/99% DCI-P3/G-Sync/KVM/可升降/可旋轉/內建喇叭/三年保固)",
+        "price": 14990,
+        "url": "https://www.sinya.com.tw/prod/217162",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 14190,
+      "official": null,
+      "brand": "GIGABYTE",
+      "key": "m25"
+    },
+    {
+      "model": "MO27Q28GR",
+      "name": "技嘉 MO27Q28GR",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 280,
+      "coolpc": {
+        "name": "技嘉 MO27Q28GR",
+        "detail": "〈2H1P1C/WOLED/280Hz/含喇叭/HDR500/HDMI 2.1/鏡面面板〉可升降旋轉, $14990 ◆",
+        "price": 14990,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】GIGABYTE MO27Q28GR電競螢幕 (DP/HDMI/Type-C/2K/WOLED鏡面/0.03ms/280Hz/HDR/99% DCI-P3/G-Sync/KVM/可升降/可旋轉/內建喇叭/三年保固)",
+          "price": 14990,
+          "url": "https://www.sinya.com.tw/prod/223704",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "4 代",
+      "generation_source": "https://www.gigabyte.com/dk/press/news/2352",
+      "reviews": [
+        "R17",
+        "R18"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "Tandem WOLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】GIGABYTE MO27Q28GR電競螢幕 (DP/HDMI/Type-C/2K/WOLED鏡面/0.03ms/280Hz/HDR/99% DCI-P3/G-Sync/KVM/可升降/可旋轉/內建喇叭/三年保固)",
+        "price": 14990,
+        "url": "https://www.sinya.com.tw/prod/223704",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 14990,
+      "official": "https://www.gigabyte.com/dk/press/news/2352",
+      "brand": "GIGABYTE",
+      "key": "m26"
+    },
+    {
+      "model": "FO27Q28G",
+      "name": "技嘉 FO27Q28G",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 280,
+      "coolpc": {
+        "name": "技嘉 FO27Q28G",
+        "detail": "〈2H1P1C/WOLED/280Hz/HDR10/DP 2.1〉面板四年防烙印, $16990 ◆",
+        "price": 16990,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】技嘉 AORUS ELITE FO27Q28G OLED 電競螢幕",
+          "price": 16900,
+          "url": "https://www.sinya.com.tw/prod/228621",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "4 代（系列對照）",
+      "generation_source": "https://www.gigabyte.com/tw/Consumer/GIGABYTE-event/",
+      "reviews": [],
+      "notes": [
+        "產品頁明示 Tandem WOLED；數字世代依官方 AORUS ELITE 系列介紹對照。"
+      ],
+      "curved": false,
+      "panel": "Tandem WOLED",
+      "gen_status": "架構推定",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】技嘉 AORUS ELITE FO27Q28G OLED 電競螢幕",
+        "price": 16900,
+        "url": "https://www.sinya.com.tw/prod/228621",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 16900,
+      "official": "https://www.gigabyte.com/tw/Monitor/AORUS-ELITE-FO27Q28G/sp",
+      "brand": "GIGABYTE",
+      "key": "m27"
+    },
+    {
+      "model": "XG27AQDMGR",
+      "name": "華碩 ROG Strix XG27AQDMGR",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 240,
+      "coolpc": {
+        "name": "華碩 ROG Strix XG27AQDMGR",
+        "detail": "〈2H1P/WOLED/240Hz/HDR400/HDMI 2.1〉可升降旋轉, $13888 ◆",
+        "price": 13888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】ASUS ROG Strix OLED XG27AQDMGR 電競螢幕",
+          "price": 13888,
+          "url": "https://www.sinya.com.tw/prod/225873",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://rog.asus.com/us/monitors/27-to-31-5-inches/rog-strix-oled-xg27aqdmg-gen2-xg27aqdmgr/",
+      "reviews": [],
+      "notes": [
+        "官方使用「第三代 ROG OLED」稱法；本表同時保留品牌命名背景。"
+      ],
+      "curved": false,
+      "panel": "WOLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】ASUS ROG Strix OLED XG27AQDMGR 電競螢幕",
+        "price": 13888,
+        "url": "https://www.sinya.com.tw/prod/225873",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 13888,
+      "official": "https://rog.asus.com/us/monitors/27-to-31-5-inches/rog-strix-oled-xg27aqdmg-gen2-xg27aqdmgr/",
+      "brand": "ASUS",
+      "key": "m28"
+    },
+    {
+      "model": "XG27AQDMES",
+      "name": "華碩 ROG Strix XG27AQDMES",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 240,
+      "coolpc": {
+        "name": "華碩 ROG Strix XG27AQDMES",
+        "detail": "〈2H1P/OLED/240Hz/HDR10/HDMI2.1〉, $10888 ◆",
+        "price": 10888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】華碩 ROG Strix OLED XG27AQDMES 電競螢幕",
+          "price": 10888,
+          "url": "https://www.sinya.com.tw/prod/225863",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://rog.asus.com/tw/support/faq/1056847/",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】華碩 ROG Strix OLED XG27AQDMES 電競螢幕",
+        "price": 10888,
+        "url": "https://www.sinya.com.tw/prod/225863",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 10888,
+      "official": "https://rog.asus.com/tw/support/faq/1056847/",
+      "brand": "ASUS",
+      "key": "m29"
+    },
+    {
+      "model": "XG27AQWMG",
+      "name": "華碩 ROG Strix XG27AQWMG",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 280,
+      "coolpc": {
+        "name": "華碩 ROG Strix XG27AQWMG",
+        "detail": "〈2H1P/WOLED/280Hz/HDR500/HDMI 2.1〉可升降旋轉, $15888 ◆",
+        "price": 15888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】華碩 ROG Strix OLED XG27AQWMG 電競螢幕",
+          "price": 16890,
+          "url": "https://www.sinya.com.tw/prod/229145",
+          "bundle": false,
+          "status": "可加入購物車"
+        },
+        {
+          "name": "【27型】華碩 ROG Strix OLED XG27AQWMG 電競螢幕",
+          "price": 15888,
+          "url": "https://www.sinya.com.tw/prod/226649",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "4 代",
+      "generation_source": "https://rog.asus.com/monitors/27-to-31-5-inches/rog-strix-oled-xg27aqwmg/",
+      "reviews": [
+        "R07"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "Tandem WOLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】華碩 ROG Strix OLED XG27AQWMG 電競螢幕",
+        "price": 15888,
+        "url": "https://www.sinya.com.tw/prod/226649",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 15888,
+      "official": "https://rog.asus.com/monitors/27-to-31-5-inches/rog-strix-oled-xg27aqwmg/",
+      "brand": "ASUS",
+      "key": "m30"
+    },
+    {
+      "model": "XG27ACDMS",
+      "name": "華碩 ROG Strix XG27ACDMS",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 280,
+      "coolpc": {
+        "name": "華碩 ROG Strix XG27ACDMS",
+        "detail": "〈1H1P1C/OLED/280Hz/HDR400/HDMI 2.1〉可升降旋轉, $13888 ◆",
+        "price": 13888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "3 代",
+      "generation_source": "https://rog.asus.com/tw/support/faq/1056847/",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 13888,
+      "official": "https://rog.asus.com/tw/support/faq/1056847/",
+      "brand": "ASUS",
+      "key": "m31"
+    },
+    {
+      "model": "XG27AQDNG",
+      "name": "華碩 ROG Strix XG27AQDNG",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 360,
+      "coolpc": {
+        "name": "華碩 ROG Strix XG27AQDNG",
+        "detail": "〈2H1P/OLED/360Hz/HDR400/HDMI 2.1〉, $17888",
+        "price": 17888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】ASUS ROG Strix OLED XG27AQDNG 電競螢幕",
+          "price": 17888,
+          "url": "https://www.sinya.com.tw/prod/225885",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://rog.asus.com/tw/support/faq/1056847/",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】ASUS ROG Strix OLED XG27AQDNG 電競螢幕",
+        "price": 17888,
+        "url": "https://www.sinya.com.tw/prod/225885",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 17888,
+      "official": "https://rog.asus.com/tw/support/faq/1056847/",
+      "brand": "ASUS",
+      "key": "m32"
+    },
+    {
+      "model": "PG27AQWP-G",
+      "name": "華碩 ROG Swift PG27AQWP-G 20周年限定版",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 540,
+      "coolpc": {
+        "name": "華碩 ROG Swift PG27AQWP-G 20周年限定版",
+        "detail": "〈2H1P/OLED/HDR500〉2K-540Hz/HD-720Hz切換, $32888 ◆",
+        "price": 32888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】ASUS 華碩 ROG Swift OLED PG27AQWP-G Edition 20周年紀念版 電競螢幕 (DP2.1a/HDMI2.1/第四代Tandem OLED/2K/540Hz/0.02ms/G-Sync/HDR500/可升降可旋轉/3年保固)",
+          "price": 32888,
+          "url": "https://www.sinya.com.tw/prod/226042",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "4 代",
+      "generation_source": "https://rog.asus.com/rs-en/monitors/27-to-31-5-inches/rog-swift-oled-pg27aqwp-g-edition-20/",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "Tandem WOLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】ASUS 華碩 ROG Swift OLED PG27AQWP-G Edition 20周年紀念版 電競螢幕 (DP2.1a/HDMI2.1/第四代Tandem OLED/2K/540Hz/0.02ms/G-Sync/HDR500/可升降可旋轉/3年保固)",
+        "price": 32888,
+        "url": "https://www.sinya.com.tw/prod/226042",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 32888,
+      "official": "https://rog.asus.com/rs-en/monitors/27-to-31-5-inches/rog-swift-oled-pg27aqwp-g-edition-20/",
+      "dual": "HD 720Hz",
+      "brand": "ASUS",
+      "key": "m33"
+    },
+    {
+      "model": "PG27AQWP-W",
+      "name": "華碩 ROG Swift PG27AQWP-W",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 540,
+      "coolpc": {
+        "name": "華碩 ROG Swift PG27AQWP-W",
+        "detail": "〈2H1P/OLED/540Hz/HDR500/DP 2.1〉2K-540Hz/HD-720Hz切換, $32888 ◆",
+        "price": 32888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【雙強精選組】【27型】華碩 ROG Swift OLED PG27AQWP-W 電競螢幕 (DP/HDMI/Tandem OLED/2K/0.02ms/540Hz/FreeSync Premium/G-SYNC/HDR500/DELTA E < 2/可升降/可旋轉/無喇叭/三年保固)+狼蛛 AULA F108 PRO 星砂流光 機械鍵盤",
+          "price": 32888,
+          "url": "https://www.sinya.com.tw/prod/229146",
+          "bundle": true,
+          "status": "可加入購物車"
+        },
+        {
+          "name": "【27型】華碩 ROG Swift OLED PG27AQWP-W 電競螢幕 (DP/HDMI/Tandem OLED/2K/0.02ms/540Hz/FreeSync Premium/G-SYNC/HDR500/DELTA E < 2/可升降/可旋轉/無喇叭/三年保固)",
+          "price": 32888,
+          "url": "https://www.sinya.com.tw/prod/219394",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "4 代",
+      "generation_source": "https://rog.asus.com/monitors/27-to-31-5-inches/rog-swift-oled-pg27aqwp-w/",
+      "reviews": [
+        "R08",
+        "R09"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "Tandem WOLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【雙強精選組】【27型】華碩 ROG Swift OLED PG27AQWP-W 電競螢幕 (DP/HDMI/Tandem OLED/2K/0.02ms/540Hz/FreeSync Premium/G-SYNC/HDR500/DELTA E < 2/可升降/可旋轉/無喇叭/三年保固)+狼蛛 AULA F108 PRO 星砂流光 機械鍵盤",
+        "price": 32888,
+        "url": "https://www.sinya.com.tw/prod/229146",
+        "bundle": true,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 32888,
+      "official": "https://rog.asus.com/monitors/27-to-31-5-inches/rog-swift-oled-pg27aqwp-w/",
+      "dual": "HD 720Hz",
+      "brand": "ASUS",
+      "key": "m34"
+    },
+    {
+      "model": "PRO MAX 271UPXW12G",
+      "name": "MSI PRO MAX 271UPXW12G",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 120,
+      "coolpc": {
+        "name": "MSI PRO MAX 271UPXW12G",
+        "detail": "〈2H1P2C/OLED/120Hz/含喇叭/白色〉可升降旋轉, $23900 ◆",
+        "price": 23900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】MSI PRO MAX 271UPXW12G 白色 4K QD-OLED 液晶螢幕",
+          "price": 23900,
+          "url": "https://www.sinya.com.tw/prod/224554",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "4 代",
+      "generation_source": "https://tw.msi.com/Business-Productivity-Monitor/PRO-MAX-271UPXW12I",
+      "reviews": [],
+      "notes": [
+        "創作者／專業用途；價格包含不同定位的工作流程功能，不以遊戲性價比優先推薦。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": true,
+      "sinya_best": {
+        "name": "【27型】MSI PRO MAX 271UPXW12G 白色 4K QD-OLED 液晶螢幕",
+        "price": 23900,
+        "url": "https://www.sinya.com.tw/prod/224554",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 23900,
+      "official": "https://tw.msi.com/Business-Productivity-Monitor/PRO-MAX-271UPXW12I",
+      "brand": "MSI",
+      "key": "m35"
+    },
+    {
+      "model": "MAG 272UP QD-OLED E16",
+      "name": "MSI MAG 272UP QD-OLED E16",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 165,
+      "coolpc": {
+        "name": "MSI MAG 272UP QD-OLED E16",
+        "detail": "〈2H1P1C/OLED/165Hz/HDR400/HDMI 2.1〉▼下殺到 11/15 23:59, $16900 ◆",
+        "price": 16900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】MSI MAG 272UP QD-OLED E16 電競螢幕 (DP/ HDMI / Type-C / QD-OLED / 4K UHD / 16:9 / 0.03ms / 165Hz / 99% DCI-P3 / 1.5M:1 對比 / Adaptive-Sync / G-SYNC Compatible / KVM / AI Vision / 可升降旋轉 / 三年保固)",
+          "price": 19900,
+          "url": "https://www.sinya.com.tw/prod/224503",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "4 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】MSI MAG 272UP QD-OLED E16 電競螢幕 (DP/ HDMI / Type-C / QD-OLED / 4K UHD / 16:9 / 0.03ms / 165Hz / 99% DCI-P3 / 1.5M:1 對比 / Adaptive-Sync / G-SYNC Compatible / KVM / AI Vision / 可升降旋轉 / 三年保固)",
+        "price": 19900,
+        "url": "https://www.sinya.com.tw/prod/224503",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 16900,
+      "official": "https://tw.msi.com/Monitor/MAG-272UP-QD-OLED-E16/Overview",
+      "brand": "MSI",
+      "key": "m36"
+    },
+    {
+      "model": "MAG 272UP QD-OLED X24",
+      "name": "MSI MAG 272UP QD-OLED X24",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "MSI MAG 272UP QD-OLED X24",
+        "detail": "〈2H1P1C/OLED/240Hz/HDR400/HDMI 2.1〉, $19900 ◆",
+        "price": 19900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【螢幕支架組】【27型】MSI MAG 272UP QD-OLED X24 電競螢幕",
+          "price": 19699,
+          "url": "https://www.sinya.com.tw/prod/222614",
+          "bundle": true,
+          "status": "補貨中"
+        },
+        {
+          "name": "【27型】MSI MAG 272UP QD-OLED X24 電競螢幕 (DP/HDMI/Type-C/QD-OLED/4K/0.03ms/240Hz/Adaptive-Sync/HDR BLACK 400/KVM/可升降/可旋轉/無喇叭/三年保固)",
+          "price": 22900,
+          "url": "https://www.sinya.com.tw/prod/213419",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "4 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [
+        "R04"
+      ],
+      "notes": [
+        "欣亞支架組 19,699 元但補貨中；不可當作現在可直接下單的最低價。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【螢幕支架組】【27型】MSI MAG 272UP QD-OLED X24 電競螢幕",
+        "price": 19699,
+        "url": "https://www.sinya.com.tw/prod/222614",
+        "bundle": true,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 19900,
+      "official": "https://www.msi.com/Monitor/MAG-272UP-QD-OLED-X24",
+      "brand": "MSI",
+      "key": "m37"
+    },
+    {
+      "model": "MPG 272URX QD-OLED",
+      "name": "MSI MPG 272URX QD-OLED",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "MSI MPG 272URX QD-OLED",
+        "detail": "〈2H1P1C/OLED/240Hz/HDR400/HDMI 2.1/DP 2.1〉可升降旋轉, $24888 ◆",
+        "price": 24888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【螢幕支架組】【27型】MSI MPG 272URX QD-OLED 電競螢幕",
+          "price": 25499,
+          "url": "https://www.sinya.com.tw/prod/222610",
+          "bundle": true,
+          "status": "可加入購物車"
+        },
+        {
+          "name": "【27型】MSI MPG 272URX QD-OLED 電競螢幕 (DP2.1 UHBR20/HDMI/Type-C(98w)/QD-OLED/4K/0.03ms/240Hz/G-SYNC Compatible/HDR BLACK 400/AI VISION/KVM/無喇叭/三年保固)",
+          "price": 24888,
+          "url": "https://www.sinya.com.tw/prod/211258",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "4 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [
+        "R02",
+        "R03",
+        "R04"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】MSI MPG 272URX QD-OLED 電競螢幕 (DP2.1 UHBR20/HDMI/Type-C(98w)/QD-OLED/4K/0.03ms/240Hz/G-SYNC Compatible/HDR BLACK 400/AI VISION/KVM/無喇叭/三年保固)",
+        "price": 24888,
+        "url": "https://www.sinya.com.tw/prod/211258",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 24888,
+      "official": "https://tw.msi.com/Monitor/MPG-272URX-QD-OLED",
+      "brand": "MSI",
+      "key": "m38"
+    },
+    {
+      "model": "27M2N8800",
+      "name": "PHILIPS 27M2N8800",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "PHILIPS 27M2N8800",
+        "detail": "〈2H1P/QD-OLED/240Hz/HDR400〉可升降 客訂廠商直送, $21111 ◆",
+        "price": 21111,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "客訂／廠商直送"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 21111,
+      "official": null,
+      "brand": "PHILIPS",
+      "key": "m39"
+    },
+    {
+      "model": "AG276UZD",
+      "name": "AOC AGON AG276UZD",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "AOC AGON AG276UZD",
+        "detail": "〈2H1P/OLED/240Hz/HDR400/DP 2.1/含喇叭〉, $19999 ◆",
+        "price": 19999,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "4 代",
+      "generation_source": "https://www.aoc.com/uk/gaming/blog/agon-pro-ag276uzd-review-the-best-value-4k-240hz-qd-oled-monitor-for-creators-and-gamers-rickys-techtalk",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方引用評測",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 19999,
+      "official": "https://www.aoc.com/uk/gaming/blog/agon-pro-ag276uzd-review-the-best-value-4k-240hz-qd-oled-monitor-for-creators-and-gamers-rickys-techtalk",
+      "brand": "AOC",
+      "key": "m40"
+    },
+    {
+      "model": "X27 G2",
+      "name": "Acer Predator X27 G2",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 120,
+      "coolpc": {
+        "name": "Acer Predator X27 G2",
+        "detail": "〈2H1P/QD-OLED/120Hz/含喇叭/HDR400〉可升降旋轉▼下殺到 11/15 23:59, $19999↘$17999 ◆",
+        "price": 17999,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "OLED（類型待核）",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 17999,
+      "official": null,
+      "brand": "Acer",
+      "key": "m41"
+    },
+    {
+      "model": "EX271UZ",
+      "name": "BenQ MOBIUZ EX271UZ",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "BenQ MOBIUZ EX271UZ",
+        "detail": "〈2H1P1C/OLED/240Hz/HDR400/HDMI 2.1/白色〉, $26888 ◆",
+        "price": 26888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】BenQ MOBIUZ EX271UZ 電競螢幕",
+          "price": 28888,
+          "url": "https://www.sinya.com.tw/prod/224493",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "4 代",
+      "generation_source": "https://www.benq.com/zh-tw/monitor/gaming/ex271uz.html",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】BenQ MOBIUZ EX271UZ 電競螢幕",
+        "price": 28888,
+        "url": "https://www.sinya.com.tw/prod/224493",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 26888,
+      "official": "https://www.benq.com/zh-tw/monitor/gaming/ex271uz/spec.html",
+      "brand": "BenQ",
+      "key": "m42"
+    },
+    {
+      "model": "AW2725Q",
+      "name": "DELL Alienware AW2725Q",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "DELL Alienware AW2725Q",
+        "detail": "〈2H1P/OLED/240Hz/HDR400/HDMI 2.1/無亮點〉可升降旋轉, $32888 ◆",
+        "price": 32888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】DELL Alienware AW2725Q-3Y QD-OLED 電競螢幕 (DP/HDMI/Type-C/QD-OLED/4K/0.03ms/240Hz/HDR400/G-SYNC/FreeSync Premium Pro/99% DCI-P3/TÜV護眼認證/可升降/可旋轉/內建喇叭/四年保固)",
+          "price": 38888,
+          "url": "https://www.sinya.com.tw/prod/212380",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "4 代",
+      "generation_source": "https://www.rtings.com/monitor/reviews/msi/mpg-272urx-qd-oled",
+      "reviews": [
+        "R10"
+      ],
+      "notes": [
+        "RTINGS 實測比較列為與 272URX 相同的四代面板。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "獨立實測",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】DELL Alienware AW2725Q-3Y QD-OLED 電競螢幕 (DP/HDMI/Type-C/QD-OLED/4K/0.03ms/240Hz/HDR400/G-SYNC/FreeSync Premium Pro/99% DCI-P3/TÜV護眼認證/可升降/可旋轉/內建喇叭/四年保固)",
+        "price": 38888,
+        "url": "https://www.sinya.com.tw/prod/212380",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 32888,
+      "official": "https://www.dell.com/zh-tw/shop/alienware-27-4k-qd-oled-%E9%81%8A%E6%88%B2%E5%B0%88%E7%94%A8%E9%A1%AF%E7%A4%BA%E5%99%A8-aw2725q/apd/210-bqbx/%E9%A1%AF%E7%A4%BA%E5%99%A8%E5%92%8C%E9%A1%AF%E7%A4%BA%E5%99%A8%E9%85%8D%E4%BB%B6",
+      "brand": "DELL",
+      "key": "m43"
+    },
+    {
+      "model": "S27HG802SC",
+      "name": "三星 Odyssey G8 S27HG802SC",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "三星 Odyssey G8 S27HG802SC",
+        "detail": "〈2H1P1C/OLED/240Hz/HDR400/DP 2.1〉可升降旋轉, $25900 ◆",
+        "price": 25900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "4 代",
+      "generation_source": "https://www.samsung.com/tw/monitors/gaming/odyssey-oled-g8-g80sh-27-inch-4k-uhd-240hz-ls27hg802scxzw/",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 25900,
+      "official": "https://www.samsung.com/tw/monitors/gaming/odyssey-oled-g8-g80sh-27-inch-4k-uhd-240hz-ls27hg802scxzw/",
+      "brand": "Samsung",
+      "key": "m44"
+    },
+    {
+      "model": "MO27U2",
+      "name": "技嘉 MO27U2",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "技嘉 MO27U2",
+        "detail": "〈2H1P1C/OLED/240Hz/含喇叭/HDR400/HDMI 2.1〉可升降旋轉, $19900 ◆",
+        "price": 19900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】GIGABYTE MO27U2 QD-OLED 電競螢幕 (DP/HDMI/Type-C/4K/QD-OLED/0.03ms/240Hz/HDR400/99% DCI-P3/△E ≤ 2/FreeSync Premium Pro/G-Sync/KVM/黑平衡技術/萊因2.0認證/可升降/可旋轉/內建喇叭/三年保固)",
+          "price": 19900,
+          "url": "https://www.sinya.com.tw/prod/210510",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [
+        "R27"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】GIGABYTE MO27U2 QD-OLED 電競螢幕 (DP/HDMI/Type-C/4K/QD-OLED/0.03ms/240Hz/HDR400/99% DCI-P3/△E ≤ 2/FreeSync Premium Pro/G-Sync/KVM/黑平衡技術/萊因2.0認證/可升降/可旋轉/內建喇叭/三年保固)",
+        "price": 19900,
+        "url": "https://www.sinya.com.tw/prod/210510",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 19900,
+      "official": null,
+      "brand": "GIGABYTE",
+      "key": "m45"
+    },
+    {
+      "model": "PA279CDV",
+      "name": "華碩 ProArt PA279CDV",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 120,
+      "coolpc": {
+        "name": "華碩 ProArt PA279CDV",
+        "detail": "〈1H2P1C/OLED/120Hz/含喇叭/KVM/HDR10〉可升降旋轉, $24900 ◆",
+        "price": 24900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [
+        "創作者／專業用途；價格包含不同定位的工作流程功能，不以遊戲性價比優先推薦。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": true,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 24900,
+      "official": null,
+      "brand": "ASUS",
+      "key": "m46"
+    },
+    {
+      "model": "PA27UCDMR",
+      "name": "華碩 ProArt PA27UCDMR",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "華碩 ProArt PA27UCDMR",
+        "detail": "〈1H1P2TB4/OLED/240Hz/含喇叭/HDR400/Thunderbolt 4〉可升降旋轉, $42900 ◆",
+        "price": 42900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [
+        "創作者／專業用途；價格包含不同定位的工作流程功能，不以遊戲性價比優先推薦。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": true,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 42900,
+      "official": null,
+      "brand": "ASUS",
+      "key": "m47"
+    },
+    {
+      "model": "PA27USD",
+      "name": "華碩 ProArt PA27USD",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "華碩 ProArt PA27USD",
+        "detail": "〈2H1P1TB4/OLED/240Hz/HDR400/Thunderbolt 4〉可升降旋轉, $59888 ◆",
+        "price": 59888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [
+        "創作者／專業用途；價格包含不同定位的工作流程功能，不以遊戲性價比優先推薦。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": true,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 59888,
+      "official": null,
+      "brand": "ASUS",
+      "key": "m48"
+    },
+    {
+      "model": "XG27UQDMS",
+      "name": "華碩 ROG Strix XG27UQDMS",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "華碩 ROG Strix XG27UQDMS",
+        "detail": "〈2H1P/OLED/240Hz/HDR400/HDMI 2.1〉, $19888 ◆",
+        "price": 19888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【27型】ASUS ROG Strix OLED XG27UQDMS 電競螢幕",
+          "price": 19888,
+          "url": "https://www.sinya.com.tw/prod/225882",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "4 代",
+      "generation_source": "https://rog.asus.com/tw/support/faq/1056847/",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】ASUS ROG Strix OLED XG27UQDMS 電競螢幕",
+        "price": 19888,
+        "url": "https://www.sinya.com.tw/prod/225882",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 19888,
+      "official": "https://rog.asus.com/tw/support/faq/1056847/",
+      "brand": "ASUS",
+      "key": "m49"
+    },
+    {
+      "model": "PG27UCWM",
+      "name": "華碩 ROG Swift PG27UCWM",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "華碩 ROG Swift PG27UCWM",
+        "detail": "〈2H1P1C/WOLED/240Hz/HDR400〉4K-240Hz/FHD-480Hz 雙模式, $34888 ◆",
+        "price": 34888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "2026 RGB Stripe；未公布代數",
+      "generation_source": "https://press.asus.com/news/press-releases/rog-swift-oled-pg27ucwm-pg32ucwm",
+      "reviews": [
+        "R01"
+      ],
+      "notes": [
+        "移除白色子像素的 RGB Stripe；與 4 代 RGBW Tandem WOLED 分開看，不自行稱為第 5 代。"
+      ],
+      "curved": false,
+      "panel": "Tandem RGB OLED",
+      "gen_status": "新架構／無數字",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 34888,
+      "official": "https://press.asus.com/news/press-releases/rog-swift-oled-pg27ucwm-pg32ucwm",
+      "dual": "FHD 480Hz",
+      "brand": "ASUS",
+      "key": "m50"
+    },
+    {
+      "model": "MAG 322UP QD-OLED E16",
+      "name": "MSI MAG 322UP QD-OLED E16",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 165,
+      "coolpc": {
+        "name": "MSI MAG 322UP QD-OLED E16",
+        "detail": "〈2H1P1C/OLED/165Hz/HDR400/HDMI 2.1〉, $16999 ◆",
+        "price": 16999,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【螢幕支架組】【32型】MSI MAG 322UP QD-OLED E16 電競螢幕",
+          "price": 21499,
+          "url": "https://www.sinya.com.tw/prod/222613",
+          "bundle": true,
+          "status": "補貨中"
+        },
+        {
+          "name": "【32型】MSI MAG 322UP QD-OLED E16 電競螢幕 (DP/HDMI/Type-C/QD-OLED/4K/0.03ms/165Hz/Adaptive-Sync/HDR BLACK 400/AI VISION/可升降/無喇叭/三年保固)",
+          "price": 17990,
+          "url": "https://www.sinya.com.tw/prod/213426",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】MSI MAG 322UP QD-OLED E16 電競螢幕 (DP/HDMI/Type-C/QD-OLED/4K/0.03ms/165Hz/Adaptive-Sync/HDR BLACK 400/AI VISION/可升降/無喇叭/三年保固)",
+        "price": 17990,
+        "url": "https://www.sinya.com.tw/prod/213426",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 16999,
+      "official": "https://tw.msi.com/Monitor/MAG-322UP-QD-OLED-E16",
+      "brand": "MSI",
+      "key": "m51"
+    },
+    {
+      "model": "MPG 321URX QD-OLED",
+      "name": "MSI MPG 321URX QD-OLED",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "MSI MPG 321URX QD-OLED",
+        "detail": "〈2H1P1C/OLED/240Hz/HDR400/HDMI 2.1〉PD 90W, $20888 ◆",
+        "price": 20888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【螢幕支架組】【32型】MSI MPG 321URX QD-OLED 電競螢幕",
+          "price": 24499,
+          "url": "https://www.sinya.com.tw/prod/222609",
+          "bundle": true,
+          "status": "補貨中"
+        },
+        {
+          "name": "【32型】MSI MPG 321URX QD-OLED 電競螢幕 (DP/HDMI/Type-C(90w)/QD-OLED/4K/0.03ms/240Hz/FreeSync Premium Pro/HDR BLACK 400/無喇叭/三年保固)",
+          "price": 20888,
+          "url": "https://www.sinya.com.tw/prod/196932",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [
+        "R19",
+        "R20"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】MSI MPG 321URX QD-OLED 電競螢幕 (DP/HDMI/Type-C(90w)/QD-OLED/4K/0.03ms/240Hz/FreeSync Premium Pro/HDR BLACK 400/無喇叭/三年保固)",
+        "price": 20888,
+        "url": "https://www.sinya.com.tw/prod/196932",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 20888,
+      "official": "https://tw.msi.com/Monitor/MPG-321URX-QD-OLED/Overview",
+      "brand": "MSI",
+      "key": "m52"
+    },
+    {
+      "model": "MPG 322URX QD-OLED",
+      "name": "MSI MPG 322URX QD-OLED",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "MSI MPG 322URX QD-OLED",
+        "detail": "〈2H1P1C/OLED/240Hz/HDR400/HDMI 2.1/DP 2.1〉▼下殺到 11/15 23:59, $22900 ◆",
+        "price": 22900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【32型】MSI MPG 322URX QD-OLED 電競螢幕",
+          "price": 29888,
+          "url": "https://www.sinya.com.tw/prod/224553",
+          "bundle": false,
+          "status": "補貨中"
+        },
+        {
+          "name": "【螢幕支架組】【32型】MSI MPG 322URX QD-OLED 電競螢幕",
+          "price": 27399,
+          "url": "https://www.sinya.com.tw/prod/222607",
+          "bundle": true,
+          "status": "補貨中"
+        },
+        {
+          "name": "【32型】MSI MPG 322URX QD-OLED 電競螢幕 (DP 2.1 UHBR20/HDMI/Type-C(98w)/QD-OLED/4K/0.03ms/240Hz/FreeSync Premium Pro/HDR BLACK 400/KVM/可升降/無喇叭/三年保固)",
+          "price": 26888,
+          "url": "https://www.sinya.com.tw/prod/207192",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [
+        "R20"
+      ],
+      "notes": [
+        "與 MPG 322UR QD-OLED X24 不同：322URX 是 3 代；322UR X24 才是 4 代。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】MSI MPG 322URX QD-OLED 電競螢幕 (DP 2.1 UHBR20/HDMI/Type-C(98w)/QD-OLED/4K/0.03ms/240Hz/FreeSync Premium Pro/HDR BLACK 400/KVM/可升降/無喇叭/三年保固)",
+        "price": 26888,
+        "url": "https://www.sinya.com.tw/prod/207192",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 22900,
+      "official": "https://tw.msi.com/Monitor/MPG-322URX-QD-OLED",
+      "brand": "MSI",
+      "key": "m53"
+    },
+    {
+      "model": "MPG 321CURX QD-OLED",
+      "name": "MSI MPG 321CURX QD-OLED",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "MSI MPG 321CURX QD-OLED",
+        "detail": "〈2H1P1C/OLED曲面/1700R/240Hz/HDR400/HDMI 2.1〉, $29900",
+        "price": 29900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【32型】MSI MPG 321CURX QD-OLED 電競螢幕 (DP/HDMI/Type-C(98W)/QD-OLED/曲面/4K/0.03ms/240Hz/FreeSync Premium Pro/HDR BLACK 400/無喇叭/三年保固)",
+          "price": 29900,
+          "url": "https://www.sinya.com.tw/prod/207027",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [],
+      "notes": [
+        "曲面；完整收錄，但不列為平面雙螢幕配置的優先建議。"
+      ],
+      "curved": true,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】MSI MPG 321CURX QD-OLED 電競螢幕 (DP/HDMI/Type-C(98W)/QD-OLED/曲面/4K/0.03ms/240Hz/FreeSync Premium Pro/HDR BLACK 400/無喇叭/三年保固)",
+        "price": 29900,
+        "url": "https://www.sinya.com.tw/prod/207027",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 29900,
+      "official": "https://tw.msi.com/Monitor/MPG-321CURX-QD-OLED",
+      "brand": "MSI",
+      "key": "m54"
+    },
+    {
+      "model": "MPG 322UR QD-OLED X24",
+      "name": "MSI MPG 322UR QD-OLED X24",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "MSI MPG 322UR QD-OLED X24",
+        "detail": "〈2H1P1C/OLED/240Hz/HDR500/HDMI 2.1/DP 2.1〉, $29888 ◆",
+        "price": 29888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "4 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 29888,
+      "official": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "brand": "MSI",
+      "key": "m55"
+    },
+    {
+      "model": "MAG 321UP QD-OLED X24",
+      "name": "MSI MAG 321UP QD-OLED X24",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "MSI MAG 321UP QD-OLED X24",
+        "detail": "〈2H1P1C/OLED/240Hz/HDR500/HDMI 2.1〉▼下殺到 11/15 23:59, $29900↘$25900 ◆",
+        "price": 25900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "4 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 25900,
+      "official": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "brand": "MSI",
+      "key": "m56"
+    },
+    {
+      "model": "32M2N8900",
+      "name": "PHILIPS 32M2N8900",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "PHILIPS 32M2N8900",
+        "detail": "〈2H1P/QD-OLED/240Hz/HDR400〉可升降 客訂廠商直送, $19911 ◆",
+        "price": 19911,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "客訂／廠商直送"
+      },
+      "sinya": [
+        {
+          "name": "【32型】PHILIPS 飛利浦 Evnia 32M2N8900 QD-OLED 白色 電競螢幕 (DP/HDMI/Type-C(65W)/QD-OLED/4K/0.03ms/240Hz/G-SYNC/Adaptive Sync/HDR400/Delta E < 2/Ambiglow 流光溢彩技術/KVM/可升降/可旋轉/內建喇叭/三年保固)",
+          "price": 25888,
+          "url": "https://www.sinya.com.tw/prod/201895",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】PHILIPS 飛利浦 Evnia 32M2N8900 QD-OLED 白色 電競螢幕 (DP/HDMI/Type-C(65W)/QD-OLED/4K/0.03ms/240Hz/G-SYNC/Adaptive Sync/HDR400/Delta E < 2/Ambiglow 流光溢彩技術/KVM/可升降/可旋轉/內建喇叭/三年保固)",
+        "price": 25888,
+        "url": "https://www.sinya.com.tw/prod/201895",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 19911,
+      "official": "https://www.philips.com.tw/c-p/32M2N8900_96/4k-uhd-gaming-monitor-qd-oled-gaming-monitor/overview",
+      "brand": "PHILIPS",
+      "key": "m57"
+    },
+    {
+      "model": "AG326UZD",
+      "name": "AOC AGON AG326UZD",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "AOC AGON AG326UZD",
+        "detail": "〈2H1P/OLED/240Hz/HDR400/DP 2.1/含喇叭/可升降旋轉〉, $21900 ◆",
+        "price": 21900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【34型】AOC AGON PRO AG326UZD 電競螢幕 (DP/HDMI/QD-OLED/4K/0.03ms/240Hz/Adaptive Sync/HDR Black400/sRGB 100%/可升降/內建喇叭/三年保固)",
+          "price": 22988,
+          "url": "https://www.sinya.com.tw/prod/219167",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [
+        "欣亞標題曾標 34 型；本表按 AG326UZD 的 31.5 吋（32 吋級）規格分類。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【34型】AOC AGON PRO AG326UZD 電競螢幕 (DP/HDMI/QD-OLED/4K/0.03ms/240Hz/Adaptive Sync/HDR Black400/sRGB 100%/可升降/內建喇叭/三年保固)",
+        "price": 22988,
+        "url": "https://www.sinya.com.tw/prod/219167",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 21900,
+      "official": null,
+      "brand": "AOC",
+      "key": "m58"
+    },
+    {
+      "model": "X32 X2",
+      "name": "Acer Predator X32 X2",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "Acer Predator X32 X2",
+        "detail": "〈2H1P/OLED/240Hz/含喇叭/HDR400/HDMI 2.1/無亮點〉, $18888 ◆",
+        "price": 18888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【32型】Acer X32 X2 電競螢幕 (DP/HDMI/OLED/4K/0.03ms/240Hz/HDR400/FreeSync /內建喇叭/三年保固)",
+          "price": 21999,
+          "url": "https://www.sinya.com.tw/prod/215360",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [
+        "R26"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】Acer X32 X2 電競螢幕 (DP/HDMI/OLED/4K/0.03ms/240Hz/HDR400/FreeSync /內建喇叭/三年保固)",
+        "price": 21999,
+        "url": "https://www.sinya.com.tw/prod/215360",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 18888,
+      "official": null,
+      "brand": "Acer",
+      "key": "m59"
+    },
+    {
+      "model": "PE320QK P",
+      "name": "Acer ProCreator PE320QK P",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 165,
+      "coolpc": {
+        "name": "Acer ProCreator PE320QK P",
+        "detail": "〈2H1P1C/OLED/165Hz/含喇叭/HDR400/專業色彩認證〉, $22900 ◆",
+        "price": 22900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [
+        "R33"
+      ],
+      "notes": [
+        "創作者／專業用途；價格包含不同定位的工作流程功能，不以遊戲性價比優先推薦。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": true,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 22900,
+      "official": null,
+      "brand": "Acer",
+      "key": "m60"
+    },
+    {
+      "model": "PE320QK X",
+      "name": "Acer ProCreator PE320QK X",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "Acer ProCreator PE320QK X",
+        "detail": "〈2H1P1C/OLED/240Hz/含喇叭/HDR400/專業色彩認證〉, $29900 ◆",
+        "price": 29900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [
+        "創作者／專業用途；價格包含不同定位的工作流程功能，不以遊戲性價比優先推薦。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": true,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 29900,
+      "official": null,
+      "brand": "Acer",
+      "key": "m61"
+    },
+    {
+      "model": "EX321UZ",
+      "name": "BenQ MOBIUZ EX321UZ",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "BenQ MOBIUZ EX321UZ",
+        "detail": "〈2H1P1C/OLED/240Hz/HDR500/DP 2.1〉, $36888 ◆",
+        "price": 36888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【32型】BenQ MOBIUZ EX321UZ 電競螢幕",
+          "price": 36888,
+          "url": "https://www.sinya.com.tw/prod/225974",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "4 代",
+      "generation_source": "https://www.benq.com/en-in/news/products/mobiuz-ex321uz-launch.html",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】BenQ MOBIUZ EX321UZ 電競螢幕",
+        "price": 36888,
+        "url": "https://www.sinya.com.tw/prod/225974",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 36888,
+      "official": "https://www.benq.com/en-in/news/products/mobiuz-ex321uz-launch.html",
+      "brand": "BenQ",
+      "key": "m62"
+    },
+    {
+      "model": "32GS95UV-W",
+      "name": "LG UltraGear 32GS95UV-W",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "LG UltraGear 32GS95UV-W",
+        "detail": "〈2H1P/OLED/含喇叭/HDR400/HDMI 2.1/白色/二年保〉4K-240Hz/FHD-480Hz單鍵切換, $34900 ◆",
+        "price": 34900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【32型】LG UltraGear 32GS95UV-W 白 電競螢幕 (DP/HDMI/OLED/4k/0.03ms/240Hz(FHD480Hz)/G-SYNC/FreeSync Premium Pro/HDR400/可升降/可旋轉/內建喇叭/2年保固)",
+          "price": 34900,
+          "url": "https://www.sinya.com.tw/prod/213732",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "WOLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】LG UltraGear 32GS95UV-W 白 電競螢幕 (DP/HDMI/OLED/4k/0.03ms/240Hz(FHD480Hz)/G-SYNC/FreeSync Premium Pro/HDR400/可升降/可旋轉/內建喇叭/2年保固)",
+        "price": 34900,
+        "url": "https://www.sinya.com.tw/prod/213732",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 34900,
+      "official": "https://www.lg.com/tw/monitors/ultragear-gaming/32gs95uv-b/?sortCriteria=%40ec_pdp_view_count+descending",
+      "dual": "FHD 480Hz",
+      "brand": "LG",
+      "key": "m63"
+    },
+    {
+      "model": "S32FM902SC",
+      "name": "三星 Smart M9 S32FM902SC",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 165,
+      "coolpc": {
+        "name": "三星 Smart M9 S32FM902SC",
+        "detail": "〈1H1P1C/OLED/165Hz/含喇叭/HDR400〉AI智慧螢幕 \\*客訂, $39990 ◆",
+        "price": 39990,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "客訂／廠商直送"
+      },
+      "sinya": [
+        {
+          "name": "【32型】三星 M9 S32FM902SC 智慧聯網螢幕 (DP/HDMI/Type-C(90W)/USB/QD-OLED/4K/0.03ms/165Hz/HDR400/AI 影像升頻/AVA Pro智慧抗噪/Smart TV 智慧電視/支援WIFI+藍牙/內建4K視訊攝影機/可升降/可旋轉/內建喇叭/三年保固)",
+          "price": 39990,
+          "url": "https://www.sinya.com.tw/prod/213916",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】三星 M9 S32FM902SC 智慧聯網螢幕 (DP/HDMI/Type-C(90W)/USB/QD-OLED/4K/0.03ms/165Hz/HDR400/AI 影像升頻/AVA Pro智慧抗噪/Smart TV 智慧電視/支援WIFI+藍牙/內建4K視訊攝影機/可升降/可旋轉/內建喇叭/三年保固)",
+        "price": 39990,
+        "url": "https://www.sinya.com.tw/prod/213916",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 39990,
+      "official": "https://www.samsung.com/tw/monitors/smart/smart-monitor-m9-32-inch-smart-tv-apps-4k-oled-ls32fm902scxzw/",
+      "brand": "Samsung",
+      "key": "m64"
+    },
+    {
+      "model": "S32HG732SC",
+      "name": "三星 Odyssey G7 S32HG732SC",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 165,
+      "coolpc": {
+        "name": "三星 Odyssey G7 S32HG732SC",
+        "detail": "〈1H1P/OLED/165Hz/HDR400〉4K-165Hz/FHD-330Hz切換, $19990 ◆",
+        "price": 19990,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "32型】三星 Odyssey OLED G7 G73SH S32HG732SC 電競螢幕",
+          "price": 22900,
+          "url": "https://www.sinya.com.tw/prod/226114",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "OLED（類型待核）",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "32型】三星 Odyssey OLED G7 G73SH S32HG732SC 電競螢幕",
+        "price": 22900,
+        "url": "https://www.sinya.com.tw/prod/226114",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 19990,
+      "official": "https://www.samsung.com/tw/monitors/gaming/odyssey-oled-g7-g73sh-32-inch-dual-mode-4k-165hz-fhd-330hz-ls32hg732scxzw/?utm_source=chatgpt.com",
+      "dual": "FHD 330Hz",
+      "brand": "Samsung",
+      "key": "m65"
+    },
+    {
+      "model": "S32FG812SC",
+      "name": "三星 Odyssey G8 S32FG812SC",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "三星 Odyssey G8 S32FG812SC",
+        "detail": "〈2H1P/OLED/240Hz/HDR400/HDMI 2.1〉可升降旋轉, $22900 ◆",
+        "price": 22900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【32型】三星 Odyssey G8 S32FG812SC QD-OLED 電競螢幕 (DP/HDMI/USB/QD-OLED/4K/0.03ms/240Hz/HDR400/FreeSync Premium Pro/抗眩光/可升降/可旋轉/無喇叭/三年保固)",
+          "price": 34900,
+          "url": "https://www.sinya.com.tw/prod/210617",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】三星 Odyssey G8 S32FG812SC QD-OLED 電競螢幕 (DP/HDMI/USB/QD-OLED/4K/0.03ms/240Hz/HDR400/FreeSync Premium Pro/抗眩光/可升降/可旋轉/無喇叭/三年保固)",
+        "price": 34900,
+        "url": "https://www.sinya.com.tw/prod/210617",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 22900,
+      "official": null,
+      "brand": "Samsung",
+      "key": "m66"
+    },
+    {
+      "model": "S32HG802SC",
+      "name": "三星 Odyssey G8 S32HG802SC",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "三星 Odyssey G8 S32HG802SC",
+        "detail": "〈2H1P1C/OLED/240Hz/HDR500/DP 2.1〉可升降旋轉, $27900 ◆",
+        "price": 27900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "4 代",
+      "generation_source": "https://www.samsung.com/tw/monitors/gaming/odyssey-oled-g8-g80sh-32-inch-4k-uhd-240hz-ls32hg802scxzw/",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 27900,
+      "official": "https://www.samsung.com/tw/monitors/gaming/odyssey-oled-g8-g80sh-32-inch-4k-uhd-240hz-ls32hg802scxzw/",
+      "brand": "Samsung",
+      "key": "m67"
+    },
+    {
+      "model": "MO32U2",
+      "name": "技嘉 MO32U2",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "技嘉 MO32U2",
+        "detail": "〈2H1P1C/OLED/240Hz/含喇叭/HDR400/HDMI 2.1〉, $18888 ◆",
+        "price": 18888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [
+        "R28"
+      ],
+      "notes": [
+        "巴哈開箱稱「第 4 代」；未找到原廠同型號的數字世代佐證，因此不採用該代數。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 18888,
+      "official": null,
+      "brand": "GIGABYTE",
+      "key": "m68"
+    },
+    {
+      "model": "MO32U24",
+      "name": "技嘉 MO32U24",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "技嘉 MO32U24",
+        "detail": "〈2H1P1C/OLED/240Hz/含喇叭/HDR500/HDMI 2.1〉可升降旋轉, $27900 ◆",
+        "price": 27900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【32型】技嘉 GIGABYTE MO32U24 QD-OLED 電競螢幕",
+          "price": 27900,
+          "url": "https://www.sinya.com.tw/prod/226453",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】技嘉 GIGABYTE MO32U24 QD-OLED 電競螢幕",
+        "price": 27900,
+        "url": "https://www.sinya.com.tw/prod/226453",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 27900,
+      "official": null,
+      "brand": "GIGABYTE",
+      "key": "m69"
+    },
+    {
+      "model": "FO32U2",
+      "name": "技嘉 AORUS FO32U2",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "技嘉 AORUS FO32U2",
+        "detail": "〈2H1P1C/OLED/240Hz/含喇叭/HDR400/HDMI 2.1〉, $25900 ◆",
+        "price": 25900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【32型】 AORUS FO32U2 QD-OLED 電競螢幕 (DP/HDMI/Type-C/QD-OLED/4K/0.03ms/240Hz/HDR400/99% DCI-P3/△E ≤ 2/FreeSync Premium Pro/KVM/黑平衡技術/萊因2.0認證/可升降/可旋轉/內建喇叭/登錄三年保固)",
+          "price": 26900,
+          "url": "https://www.sinya.com.tw/prod/201164",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [
+        "R29"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】 AORUS FO32U2 QD-OLED 電競螢幕 (DP/HDMI/Type-C/QD-OLED/4K/0.03ms/240Hz/HDR400/99% DCI-P3/△E ≤ 2/FreeSync Premium Pro/KVM/黑平衡技術/萊因2.0認證/可升降/可旋轉/內建喇叭/登錄三年保固)",
+        "price": 26900,
+        "url": "https://www.sinya.com.tw/prod/201164",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 25900,
+      "official": "https://www.gigabyte.com/tw/Monitor/AORUS-FO32U2#kf",
+      "brand": "GIGABYTE",
+      "key": "m70"
+    },
+    {
+      "model": "XG32UCWG",
+      "name": "華碩 ROG Strix XG32UCWG",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 165,
+      "coolpc": {
+        "name": "華碩 ROG Strix XG32UCWG",
+        "detail": "〈2H1P1C/OLED/HDR400/HDMI 2.1〉4K-165Hz/FHD-330Hz一鍵切換, $19888 ◆",
+        "price": 19888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【32型】華碩 ROG Strix OLED XG32UCWG 電競螢幕 (DP/HDMI/Type-C/WOLED/4K/0.03ms/165Hz(FHD320Hz)/FreeSync Premium/G-Sync/HDR400/DELTA E < 2/Neo 近接感測器/可升降/無喇叭/三年保固)",
+          "price": 19888,
+          "url": "https://www.sinya.com.tw/prod/215304",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [
+        "R06"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "WOLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】華碩 ROG Strix OLED XG32UCWG 電競螢幕 (DP/HDMI/Type-C/WOLED/4K/0.03ms/165Hz(FHD320Hz)/FreeSync Premium/G-Sync/HDR400/DELTA E < 2/Neo 近接感測器/可升降/無喇叭/三年保固)",
+        "price": 19888,
+        "url": "https://www.sinya.com.tw/prod/215304",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 19888,
+      "official": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-oled-xg32ucwg/",
+      "dual": "FHD 330Hz",
+      "brand": "ASUS",
+      "key": "m71"
+    },
+    {
+      "model": "XG32UCWMG",
+      "name": "華碩 ROG Strix XG32UCWMG",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "華碩 ROG Strix XG32UCWMG",
+        "detail": "〈2H1P1C/OLED/HDR400/HDMI 2.1〉4K-240Hz/FHD-480Hz一鍵切換, $22618 ◆",
+        "price": 22618,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【32型】華碩 ROG Strix OLED XG32UCWMG 電競螢幕",
+          "price": 22618,
+          "url": "https://www.sinya.com.tw/prod/222187",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://www.rtings.com/monitor/reviews/asus/rog-strix-oled-xg32ucwmg",
+      "reviews": [
+        "R19",
+        "R24"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "WOLED",
+      "gen_status": "獨立實測",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】華碩 ROG Strix OLED XG32UCWMG 電競螢幕",
+        "price": 22618,
+        "url": "https://www.sinya.com.tw/prod/222187",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 22618,
+      "official": "https://www.rtings.com/monitor/reviews/asus/rog-strix-oled-xg32ucwmg",
+      "dual": "FHD 480Hz",
+      "brand": "ASUS",
+      "key": "m72"
+    },
+    {
+      "model": "XG32UQDMS",
+      "name": "華碩 ROG Strix XG32UQDMS",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "華碩 ROG Strix XG32UQDMS",
+        "detail": "〈2H1P/OLED/240Hz/HDR400/HDMI 2.1〉, $19888 ◆",
+        "price": 19888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【極致桌面升級組】【32型】華碩ROG Strix OLED XG32UQDMS 電競螢幕 (DP/HDMI/QD-OLED/4K/240Hz/0.03ms/G-Sync/DisplayHDR 400/可升降可旋轉/3年保固)+ Raymii 瑞米 LS-128-P1 氣壓式螢幕支架",
+          "price": 19999,
+          "url": "https://www.sinya.com.tw/prod/229102",
+          "bundle": true,
+          "status": "可加入購物車"
+        },
+        {
+          "name": "【32型】華碩ROG Strix OLED XG32UQDMS 電競螢幕 (DP/HDMI/QD-OLED/4K/240Hz/0.03ms/G-Sync/DisplayHDR 400/可升降可旋轉/3年保固)",
+          "price": 19888,
+          "url": "https://www.sinya.com.tw/prod/225883",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://rog.asus.com/tw/support/faq/1056847/",
+      "reviews": [
+        "R13",
+        "R25"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】華碩ROG Strix OLED XG32UQDMS 電競螢幕 (DP/HDMI/QD-OLED/4K/240Hz/0.03ms/G-Sync/DisplayHDR 400/可升降可旋轉/3年保固)",
+        "price": 19888,
+        "url": "https://www.sinya.com.tw/prod/225883",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 19888,
+      "official": "https://rog.asus.com/tw/support/faq/1056847/",
+      "brand": "ASUS",
+      "key": "m73"
+    },
+    {
+      "model": "XG32UQDS",
+      "name": "華碩 ROG Strix XG32UQDS",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 180,
+      "coolpc": {
+        "name": "華碩 ROG Strix XG32UQDS",
+        "detail": "〈2H1P/QD-OLED/180Hz/HDR10〉支援PIP / PBP 可升降, $23900 ◆",
+        "price": 23900,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "3 代",
+      "generation_source": "https://rog.asus.com/monitors/27-to-31-5-inches/rog-strix-oled-xg32uqds/",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 23900,
+      "official": "https://rog.asus.com/monitors/27-to-31-5-inches/rog-strix-oled-xg32uqds/",
+      "brand": "ASUS",
+      "key": "m74"
+    },
+    {
+      "model": "XG32UQWMS",
+      "name": "華碩 ROG Strix XG32UQWMS",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "華碩 ROG Strix XG32UQWMS",
+        "detail": "〈2H1P/WOLED/240Hz/HDR500〉4K-240Hz/FHD-480Hz一鍵切換, $29888 ◆",
+        "price": 29888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "4 代（結構對照）",
+      "generation_source": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-oled-xg32uqwms/",
+      "reviews": [],
+      "notes": [
+        "官網明示四層 Tandem WOLED；依 LG Display 的四代四層架構對照，數字屬本表分類推定，非產品頁直接列代數。"
+      ],
+      "curved": false,
+      "panel": "Tandem WOLED",
+      "gen_status": "架構推定",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 29888,
+      "official": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-oled-xg32uqwms/",
+      "dual": "FHD 480Hz",
+      "brand": "ASUS",
+      "key": "m75"
+    },
+    {
+      "model": "PG32UCDM3",
+      "name": "華碩 ROG Swift PG32UCDM3",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "華碩 ROG Swift PG32UCDM3",
+        "detail": "〈2H1P1C/OLED/240Hz/HDR500/DP 2.1〉, $29888 ◆",
+        "price": 29888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [
+        {
+          "name": "【32型】ASUS ROG Swift OLED PG32UCDM3 電競螢幕",
+          "price": 29888,
+          "url": "https://www.sinya.com.tw/prod/226805",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "4 代",
+      "generation_source": "https://rog.asus.com/tw/support/faq/1056847/",
+      "reviews": [
+        "R04",
+        "R05"
+      ],
+      "notes": [
+        "型號尾數 3 是產品版本，官方面板世代為 4 代。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】ASUS ROG Swift OLED PG32UCDM3 電競螢幕",
+        "price": 29888,
+        "url": "https://www.sinya.com.tw/prod/226805",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 29888,
+      "official": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdm-gen3-pg32ucdm3/spec/?utm_source=chatgpt.com",
+      "brand": "ASUS",
+      "key": "m76"
+    },
+    {
+      "model": "PG32UCWM",
+      "name": "華碩 ROG Swift PG32UCWM",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "華碩 ROG Swift PG32UCWM",
+        "detail": "〈2H1P1C/WOLED/240Hz/HDR400〉4K-240Hz/FHD-480Hz, $37888 ◆",
+        "price": 37888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "2026 RGB Stripe；未公布代數",
+      "generation_source": "https://press.asus.com/news/press-releases/rog-swift-oled-pg27ucwm-pg32ucwm",
+      "reviews": [],
+      "notes": [
+        "移除白色子像素的 RGB Stripe；與 4 代 RGBW Tandem WOLED 分開看，不自行稱為第 5 代。"
+      ],
+      "curved": false,
+      "panel": "Tandem RGB OLED",
+      "gen_status": "新架構／無數字",
+      "professional": false,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 37888,
+      "official": "https://press.asus.com/news/press-releases/rog-swift-oled-pg27ucwm-pg32ucwm",
+      "dual": "FHD 480Hz",
+      "brand": "ASUS",
+      "key": "m77"
+    },
+    {
+      "model": "PA329CDV",
+      "name": "華碩 ProArt PA329CDV",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 120,
+      "coolpc": {
+        "name": "華碩 ProArt PA329CDV",
+        "detail": "〈1H2P1C/OLED/120Hz/含喇叭/KVM/HDR10〉可升降旋轉, $29888 ◆",
+        "price": 29888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [
+        "創作者／專業用途；價格包含不同定位的工作流程功能，不以遊戲性價比優先推薦。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": true,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 29888,
+      "official": null,
+      "brand": "ASUS",
+      "key": "m78"
+    },
+    {
+      "model": "PA32USD",
+      "name": "華碩 ProArt PA32USD",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": {
+        "name": "華碩 ProArt PA32USD",
+        "detail": "〈2H1P1TB4/OLED/240Hz/HDR400/Thunderbolt 4〉可升降旋轉, $86888 ◆",
+        "price": 86888,
+        "url": "https://coolpc.com.tw/evaluate.php",
+        "status": "估價單列售；現貨需詢問"
+      },
+      "sinya": [],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [
+        "創作者／專業用途；價格包含不同定位的工作流程功能，不以遊戲性價比優先推薦。"
+      ],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": true,
+      "sinya_best": null,
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 86888,
+      "official": null,
+      "brand": "ASUS",
+      "key": "m79"
+    },
+    {
+      "model": "Q27G4SD",
+      "name": "AOC Q27G4SD",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 360,
+      "coolpc": null,
+      "sinya": [
+        {
+          "name": "【27型】AOC Q27G4SD 電競螢幕",
+          "price": 18888,
+          "url": "https://www.sinya.com.tw/prod/224592",
+          "bundle": false,
+          "status": "可加入購物車"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】AOC Q27G4SD 電競螢幕",
+        "price": 18888,
+        "url": "https://www.sinya.com.tw/prod/224592",
+        "bundle": false,
+        "status": "可加入購物車"
+      },
+      "available": true,
+      "availability": "有列售／下單入口",
+      "min_price": 18888,
+      "official": "https://saas.aoc.com/index/product/?id=1410&preview=1",
+      "brand": "AOC",
+      "key": "m80"
+    },
+    {
+      "model": "Q27G4ZD",
+      "name": "AOC Q27G4ZD",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 280,
+      "coolpc": null,
+      "sinya": [
+        {
+          "name": "【27型】AOC Q27G4ZD 電競螢幕 (DP/HDMI/QD-OLED/2K/0.03ms/280Hz/Adaptive Sync/HDR400/無喇叭/三年保固)",
+          "price": 13888,
+          "url": "https://www.sinya.com.tw/prod/219165",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://www.aoc.com/ie/gaming/blog/aoc-gaming-q27g4zd-3rd-gen-qd-oled-at-a-new-sweet-spot",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】AOC Q27G4ZD 電競螢幕 (DP/HDMI/QD-OLED/2K/0.03ms/280Hz/Adaptive Sync/HDR400/無喇叭/三年保固)",
+        "price": 13888,
+        "url": "https://www.sinya.com.tw/prod/219165",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": false,
+      "availability": "僅補貨中",
+      "min_price": null,
+      "official": "https://www.aoc.com/ie/gaming/blog/aoc-gaming-q27g4zd-3rd-gen-qd-oled-at-a-new-sweet-spot",
+      "brand": "AOC",
+      "key": "m81"
+    },
+    {
+      "model": "PG32UCDMR",
+      "name": "華碩 ROG Swift OLED PG32UCDMR",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": null,
+      "sinya": [
+        {
+          "name": "【32型】華碩 ROG Swift OLED PG32UCDMR 電競螢幕 (DP2.1 UHBR20/HDMI/Type-C(90W)/QD-OLED/4K/0.03ms/240Hz/FreeSync Premium Pro/G-SYNC/HDR400/DELTA E < 2/KVM/ROG 燈光投影/可升降/無喇叭/三年保固)",
+          "price": 29888,
+          "url": "https://www.sinya.com.tw/prod/215010",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://rog.asus.com/tw/support/faq/1056847/",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】華碩 ROG Swift OLED PG32UCDMR 電競螢幕 (DP2.1 UHBR20/HDMI/Type-C(90W)/QD-OLED/4K/0.03ms/240Hz/FreeSync Premium Pro/G-SYNC/HDR400/DELTA E < 2/KVM/ROG 燈光投影/可升降/無喇叭/三年保固)",
+        "price": 29888,
+        "url": "https://www.sinya.com.tw/prod/215010",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": false,
+      "availability": "僅補貨中",
+      "min_price": null,
+      "official": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdmr/",
+      "brand": "ASUS",
+      "key": "m82"
+    },
+    {
+      "model": "MAG 272QPW QD-OLED X28",
+      "name": "MSI MAG 272QPW QD-OLED X28 白色",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 280,
+      "coolpc": null,
+      "sinya": [
+        {
+          "name": "【27型】MSI MAG 272QPW QD-OLED X28 白色 電競螢幕 (DP/HDMI/Type-C/QD-OLED/2K/0.03ms/280Hz/Adaptive Sync/HDR BLACK 400/AI VISION/可升降/可旋轉/無喇叭/三年保固)",
+          "price": 12121,
+          "url": "https://www.sinya.com.tw/prod/213420",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [
+        "R23"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】MSI MAG 272QPW QD-OLED X28 白色 電競螢幕 (DP/HDMI/Type-C/QD-OLED/2K/0.03ms/280Hz/Adaptive Sync/HDR BLACK 400/AI VISION/可升降/可旋轉/無喇叭/三年保固)",
+        "price": 12121,
+        "url": "https://www.sinya.com.tw/prod/213420",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": false,
+      "availability": "僅補貨中",
+      "min_price": null,
+      "official": "https://tw.msi.com/Monitor/MAG-272QPW-QD-OLED-X28",
+      "brand": "MSI",
+      "key": "m83"
+    },
+    {
+      "model": "PG27AQDP",
+      "name": "華碩 ROG Swift OLED PG27AQDP",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 480,
+      "coolpc": null,
+      "sinya": [
+        {
+          "name": "【27型】華碩 ROG Swift OLED PG27AQDP 電競螢幕 (DP/HDMI/WOLED/2K/0.03ms/480Hz/FreeSync Premium/G-SYNC/HDR400/DELTA E < 2/ROG 燈光投影/可升降/可旋轉/無喇叭/三年保固)",
+          "price": 24888,
+          "url": "https://www.sinya.com.tw/prod/212835",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://rog.asus.com/us/monitors/27-to-31-5-inches/rog-swift-oled-pg27aqdp/",
+      "reviews": [
+        "R14"
+      ],
+      "notes": [
+        "官方使用「第三代 ROG OLED」稱法；本表同時保留品牌命名背景。"
+      ],
+      "curved": false,
+      "panel": "WOLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】華碩 ROG Swift OLED PG27AQDP 電競螢幕 (DP/HDMI/WOLED/2K/0.03ms/480Hz/FreeSync Premium/G-SYNC/HDR400/DELTA E < 2/ROG 燈光投影/可升降/可旋轉/無喇叭/三年保固)",
+        "price": 24888,
+        "url": "https://www.sinya.com.tw/prod/212835",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": false,
+      "availability": "僅補貨中",
+      "min_price": null,
+      "official": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-swift-oled-pg27aqdp/",
+      "brand": "ASUS",
+      "key": "m84"
+    },
+    {
+      "model": "AW3225QF",
+      "name": "DELL Alienware AW3225QF-3Y QD-OLED",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": null,
+      "sinya": [
+        {
+          "name": "【32型】DELL Alienware AW3225QF-3Y QD-OLED 電競螢幕 (DP/HDMI/Type-C/QD-OLED/曲面/4K/0.03ms/240Hz/HDR400/G-SYNC/FreeSync Premium Pro/99% DCI-P3/TÜV護眼認證/可升降/無喇叭/三年保固)",
+          "price": 33888,
+          "url": "https://www.sinya.com.tw/prod/212381",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [
+        "R11"
+      ],
+      "notes": [
+        "曲面；完整收錄，但不列為平面雙螢幕配置的優先建議。"
+      ],
+      "curved": true,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】DELL Alienware AW3225QF-3Y QD-OLED 電競螢幕 (DP/HDMI/Type-C/QD-OLED/曲面/4K/0.03ms/240Hz/HDR400/G-SYNC/FreeSync Premium Pro/99% DCI-P3/TÜV護眼認證/可升降/無喇叭/三年保固)",
+        "price": 33888,
+        "url": "https://www.sinya.com.tw/prod/212381",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": false,
+      "availability": "僅補貨中",
+      "min_price": null,
+      "official": "https://www.dell.com/zh-tw/shop/alienware-32-4k-qd-oled-%E9%81%8A%E6%88%B2%E5%B0%88%E7%94%A8%E9%A1%AF%E7%A4%BA%E5%99%A8-aw3225qf/apd/210-blnz/%E9%A1%AF%E7%A4%BA%E5%99%A8%E5%92%8C%E9%A1%AF%E7%A4%BA%E5%99%A8%E9%85%8D%E4%BB%B6",
+      "brand": "DELL",
+      "key": "m85"
+    },
+    {
+      "model": "PG32UCDP",
+      "name": "華碩 ROG Swift OLED PG32UCDP",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": null,
+      "sinya": [
+        {
+          "name": "【32型】華碩 ROG Swift OLED PG32UCDP 電競螢幕 (DP/HDMI/Type-C(90W)/QD-OLED/4K/0.03ms/240Hz(FHD 480Hz)/FreeSync Premium Pro/G-SYNC/HDR400/DELTA E < 2/KVM/雙模切換/ROG 燈光投影/可升降/無喇叭/三年保固)",
+          "price": 31111,
+          "url": "https://www.sinya.com.tw/prod/212259",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://rog.asus.com/us/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdp/",
+      "reviews": [
+        "R12"
+      ],
+      "notes": [
+        "官方使用「第三代 ROG OLED」稱法；本表同時保留品牌命名背景。",
+        "部分通路標題誤寫 QD-OLED；原廠確認為 WOLED。"
+      ],
+      "curved": false,
+      "panel": "WOLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】華碩 ROG Swift OLED PG32UCDP 電競螢幕 (DP/HDMI/Type-C(90W)/QD-OLED/4K/0.03ms/240Hz(FHD 480Hz)/FreeSync Premium Pro/G-SYNC/HDR400/DELTA E < 2/KVM/雙模切換/ROG 燈光投影/可升降/無喇叭/三年保固)",
+        "price": 31111,
+        "url": "https://www.sinya.com.tw/prod/212259",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": false,
+      "availability": "僅補貨中",
+      "min_price": null,
+      "official": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdp/",
+      "dual": "FHD 480Hz",
+      "brand": "ASUS",
+      "key": "m86"
+    },
+    {
+      "model": "S27FG812SC",
+      "name": "三星 Odyssey G8 S27FG812SC QD-OLED",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": null,
+      "sinya": [
+        {
+          "name": "【27型】三星 Odyssey G8 S27FG812SC QD-OLED 電競螢幕 (DP/HDMI/USB/QD-OLED/4K/0.03ms/240Hz/HDR400/FreeSync Premium Pro/抗眩光真霧面面板/可升降/可旋轉/無喇叭/三年保固)",
+          "price": 32900,
+          "url": "https://www.sinya.com.tw/prod/210615",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】三星 Odyssey G8 S27FG812SC QD-OLED 電競螢幕 (DP/HDMI/USB/QD-OLED/4K/0.03ms/240Hz/HDR400/FreeSync Premium Pro/抗眩光真霧面面板/可升降/可旋轉/無喇叭/三年保固)",
+        "price": 32900,
+        "url": "https://www.sinya.com.tw/prod/210615",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": false,
+      "availability": "僅補貨中",
+      "min_price": null,
+      "official": null,
+      "brand": "Samsung",
+      "key": "m87"
+    },
+    {
+      "model": "AG276QZD2",
+      "name": "AOC AGON PRO AG276QZD2 QD-OLED",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 240,
+      "coolpc": null,
+      "sinya": [
+        {
+          "name": "【27型】AOC AGON PRO AG276QZD2 QD-OLED 電競螢幕 (DP/HDMI/QD-OLED/2K/0.03ms/240Hz/Adaptive Sync/HDR400/sRGB 100%/Delta E < 2/可升降/可旋轉/內建喇叭/三年保固)",
+          "price": 16999,
+          "url": "https://www.sinya.com.tw/prod/210396",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://tftcentral.co.uk/reviews/aoc-agon-pro-ag276qzd2",
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "獨立實測",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】AOC AGON PRO AG276QZD2 QD-OLED 電競螢幕 (DP/HDMI/QD-OLED/2K/0.03ms/240Hz/Adaptive Sync/HDR400/sRGB 100%/Delta E < 2/可升降/可旋轉/內建喇叭/三年保固)",
+        "price": 16999,
+        "url": "https://www.sinya.com.tw/prod/210396",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": false,
+      "availability": "僅補貨中",
+      "min_price": null,
+      "official": "https://tw.aoc.com/product/AG276QZD2",
+      "brand": "AOC",
+      "key": "m88"
+    },
+    {
+      "model": "32GS95UV-B",
+      "name": "LG UltraGear 32GS95UV-B",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": null,
+      "sinya": [
+        {
+          "name": "【32型】LG UltraGear 32GS95UV-B 電競螢幕(DP/HDMI/OLED/4k/0.03ms/240Hz(FHD480Hz)/G-SYNC/FreeSync Premium Pro/HDR400/可升降/可旋轉/內建喇叭/2年保固)",
+          "price": 34990,
+          "url": "https://www.sinya.com.tw/prod/207158",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "WOLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】LG UltraGear 32GS95UV-B 電競螢幕(DP/HDMI/OLED/4k/0.03ms/240Hz(FHD480Hz)/G-SYNC/FreeSync Premium Pro/HDR400/可升降/可旋轉/內建喇叭/2年保固)",
+        "price": 34990,
+        "url": "https://www.sinya.com.tw/prod/207158",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": false,
+      "availability": "僅補貨中",
+      "min_price": null,
+      "official": "https://www.lg.com/tw/monitors/ultragear-gaming/32gs95uv-b/?sortCriteria=%40ec_pdp_view_count+descending",
+      "dual": "FHD 480Hz",
+      "brand": "LG",
+      "key": "m89"
+    },
+    {
+      "model": "PA27DCE-K",
+      "name": "華碩 ProArt PA27DCE-K",
+      "size": 27,
+      "resolution": "4K",
+      "hz": 60,
+      "coolpc": null,
+      "sinya": [
+        {
+          "name": "【27型】華碩 ProArt PA27DCE-K 專業螢幕 (DP/HDMI/Type-C(80W)/OLED/4K/0.1ms/60Hz/HDR 500/100% sRGB/ΔE < 1/菊鏈串接/遮光罩/可升降/可旋轉/內建喇叭/二年保固)",
+          "price": 47970,
+          "url": "https://www.sinya.com.tw/prod/207151",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "不適用 QD／WOLED 代數",
+      "generation_source": "https://www.asus.com/tw/displays-desktops/monitors/proart/proart-display-oled-pa27dce-k/",
+      "reviews": [],
+      "notes": [
+        "創作者／專業用途；價格包含不同定位的工作流程功能，不以遊戲性價比優先推薦。"
+      ],
+      "curved": false,
+      "panel": "RGB OLED",
+      "gen_status": "其他架構",
+      "professional": true,
+      "sinya_best": {
+        "name": "【27型】華碩 ProArt PA27DCE-K 專業螢幕 (DP/HDMI/Type-C(80W)/OLED/4K/0.1ms/60Hz/HDR 500/100% sRGB/ΔE < 1/菊鏈串接/遮光罩/可升降/可旋轉/內建喇叭/二年保固)",
+        "price": 47970,
+        "url": "https://www.sinya.com.tw/prod/207151",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": false,
+      "availability": "僅補貨中",
+      "min_price": null,
+      "official": null,
+      "brand": "ASUS",
+      "key": "m90"
+    },
+    {
+      "model": "MAG 321CUP QD-OLED",
+      "name": "MSI MAG 321CUP QD-OLED",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 165,
+      "coolpc": null,
+      "sinya": [
+        {
+          "name": "【32型】MSI MAG 321CUP QD-OLED 電競螢幕 (DP/HDMI/Type-C/QD-OLED/曲面/4K/0.03ms/165Hz/Adaptive-Sync/HDR BLACK 400/無喇叭/三年保固)",
+          "price": 19900,
+          "url": "https://www.sinya.com.tw/prod/207029",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "3 代",
+      "generation_source": "https://www.msi.com/blog/the-evolution-of-immersion-decoding-the-5th-gen-qd-oled-revolution-with-msi",
+      "reviews": [],
+      "notes": [
+        "曲面；完整收錄，但不列為平面雙螢幕配置的優先建議。"
+      ],
+      "curved": true,
+      "panel": "QD-OLED",
+      "gen_status": "官方明示",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】MSI MAG 321CUP QD-OLED 電競螢幕 (DP/HDMI/Type-C/QD-OLED/曲面/4K/0.03ms/165Hz/Adaptive-Sync/HDR BLACK 400/無喇叭/三年保固)",
+        "price": 19900,
+        "url": "https://www.sinya.com.tw/prod/207029",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": false,
+      "availability": "僅補貨中",
+      "min_price": null,
+      "official": "https://tw.msi.com/Monitor/MAG-321CUP-QD-OLED/Overview",
+      "brand": "MSI",
+      "key": "m91"
+    },
+    {
+      "model": "S32DG802SC",
+      "name": "三星 Odyssey G8 S32DG802SC QD-OLED",
+      "size": 32,
+      "resolution": "4K",
+      "hz": 240,
+      "coolpc": null,
+      "sinya": [
+        {
+          "name": "【32型】三星 Odyssey G8 S32DG802SC QD-OLED 電競螢幕 (DP/HDMI/QD-OLED/4K/0.03ms/240Hz/HDR10/FreeSync Premium Pro/抗眩光/可升降/可旋轉/內建喇叭/三年保固)",
+          "price": 36900,
+          "url": "https://www.sinya.com.tw/prod/200582",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [],
+      "notes": [],
+      "curved": false,
+      "panel": "QD-OLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【32型】三星 Odyssey G8 S32DG802SC QD-OLED 電競螢幕 (DP/HDMI/QD-OLED/4K/0.03ms/240Hz/HDR10/FreeSync Premium Pro/抗眩光/可升降/可旋轉/內建喇叭/三年保固)",
+        "price": 36900,
+        "url": "https://www.sinya.com.tw/prod/200582",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": false,
+      "availability": "僅補貨中",
+      "min_price": null,
+      "official": "https://www.samsung.com/tw/monitors/gaming/odyssey-oled-g8-g80sd-32-inch-240hz-oled-uhd-ls32dg802scxzw/",
+      "brand": "Samsung",
+      "key": "m92"
+    },
+    {
+      "model": "X27U",
+      "name": "Acer Predator X27U",
+      "size": 27,
+      "resolution": "QHD",
+      "hz": 240,
+      "coolpc": null,
+      "sinya": [
+        {
+          "name": "【27型】Acer Predator X27U電競螢幕(DP/HDMI/Type-C(90W)/OLED/2K/0.01ms/240Hz/HDR10/FreeSync/內建喇叭)",
+          "price": 16999,
+          "url": "https://www.sinya.com.tw/prod/188921",
+          "bundle": false,
+          "status": "補貨中"
+        }
+      ],
+      "generation": "未核實",
+      "generation_source": null,
+      "reviews": [
+        "R34"
+      ],
+      "notes": [],
+      "curved": false,
+      "panel": "WOLED",
+      "gen_status": "未核實",
+      "professional": false,
+      "sinya_best": {
+        "name": "【27型】Acer Predator X27U電競螢幕(DP/HDMI/Type-C(90W)/OLED/2K/0.01ms/240Hz/HDR10/FreeSync/內建喇叭)",
+        "price": 16999,
+        "url": "https://www.sinya.com.tw/prod/188921",
+        "bundle": false,
+        "status": "補貨中"
+      },
+      "available": false,
+      "availability": "僅補貨中",
+      "min_price": null,
+      "official": null,
+      "brand": "Acer",
+      "key": "m93"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "R01",
+      "models": [
+        "PG27UCWM"
+      ],
+      "title": "PG27UCWM 和 PG27UCDM 簡單比較",
+      "date": "2026-08-15；08-17 補充",
+      "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1786733257.A.D18.html",
+      "kind": "開箱／問題",
+      "summary": "同時持有兩台的作者認為 UCWM 黑底較不受室內光線影響；也回報鏡面反射、白畫面斜視色偏與短暫殘影。",
+      "limit": "約一天心得；短暫殘影不等於永久烙印。文內對 32 吋的擔憂不是 PG32UCWM 的實測。"
+    },
+    {
+      "id": "R02",
+      "models": [
+        "MPG 272URX QD-OLED"
+      ],
+      "title": "簡單開箱 MPG 272URX QD-OLED",
+      "date": "2025-05-01",
+      "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1746100531.A.E5F.html",
+      "kind": "開箱",
+      "summary": "以桌面空間為由選 27 吋 4K；有安裝與外觀紀錄。另有 05-03 問題後續，應一起閱讀。",
+      "limit": "短期個人經驗，不能代表故障率或長期耐用度。"
+    },
+    {
+      "id": "R03",
+      "models": [
+        "MPG 272URX QD-OLED"
+      ],
+      "title": "Re: 簡單開箱 MPG 272URX：疑似氣泡",
+      "date": "2025-05-03；留言更新至 05-16",
+      "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1746241468.A.021.html",
+      "kind": "問題／後續",
+      "summary": "作者回報約一週後出現兩個圓點，送檢；另一位同型號留言者 05-16 回報自己的案例實為髒污。",
+      "limit": "原作者最終判定未見；不能把另一人的髒污結案套用至原作者，也不能把所有圓點都判作鍍膜脫落。"
+    },
+    {
+      "id": "R04",
+      "models": [
+        "MPG 272URX QD-OLED",
+        "PG32UCDM3",
+        "MAG 272UP QD-OLED X24"
+      ],
+      "title": "提醒，第四代 QD-OLED 有鍍膜掉落的情形",
+      "date": "2026-05-11；更新至 10-08",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=683499",
+      "kind": "問題／售後",
+      "summary": "串內有 272URX、PG32UCDM3 使用者的表面異常回報；PG32UCDM3 樓層稱送修未獲保固，9 月再回報範圍擴大。",
+      "limit": "首樓只寫 MAG 272UP，未明示 X24 尾碼，故 X24 僅列相關串；包含展示品與不同使用情況，無法計算四代故障率，保固結果是個案陳述。"
+    },
+    {
+      "id": "R05",
+      "models": [
+        "PG32UCDM3"
+      ],
+      "title": "PG32UCDM3 鍍膜異常與送修回覆",
+      "date": "2026-08-07；09-22 後續",
+      "url": "https://forum.gamer.com.tw/Co.php?bsn=60030&sn=2558593",
+      "kind": "問題／售後",
+      "summary": "使用者稱 7 月購入、8 月發現表面異常；表示使用隨附布與清水清潔後發生，送修未獲保固。",
+      "limit": "同上串的單一案例，不重複計為獨立事件；原因與保固規則未經原廠獨立確認。"
+    },
+    {
+      "id": "R06",
+      "models": [
+        "XG32UCWG"
+      ],
+      "title": "XG32UCWG 烙印：已更新結案",
+      "date": "2026-02-28；03-02 更新、09-13 追蹤",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=681422",
+      "kind": "已改善",
+      "summary": "作者原先懷疑烙印與計時異常，更新 104 韌體、清理與休息後表示恢復，9 月再次表示正常。",
+      "limit": "應歸為可恢復殘影／韌體相關個案，不列為已證實永久烙印。作者對背景持續燒屏的原因推測未獲證實。"
+    },
+    {
+      "id": "R07",
+      "models": [
+        "XG27AQWMG"
+      ],
+      "title": "ROG Strix OLED XG27AQWMG 的關箱心得",
+      "date": "2026-09-13 編輯",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=686571",
+      "kind": "問題／退貨中",
+      "summary": "作者回報暗場 VRR 閃爍與反覆橫向細線；像素清理可暫時消除，隔日又出現。記錄 78 小時、33 次清理，準備退貨。",
+      "limit": "未見最終退貨／維修判定；橫線不能直接等同永久烙印，VRR 閃爍也未證明面板故障。"
+    },
+    {
+      "id": "R08",
+      "models": [
+        "PG27AQWP-W"
+      ],
+      "title": "3 萬元螢幕送修 3 次，換新後面板歪斜",
+      "date": "2026-02-12 編輯",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=680540",
+      "kind": "問題／售後",
+      "summary": "回報閃爍、黑屏、反覆送修；作者稱 2/10 換新後仍有面板組裝歪斜，後續暫留使用。",
+      "limit": "使用者提供照片與維修過程；屬單一持有者經驗，不能外推整個型號。"
+    },
+    {
+      "id": "R09",
+      "models": [
+        "PG27AQWP-W"
+      ],
+      "title": "PG27AQWP-W 瑕疵與跨國維修經驗",
+      "date": "2026-08-30",
+      "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1788067580.A.792.html",
+      "kind": "問題／售後",
+      "summary": "作者兩台同型號均回報紅白線異常；台灣購入的第一台送回台灣維修，日本當地未承接。",
+      "limit": "巴哈轉貼屬同一作者同一事件，不重複計數；跨國維修經驗不能當成台灣本地保固被拒。"
+    },
+    {
+      "id": "R10",
+      "models": [
+        "AW2725Q"
+      ],
+      "title": "AW2725Q 災情：無畫面與 OSD",
+      "date": "2025-07-08；07-10 更新",
+      "url": "https://www.ptt.cc/bbs/LCD/M.1751988595.A.9B6.html",
+      "kind": "問題／暫時恢復",
+      "summary": "作者回報指示燈亮但面板、OSD 均無畫面；07-10 表示斷電一晚後恢復。",
+      "limit": "韌體為作者猜測；未見該帖後續永久解決判定，不把早期案例當作現行批次一定仍有問題。"
+    },
+    {
+      "id": "R11",
+      "models": [
+        "AW3225QF"
+      ],
+      "title": "日亞 DELL AW3225QF 出保心得",
+      "date": "2026-04-17",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=682781",
+      "kind": "售後／已換機",
+      "summary": "2024 年購入，後來出現紅點；作者記錄 4/14 聯繫、4/15 工單通過、4/16 換機及回收舊機。",
+      "limit": "是一次成功售後案例；不同購入區域、序號與損壞原因仍須個別核對。"
+    },
+    {
+      "id": "R12",
+      "models": [
+        "PG32UCDP"
+      ],
+      "title": "ROG Swift PG32UCDP 回娘家（烙印）",
+      "date": "2026-03-06",
+      "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1772783851.A.6C3.html",
+      "kind": "問題／待判定",
+      "summary": "作者回報約 5,670 小時、每日文書及遊戲約 9 小時後的殘留與條紋，有照片及韌體 MCM106 記錄。",
+      "limit": "文中大段為 ChatGPT 的原因推測；本表不採信那些壽命、老化機理或面板批次結論，未見最終維修判定。"
+    },
+    {
+      "id": "R13",
+      "models": [
+        "XG32UQDMS"
+      ],
+      "title": "新買的螢幕切換訊號閃爍",
+      "date": "2026-06-25",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=684940",
+      "kind": "問題",
+      "summary": "使用兩天，在 PC 與 NS2 之間切換訊號偶發異常閃爍，需等待或斷電。",
+      "limit": "未見結案；「工程除錯模式」是文內 AI 猜測，非原廠診斷。"
+    },
+    {
+      "id": "R14",
+      "models": [
+        "PG27AQDP"
+      ],
+      "title": "PG27AQDP 快速閃爍後黑屏",
+      "date": "2025-08-02；09-11 更新",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=672421",
+      "kind": "問題／送修",
+      "summary": "先更換主板後仍偶發，作者交叉測試指出高於 240Hz 時可重現；9/11 稱維修人員依情境重現並更換零件。",
+      "limit": "該次更新時尚未收到修回機，後續最終正常與否未見；勿歸咎所有顯卡或所有高刷新 OLED。"
+    },
+    {
+      "id": "R15",
+      "models": [
+        "Q27G40ZDF"
+      ],
+      "title": "便宜 OLED AOC Q27G40ZDF",
+      "date": "2026-08-19",
+      "url": "https://www.ptt.cc/bbs/LCD/M.1787123057.A.E54.html",
+      "kind": "購入／轉引影片",
+      "summary": "作者確認購入，但主文主要分享兩支外部影片，具體長期使用心得有限。",
+      "limit": "不當成完整實測或可靠度證據。"
+    },
+    {
+      "id": "R16",
+      "models": [
+        "Q27G40ZDF"
+      ],
+      "title": "新增 Q27G40ZDF 後的雙螢幕閃爍除錯",
+      "date": "2026-10-22；10-23 更新",
+      "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1792639652.A.693.html",
+      "kind": "相容性",
+      "summary": "RTX 5080 搭 PG32UCDM 與 Q27G40ZDF 後，出現主螢幕間歇閃爍；作者改把副螢幕接內顯避開。",
+      "limit": "尚未定位是 Windows、驅動、線材或 DSC；不能判定 Q27G40ZDF 面板有故障。文中超低價為過去特殊事件，非本表售價。"
+    },
+    {
+      "id": "R17",
+      "models": [
+        "MO27Q28GR"
+      ],
+      "title": "技嘉 MO27Q28GR 簡單開箱",
+      "date": "2026-05-08",
+      "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1778255754.A.A89.html",
+      "kind": "開箱",
+      "summary": "實際購入與安裝紀錄；選鏡面版本體驗 OLED，留言討論灰階、VRR 與反射問題。",
+      "limit": "短期個人經驗，不能代表故障率或長期耐用度。"
+    },
+    {
+      "id": "R18",
+      "models": [
+        "MO27Q28G",
+        "MO27Q28GR"
+      ],
+      "title": "MO27Q28GR 與 MO27Q28G 鏡霧面對照",
+      "date": "2026-07-14",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=685551",
+      "kind": "比較",
+      "summary": "作者將兩台並排，偏好 GR 的文字清晰感與對比，同時提醒鏡面反射較明顯。",
+      "limit": "照片與肉眼感受，非儀器校正後的亮度／色準測試；疲勞感不能當成醫學結論。"
+    },
+    {
+      "id": "R19",
+      "models": [
+        "GO27Q24G",
+        "XG32UCWMG",
+        "MPG 321URX QD-OLED"
+      ],
+      "title": "GO27Q24G 入門 WOLED 的使用經驗",
+      "date": "2026-08-13",
+      "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1786555748.A.770.html",
+      "kind": "比較",
+      "summary": "作者曾使用多台 OLED，重視室內黑底、反射及 VRR 感受，轉向 WOLED；可作使用環境參考。",
+      "limit": "文內部分面板世代與型號寫法不一致，本表世代不引用其說法。"
+    },
+    {
+      "id": "R20",
+      "models": [
+        "MPG 321URX QD-OLED",
+        "MPG 322URX QD-OLED"
+      ],
+      "title": "321URX 及 322URX 個人使用情況",
+      "date": "2025-02-22",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=662241",
+      "kind": "活動心得",
+      "summary": "雙機持有者分享由 2K 升級的畫面細節與色彩感受。",
+      "limit": "作者明示參加 MSI 評測獎勵活動，須與獨立長測分開看。"
+    },
+    {
+      "id": "R21",
+      "models": [
+        "MAG 272QP QD-OLED X50"
+      ],
+      "title": "MAG272QP QD-OLED X50 開箱分享",
+      "date": "2025-12-29",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=679246",
+      "kind": "開箱",
+      "summary": "作者以 CS2、Apex、Valorant 為主，認為高刷操作流暢；也坦言並非所有遊戲都能跑滿 500fps。",
+      "limit": "短期個人經驗，不能代表故障率或長期耐用度。"
+    },
+    {
+      "id": "R22",
+      "models": [
+        "MAG 272QP QD-OLED X50"
+      ],
+      "title": "LCD 品質討論串中的 X50 留言個案",
+      "date": "2026-08-11 留言",
+      "url": "https://www.ptt.cc/bbs/LCD/M.1785393271.A.A62.html",
+      "kind": "留言／已換機",
+      "summary": "留言者稱 X50 使用兩個月後特定灰階出現垂直白虛線，保內換新。",
+      "limit": "主文其實是 MAG274QRF QD 液晶螢幕，不是 OLED！本表只引用明確寫出 X50 的留言，不將整串當 OLED 災情。"
+    },
+    {
+      "id": "R23",
+      "models": [
+        "MAG 272QPW QD-OLED X28"
+      ],
+      "title": "MAG 272QPW QD-OLED X28 開箱",
+      "date": "2025-11-17",
+      "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1763340369.A.6E5.html",
+      "kind": "開箱",
+      "summary": "白色機型的購入、組裝與畫面紀錄；可看外觀及日常使用感受。",
+      "limit": "短期個人經驗，不能代表故障率或長期耐用度。"
+    },
+    {
+      "id": "R24",
+      "models": [
+        "XG32UCWMG"
+      ],
+      "title": "日常 XG32UCWMG／U3223QE 上下雙螢幕",
+      "date": "2025-12-06",
+      "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1765005825.A.F00.html",
+      "kind": "使用配置",
+      "summary": "分享 OLED 搭配既有 IPS 的雙螢幕配置，對這次把 XG27AQMR 留作副螢幕有參考價值。",
+      "limit": "短期個人經驗，不能代表故障率或長期耐用度。"
+    },
+    {
+      "id": "R25",
+      "models": [
+        "XG32UQDMS"
+      ],
+      "title": "XG32UQDMS 不轉也開箱",
+      "date": "2026-06-03",
+      "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1780488664.A.51E.html",
+      "kind": "開箱",
+      "summary": "有配件、腳架、背面與實際裝機照片，適合確認桌面空間與接口位置。",
+      "limit": "短期個人經驗，不能代表故障率或長期耐用度。"
+    },
+    {
+      "id": "R26",
+      "models": [
+        "X32 X2"
+      ],
+      "title": "家機及 PC 雙棲 Acer X32 X2",
+      "date": "2026-07-31",
+      "url": "https://www.ptt.cc/bbs/LCD/M.1785464590.A.6FC.html",
+      "kind": "開箱",
+      "summary": "作者看重價格、背向接口好插拔及內建喇叭；喇叭評價偏基本，適合測試或臨時使用。",
+      "limit": "本表不把文中未附原廠依據的世代解說當作已核實規格。"
+    },
+    {
+      "id": "R27",
+      "models": [
+        "MO27U2"
+      ],
+      "title": "技嘉 MO27U2 27 吋 4K OLED 體驗",
+      "date": "2025-07-23",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=671898",
+      "kind": "借測",
+      "summary": "作者肯定 4K 細節與 HDR、指出亮室黑底偏紫；有和既有螢幕比較。",
+      "limit": "明示活動借測且測後歸還，不是長期自費持有；文中光學原因推測不納為技術結論。"
+    },
+    {
+      "id": "R28",
+      "models": [
+        "MO32U2"
+      ],
+      "title": "技嘉 GAMING MO32U2 開箱",
+      "date": "2026-05-27",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=683982",
+      "kind": "開箱",
+      "summary": "介紹平底腳架、內建電源、KVM 與 OSD Sidekick，分享看片和遊戲畫面感受。",
+      "limit": "文中稱四代面板，但原廠同型號數字世代未核實；不把此文作為四代確證。"
+    },
+    {
+      "id": "R29",
+      "models": [
+        "FO32U2"
+      ],
+      "title": "AORUS FO32U2 入手開箱驗貨紀錄",
+      "date": "2024-08-27",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=650967",
+      "kind": "開箱",
+      "summary": "提供配件、組裝與驗機記錄。",
+      "limit": "文中「烙印清除」與「不需擔心」過於絕對；OLED 保護功能不能保證不會永久烙印。"
+    },
+    {
+      "id": "R30",
+      "models": [
+        "X27U X2"
+      ],
+      "title": "Acer X27U X2 初試 OLED 個人感",
+      "date": "2025-06-19",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=670055",
+      "kind": "心得",
+      "summary": "作者由 32 吋換到 27 吋，對尺寸縮小、文字大小及窗戶反射較不滿；該作者環境下 VRR 運作正常。",
+      "limit": "短期個人經驗，不能代表故障率或長期耐用度。"
+    },
+    {
+      "id": "R31",
+      "models": [
+        "MPG 271QRX QD-OLED"
+      ],
+      "title": "簡單開箱微星 MPG 271QRX 2K360Hz",
+      "date": "日期見原文（未核對）",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=641721",
+      "kind": "延伸開箱",
+      "summary": "可查看機身、接口及早期使用討論。",
+      "limit": "本次確認為同型號開箱入口；未逐樓核對整串所有後續，不作可靠度排名。"
+    },
+    {
+      "id": "R32",
+      "models": [
+        "XG2738-2K-OLED"
+      ],
+      "title": "ViewSonic XG2738-2K-OLED 開箱分享",
+      "date": "2026-05-27",
+      "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1779881785.A.2DC.html",
+      "kind": "延伸開箱",
+      "summary": "同型號配件、組裝與畫面展示，可輔助確認外觀。",
+      "limit": "未逐段採用性能評價；開箱不等於長期可靠度驗證。"
+    },
+    {
+      "id": "R33",
+      "models": [
+        "PE320QK P"
+      ],
+      "title": "Acer ProCreator PE320QK P 體驗",
+      "date": "2025-11-26",
+      "url": "https://www.ptt.cc/bbs/LCD/M.1764159515.A.388.html",
+      "kind": "體驗文章",
+      "summary": "創作者用途、底座調整、連接埠與喇叭的體驗，可與電競機分開比較。",
+      "limit": "是體驗文章，非長期耐用度證據；不能套用到 PE320QK X。"
+    },
+    {
+      "id": "R34",
+      "models": [
+        "X27U"
+      ],
+      "title": "Acer OLED X27U 開箱及小小測試",
+      "date": "2023-08-14",
+      "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1692025843.A.D9A.html",
+      "kind": "開箱",
+      "summary": "2023 年原版 X27U 開箱，包含配件與 HDMI 2.0 的使用限制。",
+      "limit": "舊款 X27U，不能拿來代表 X2／W2／P2／Z2／F3。"
+    }
+  ],
+  "method": {
+    "date": "2026-10-31",
+    "scope": "欣亞 OLED 搜尋 6 頁及原價屋估價單螢幕區；排除福利／整新品與非 27、32 吋級。配色與版本分列，組合商品合併。",
+    "stock": "欣亞 82 個相關商品頁逐頁讀取，67 個單機頁＋15 個組合頁；加入購物車狀態不保證門市即時庫存或出貨時間。原價屋僅確認列在估價單，未逐店詢問。",
+    "generation": "數字優先採原廠世代表／產品頁，少數採獨立實測或明示架構推定；其餘標未核實，避免用上市年份、更新率或型號尾碼猜世代。",
+    "forums": "93 型號逐一以 PTT／巴哈網域搜尋；精選 34 篇入口並對重點問題與心得讀取全文。查無精選文章不代表沒有問題。搜尋索引可能漏收／未更新。"
+  }
+}

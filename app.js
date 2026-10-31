@@ -981,7 +981,7 @@ if ('IntersectionObserver' in window) {
 }
 
 /* 導覽標示目前閱讀的區塊；回到頁首時清除。 */
-const navLinks = [...document.querySelectorAll('.top nav a')];
+const navLinks = [...document.querySelectorAll('.top nav a[href^="#"]')];
 if ('IntersectionObserver' in window) {
   const spy = new IntersectionObserver(entries => {
     entries.filter(entry => entry.isIntersecting).forEach(entry => {
@@ -991,7 +991,7 @@ if ('IntersectionObserver' in window) {
       });
     });
   }, { rootMargin: '-30% 0px -60% 0px' });
-  [$('top'), ...navLinks.map(a => $(a.hash.slice(1)))].forEach(node => spy.observe(node));
+  [$('top'), ...navLinks.map(a => $(a.hash.slice(1)))].filter(Boolean).forEach(node => spy.observe(node));
 }
 
 $('active-filters').addEventListener('click', e => {
